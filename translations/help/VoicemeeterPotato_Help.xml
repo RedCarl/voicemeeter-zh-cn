@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VoiceMeeterCaptionHelp type="Voicemeeter Potato" language="EN">
+  <HelpItem id="HELP_PREFIX">
+    <Function>帮助:</Function>
+  </HelpItem>
+  <HelpItem id="BUTCLOSE">
+    <Function>关闭按钮，用于关闭或隐藏本程序。</Function>
+    <Comment>若已启用系统托盘选项，程序仍在后台运行并显示在系统托盘中。</Comment>
+  </HelpItem>
+  <HelpItem id="BUTNAME">
+    <Function>Voicemeeter 产品名称，点击可打开「关于」对话框！</Function>
+    <Comment>可在此购买、激活或查看您的授权状态。</Comment>
+  </HelpItem>
+  <HelpItem id="BUTREDUCE">
+    <Function>最小化按钮，用于将 Voicemeeter 窗口最小化。</Function>
+  </HelpItem>
+  <HelpItem id="BUTQUESTION">
+    <Function>问号按钮将打开 VB-Audio 技术支持网页。</Function>
+    <Comment>可查阅文档与视频教程；在 Discord 或论坛上可获得更多帮助。</Comment>
+  </HelpItem>
+  <HelpItem id="BUTVBAN">
+    <Function>VBAN 按钮将打开 VBAN 配置页面。</Function>
+    <Comment>左键单击打开对话框，右键单击打开 VBAN 聊天对话框。</Comment>
+  </HelpItem>
+  <HelpItem id="BOXAUDIO">
+    <Function>A 框显示内部音频回调是否正在被使用。</Function>
+    <Comment>单击可查看已连接程序的详细信息。</Comment>
+  </HelpItem>
+  <HelpItem id="BOXREMOTE">
+    <Function>R 框显示是否有程序正在使用 Voicemeeter 远程 API。</Function>
+    <Comment>最多可有 8 个程序连接到 Voicemeeter 进行控制。</Comment>
+  </HelpItem>
+  <HelpItem id="MENU">
+    <Function>VOICEMEETER 菜单: 单击可打开主菜单。</Function>
+  </HelpItem>
+  <HelpItem id="AUDIOMAP">
+    <Function>音频映射: 单击可打开 Windows 音频映射。</Function>
+    <Comment>它会显示 Voicemeeter 周围的所有 Windows 音频设备和已连接的程序。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_MENU">
+    <Function>通道菜单: 右键单击可打开通道菜单。</Function>
+    <Comment>复制 / 粘贴 / 重置 / 载入 / 保存通道处理的全部或部分设置。</Comment>
+  </HelpItem>
+  <HelpItem id="LOCKICON">
+    <Function>锁定界面: 所有音频控件均被锁定（磁带录音机除外）。</Function>
+    <Comment>可在 Voicemeeter 菜单中禁用 / 启用此选项。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP0">
+    <Function>第一路立体声硬件输入（右键单击可给它命名）。</Function>
+    <Comment>单击可选择硬件输入设备（例如麦克风）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP1">
+    <Function>第二路立体声硬件输入（右键单击可给它命名）。</Function>
+    <Comment>单击可选择硬件输入设备（例如麦克风）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP2">
+    <Function>第三路立体声硬件输入（右键单击可给它命名）。</Function>
+    <Comment>单击可选择硬件输入设备（例如麦克风）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP3">
+    <Function>第四路立体声硬件输入（右键单击可给它命名）。</Function>
+    <Comment>单击可选择硬件输入设备（例如麦克风）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP4">
+    <Function>第五路立体声硬件输入（右键单击可给它命名）。</Function>
+    <Comment>单击可选择硬件输入设备（例如麦克风）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP5">
+    <Function>第一路多声道虚拟输入（右键单击可给它命名）。</Function>
+    <Comment>用于接收来自应用程序的音频（例如 YouTube、Netflix、Spotify 等）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP6">
+    <Function>第二路多声道虚拟输入（右键单击可给它命名）。</Function>
+    <Comment>用于接收来自应用程序的音频（例如 YouTube、Netflix、Spotify 等）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP7">
+    <Function>第三路多声道虚拟输入（右键单击可给它命名）。</Function>
+    <Comment>用于接收来自应用程序的音频（例如 YouTube、Netflix、Spotify 等）。</Comment>
+  </HelpItem>
+  <HelpItem id="VAIO_BUFFER">
+    <Function>VAIO 采样率与缓冲区大小（右键单击可打开菜单）。</Function>
+    <Comment>若出现声音问题，可将延迟重置为默认值（7168 采样）。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSA1">
+    <Function>第一路物理输出总线（最多 8 声道）。</Function>
+    <Comment>单击可为总线 A1 选择物理输出设备。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSA2">
+    <Function>第二路物理输出总线（最多 8 声道）。</Function>
+    <Comment>单击可为总线 A2 选择物理输出设备。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSA3">
+    <Function>第三路物理输出总线（最多 8 声道）。</Function>
+    <Comment>单击可为总线 A3 选择物理输出设备。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSA4">
+    <Function>第四路物理输出总线（最多 8 声道）。</Function>
+    <Comment>单击可为总线 A4 选择物理输出设备。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSA5">
+    <Function>第五路物理输出总线（最多 8 声道）。</Function>
+    <Comment>单击可为总线 A5 选择物理输出设备。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSB1">
+    <Function>第一路虚拟输出总线（最多 8 声道）。</Function>
+    <Comment>向 Voicemeeter 输出设备输送信号，供录音程序采集使用。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSB2">
+    <Function>第二路虚拟输出总线（最多 8 声道）。</Function>
+    <Comment>向 Voicemeeter AUX 输出设备输送信号，供录音程序采集使用。</Comment>
+  </HelpItem>
+  <HelpItem id="BUSB2">
+    <Function>第三路虚拟输出总线（最多 8 声道）。</Function>
+    <Comment>向 Voicemeeter VAIO3 输出设备输送信号，供录音程序采集使用。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_PANELC">
+    <Function>智能声像 / 色彩面板（双击可重置）。</Function>
+    <Comment>在面板上移动鼠标即可快速均衡您的输入声音。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_PANELP">
+    <Function>智能声像 / 3D 定位面板（双击可重置）。</Function>
+    <Comment>将您的输入声音定位到立体声场中。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_PANELM">
+    <Function>智能声像 / 调制面板（双击可重置）。</Function>
+    <Comment>为输入信号添加合唱 / 移相 / 调制效果。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_TRGRAPH">
+    <Function>传输曲线: 压缩器传输曲线图。</Function>
+    <Comment>显示与阈值 / 压缩比参数对应的压缩量。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_COMP">
+    <Function>压缩器: 压缩并提升您的音频源（例如您的嗓音）。</Function>
+    <Comment>右键单击可打开详细参数对话框（双击可重置）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_GATE">
+    <Function>噪声门: 通过自动淡出消除低电平声音。</Function>
+    <Comment>右键单击可打开详细参数对话框（双击可重置）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_DEN">
+    <Function>降噪 / 变调: 应用简单的本底噪声消除器（右键单击可打开变调参数）。</Function>
+    <Comment>右键单击可打开「人声建模」详细参数对话框（双击可重置）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_SENDR">
+    <Function>混响送出: 将音频送入内置主混响效果器（双击可重置）。</Function>
+    <Comment>信号根据「推子后」按钮的状态决定在推子前或推子后送出。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_SENDD">
+    <Function>延迟或 C5 送出: 将音频送入内置主延迟或 C5 效果器（双击可重置）。</Function>
+    <Comment>信号根据「推子后」按钮的状态决定在推子前或推子后送出。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_SENDFX1">
+    <Function>效果器 1 送出: 将音频送往外部效果器 1（双击可重置）。</Function>
+    <Comment>信号送往系统设置对话框中所选的 ASIO 输出通道。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_SENDFX2">
+    <Function>效果器 2 送出: 将音频送往外部效果器 2（双击可重置）。</Function>
+    <Comment>信号送往系统设置对话框中所选的 ASIO 输出通道。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_EQLO">
+    <Function>三段均衡器低音旋钮（双击可重置为 0 dB）。</Function>
+    <Comment>用鼠标移动旋钮可增加或减少低音（低频）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_EQMED">
+    <Function>三段均衡器中音旋钮（双击可重置为 0 dB）。</Function>
+    <Comment>用鼠标移动旋钮可增加或减少中音（中频）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_EQHI">
+    <Function>三段均衡器高音旋钮（双击可重置为 0 dB）。</Function>
+    <Comment>用鼠标移动旋钮可增加或减少高音（高频）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_PANPOT">
+    <Function>声像控制（双击重置 / 右键单击打开菜单）。</Function>
+    <Comment>将光标放到面板上可设置多声道平衡。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_PANMODE">
+    <Function>多声道模式（双击可重置为普通模式）。</Function>
+    <Comment>右键单击可选择多声道模式。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_EQ">
+    <Function>通道均衡器提供 6 段全参量均衡器</Function>
+    <Comment>单击可开启 / 关闭（右键单击可打开均衡器对话框）</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_A1">
+    <Function>分配到总线 A1 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 A1（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_A2">
+    <Function>分配到总线 A2 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 A2（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_A3">
+    <Function>分配到总线 A3 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 A3（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_A4">
+    <Function>分配到总线 A4 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 A4（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_A5">
+    <Function>分配到总线 A5 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 A5（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_B1">
+    <Function>分配到总线 B1 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 B1（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_B2">
+    <Function>分配到总线 B2 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 B2（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_B3">
+    <Function>分配到总线 B3 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音频源送往输出总线 B3（右键单击可切换到子混音视图）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_MONO">
+    <Function>单声道按钮可将立体声源变为单声道声音。</Function>
+    <Comment>打开后可获得单声道声音（L = L+R / R = L+R）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_SOLO">
+    <Function>独奏按钮让您只监听该路声音。</Function>
+    <Comment>打开后只听该路声音（其它所有声音都会被静音）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_MUTE">
+    <Function>静音按钮可关闭此路音频源。</Function>
+    <Comment>打开可静音此路声音。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_MC">
+    <Function>静音多声道音频源（5.1 或 7.1）中的中置声道。</Function>
+    <Comment>打开可静音第 3 声道，该声道通常包含影片对白。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_KARAOKE">
+    <Function>卡拉OK 按钮通过多种处理方式消除人声（中置声音）。</Function>
+    <Comment>单击可选择最适合您当前素材的处理方式。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_POSTFXR">
+    <Function>推子后送出（至混响）: 在增益推子和静音之后将信号送往效果器</Function>
+    <Comment>打开后会将增益推子的数值和静音状态一并计入</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_POSTFXD">
+    <Function>推子后送出（至延迟或 C5）: 在增益推子和静音之后将信号送往效果器</Function>
+    <Comment>打开后会将增益推子的数值和静音状态一并计入</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_POSTFX1">
+    <Function>推子后送出 1（至外部效果器 1）: 在增益推子和静音之后将信号送往效果器</Function>
+    <Comment>打开后会将增益推子的数值和静音状态一并计入</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_POSTFX2">
+    <Function>推子后送出 2（至外部效果器 2）: 在增益推子和静音之后将信号送往效果器</Function>
+    <Comment>打开后会将增益推子的数值和静音状态一并计入</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_LIMITER">
+    <Function>电平表: 单击并移动鼠标可设定限制电平</Function>
+    <Comment>此砖墙限制器位于通道路推子增益之前</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_VINSERT">
+    <Function>虚拟插入: 单击可启用 / 禁用虚拟插入返回。</Function>
+    <Comment>用于接收连接在 Voicemeeter 插入虚拟 ASIO 上的 DAW 输出音频。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_IN">
+    <Function>压缩器输入: 设定压缩前的输入增益。</Function>
+    <Comment>把信号电平调整到合适的 dB 范围，以便在阈值附近获得最佳效果。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_RATIO">
+    <Function>压缩比: 设定压缩的程度。</Function>
+    <Comment>即超过阈值部分的衰减强度。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_THRES">
+    <Function>压缩器阈值: 设定开始压缩的电平。</Function>
+    <Comment>压缩器的主要作用是在信号超过该电平后进行压制。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_ATTACK">
+    <Function>压缩器启动时间: 设定开始压缩的反应时间。</Function>
+    <Comment>用于保留声音的冲击感，让动态更自然。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_RELEASE">
+    <Function>压缩器释放时间: 设定停止压缩所需的时间。</Function>
+    <Comment>用于让压缩器的工作更加平滑。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_KNEE">
+    <Function>压缩器拐点: 设定阈值点附近的衰减曲线。</Function>
+    <Comment>用于让压缩与非压缩之间的过渡更平滑。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_OUT">
+    <Function>压缩器输出: 设定压缩后的输出增益。</Function>
+    <Comment>用于调整或补偿因压缩造成的电平衰减。</Comment>
+  </HelpItem>
+  <HelpItem id="COMP_AUTO">
+    <Function>压缩器自动补偿增益: 自动补偿输出增益。</Function>
+    <Comment>自动增加增益以补回压缩损失的电平。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_THRES">
+    <Function>噪声门阈值: 设定噪声门起作用的电平。</Function>
+    <Comment>噪声门的主要作用是消除低于该电平的信号。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_DAMP">
+    <Function>噪声门最大衰减: 限制衰减量，使噪声门不彻底关闭。</Function>
+    <Comment>噪声门只按此衰减量削弱信号。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_BP">
+    <Function>噪声门旁链带通: 对旁链信号应用带通滤波。</Function>
+    <Comment>使噪声门只对某一频段起作用。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_ATTACK">
+    <Function>噪声门启动时间: 设定打开噪声门的反应时间。</Function>
+    <Comment>用于忽略那些不具意义的短暂峰值。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_HOLD">
+    <Function>噪声门保持时间: 在考虑关闭之前保持噪声门开启的时长。</Function>
+    <Comment>无论信号电平如何，噪声门至少会保持开启这段时间。</Comment>
+  </HelpItem>
+  <HelpItem id="GATE_RELEASE">
+    <Function>噪声门释放时间: 设定关闭噪声门的反应时间。</Function>
+    <Comment>用于让噪声门的工作更加平滑。</Comment>
+  </HelpItem>
+  <HelpItem id="DN_FLOOR">
+    <Function>降噪器: 噪声消除阈值。</Function>
+    <Comment>消除人声背后的噪声（请等待 10 秒）。</Comment>
+  </HelpItem>
+  <HelpItem id="DN_BYPASS">
+    <Function>降噪器: 旁路模式（静音降噪处理）。</Function>
+    <Comment>静音降噪处理以试听原始声音。</Comment>
+  </HelpItem>
+  <HelpItem id="DN_LEARN">
+    <Function>降噪器: 学习过程（动态噪声类型检测）。</Function>
+    <Comment>仅在您认为噪声恒定时才关闭学习过程。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_ON">
+    <Function>变调开关: 开启「人声建模」效果器。</Function>
+    <Comment>关闭后仅保留降噪器模式。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_DRYWET">
+    <Function>变调干湿比: 输入信号（干声）与效果声（湿声）之间的比例。</Function>
+    <Comment>设为 100% 时只输出效果声。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_VALUE">
+    <Function>变调量: 设定人声的音高（不含共振峰）。</Function>
+    <Comment>范围从降一个八度（-12 半音）到升一个八度（+12 半音）。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_LOFORMANT">
+    <Function>变调低共振峰: 设定低共振峰的音高。</Function>
+    <Comment>若想增强变调效果，可将其设为与变调量相同的值。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_MEDFORMANT">
+    <Function>变调中共振峰: 设定中共振峰的音高。</Function>
+    <Comment>设为变调量的 1/3 可让人声更自然。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_HIFORMANT">
+    <Function>变调高共振峰: 设定高共振峰的音高。</Function>
+    <Comment>若想保留一部分您原本的音色特征，请保持为 0。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_FORMANTGROUP">
+    <Function>变调共振峰组: 同时改变所有共振峰。</Function>
+    <Comment>用此滑块调整您新音色的特征。</Comment>
+  </HelpItem>
+  <HelpItem id="PITCH_PRESET">
+    <Function>变调预设: 单击此按钮可启用一个预设。</Function>
+    <Comment>右键单击可打开快捷菜单（存储、重命名、载入、保存预设）。</Comment>
+  </HelpItem>
+  <HelpItem id="STRIP_FADER">
+    <Function>通道增益推子（双击可重置为 0 dB）。</Function>
+    <Comment>调整音频源的增益（右键单击可编辑数值或标签）。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_FADER">
+    <Function>总线增益推子（双击可重置为 0 dB）。</Function>
+    <Comment>调整输出总线的增益（右键单击可编辑数值或标签）。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_MIXNORMAL">
+    <Function>普通模式让多声道信号原样通过（单击可切换模式）。</Function>
+    <Comment>所有声道（最高 7.1）不经路由改变直接通过总线。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_MIXDOWNA">
+    <Function>缩混 A 模式将多声道信号（5.1 或 7.1）转为立体声。</Function>
+    <Comment>左 = FL + (70% FC) + SW + RL - SL，右 = RL + (70% FC) + SW - RR + SR。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_MIXDOWNB">
+    <Function>缩混 B 模式将多声道信号（5.1 或 7.1）转为立体声。</Function>
+    <Comment>左 = FL + (70% FC) + SW + RL + SL，右 = RL + (70% FC) + SW + RR + SR。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_STEREOREP">
+    <Function>立体声复制模式将立体声信号重复到总线的其它声道。</Function>
+    <Comment>将立体声信号（声道 1+2）复制到声道 3+4、5+6、7+8。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_COMPOSITE">
+    <Function>合成模式用一组选定的输入声道填充总线声道。</Function>
+    <Comment>请在系统设置对话框中定义您的合成模式。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_TVMIX">
+    <Function>电视混音模式由立体声源生成多声道信号（7.1）。</Function>
+    <Comment>FL = L, FC = 20%(L+R), RL = 70%(L-R), SL = 70%(L-R), FR = R, SW=50%(L+R), RR = 70%(R-L), SR = 70%(R-L)。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_UPMIX21">
+    <Function>上混 2.1 模式由立体声源生成多声道信号（2.1）。</Function>
+    <Comment>用于从立体声生成 LFE 声道: FL = L, FR = R, SW=50%(L+R)。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_UPMIX41">
+    <Function>上混 4.1 模式由立体声源生成多声道信号（4.1）。</Function>
+    <Comment>FL = L, FR = R, SW=50%(L+R), RL = L, RR = R。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_UPMIX61">
+    <Function>上混 6.1 模式由立体声源生成多声道信号（6.1）。</Function>
+    <Comment>FL = L, FR = R, SW=50%(L+R), RL = L, RR = R, SL = L, SR = R。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_LEFTONLY">
+    <Function>仅左声道模式从多声道信号中提取左声道 1。</Function>
+    <Comment>要生成立体声: 左 = FL，右 = FL。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_RIGHTONLY">
+    <Function>仅右声道模式从多声道信号中提取右声道 2。</Function>
+    <Comment>要生成立体声: 左 = FR，右 = FR。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_CENTERONLY">
+    <Function>仅中置模式从多声道信号中提取中置声道 3（对白）。</Function>
+    <Comment>要生成立体声: 左 = FC，右 = FC。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_LFEONLY">
+    <Function>仅 LFE 模式从多声道信号中提取 LFE 声道 4（超低音）。</Function>
+    <Comment>要生成立体声: 左 = SW，右 = SW。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_REARONLY">
+    <Function>仅后置模式从多声道信号中提取后置声道 5、6。</Function>
+    <Comment>要生成立体声: 左 = RL，右 = RR。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_RETR">
+    <Function>混响返回: 接收内置主混响效果器的输出（双击可重置）。</Function>
+    <Comment>信号在总线内与其它已有声源混合。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_RETD">
+    <Function>延迟或 C5 返回: 接收内置主延迟或 C5 效果器的输出（双击可重置）。</Function>
+    <Comment>信号在总线内与其它已有声源混合。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_RETFX1">
+    <Function>效果器 1 返回: 接收外部效果器 1 的输出（双击可重置）。</Function>
+    <Comment>信号来自系统设置对话框中所选的 ASIO 输入通道。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_RETFX2">
+    <Function>效果器 2 返回: 接收外部效果器 2 的输出（双击可重置）。</Function>
+    <Comment>信号来自系统设置对话框中所选的 ASIO 输入通道。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_MONO">
+    <Function>单声道按钮可将多声道总线变为单声道总线。</Function>
+    <Comment>打开可获得单声道声音（L = L+R / R = L+R），再次单击可交换左右声道。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_MUTE">
+    <Function>静音按钮可关闭此总线。</Function>
+    <Comment>打开可静音此总线（静音未使用的总线可降低 CPU 占用）。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_EQ">
+    <Function>总线主均衡器提供 6 段全参量均衡器。</Function>
+    <Comment>单击可开启 / 关闭（右键单击可打开均衡器对话框）。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_SEL">
+    <Function>总线选择: 查看 / 更改对应的混音（Ctrl+单击可多选总线）。</Function>
+    <Comment>若已在系统设置对话框中启用「选中即监听」选项，可用于监听该总线。</Comment>
+  </HelpItem>
+  <HelpItem id="BUS_LIMITER">
+    <Function>电平表: 单击并移动鼠标可设定限制电平</Function>
+    <Comment>此砖墙限制器位于总线推子增益之后</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_REW">
+    <Function>录音机倒带: 倒带按钮，使播放位置后退。</Function>
+    <Comment>（必须先选择一个音频文件）。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_FF">
+    <Function>录音机快进: 快进按钮，使播放位置前进。</Function>
+    <Comment>（必须先选择一个音频文件）。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_PLAY">
+    <Function>录音机播放: 播放按钮，开始播放音轨。</Function>
+    <Comment>（必须先选择一个音频文件）。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_STOP">
+    <Function>录音机停止: 停止按钮，停止播放或录音。</Function>
+    <Comment>再次单击可将播放位置归零（回到起点）。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_REC">
+    <Function>录音机录音: 录音按钮，开始录音（创建新文件）。</Function>
+    <Comment>再次单击可暂停录音（仍使用同一文件）。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE">
+    <Function>录音机说明: 单击可选择用于播放的音频或视频文件。</Function>
+    <Comment>右键单击可打开录音机选项对话框。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_A1">
+    <Function>录音机 A1: 分配到总线 A1 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 A1。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_A2">
+    <Function>录音机 A2: 分配到总线 A2 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 A2。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_A3">
+    <Function>录音机 A3: 分配到总线 A3 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 A3。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_A4">
+    <Function>录音机 A4: 分配到总线 A4 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 A4。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_A5">
+    <Function>录音机 A5: 分配到总线 A5 的按钮（硬件输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 A5。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_B1">
+    <Function>录音机 B1: 分配到总线 B1 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 B1。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_B2">
+    <Function>录音机 B2: 分配到总线 B2 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 B2。</Comment>
+  </HelpItem>
+  <HelpItem id="TAPE_B3">
+    <Function>录音机 B3: 分配到总线 B3 的按钮（虚拟输出）。</Function>
+    <Comment>打开后可将音轨播放到输出总线 B3。</Comment>
+  </HelpItem>
+  <HelpItem id="BUT_REVERB">
+    <Function>混响: 开 / 关按钮，用于启用内置混响效果器。</Function>
+    <Comment>右键单击可打开 JustVerb III 设置对话框。</Comment>
+  </HelpItem>
+  <HelpItem id="BUT_DELAY">
+    <Function>延迟或 C5: 开 / 关按钮，用于启用内置延迟或 C5 效果器。</Function>
+    <Comment>可在系统设置对话框中选择 C5 或延迟效果器。</Comment>
+  </HelpItem>
+  <HelpItem id="VAI_EXT">
+    <Function>VAIO 扩展开关（启用 / 禁用）。</Function>
+    <Comment>用于接收额外的 Voicemeeter 虚拟输入（1 至 5）的音频。</Comment>
+  </HelpItem>
+  <HelpItem id="VAO_EXT">
+    <Function>VAIO 扩展开关（启用 / 禁用）。</Function>
+    <Comment>用于接收额外的 Voicemeeter 虚拟输入（1 至 5）的音频。</Comment>
+  </HelpItem>
+</VoiceMeeterCaptionHelp>

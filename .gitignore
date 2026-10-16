@@ -1,0 +1,32 @@
+# 绝对不要提交 VoiceMeeter 的二进制或本项目的运行残留
+*.exe
+*.dll
+*.sys
+*.inf
+*.cat
+*.msi
+
+# 汉化/备份产物
+_VoiceMeeter_ZH_Backup/
+_VoiceMeeter_CN_Backup/
+*.orig
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 临时构建产物
+/build/
+/tmp/
+*.new.json

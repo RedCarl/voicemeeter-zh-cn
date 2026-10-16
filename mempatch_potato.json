@@ -1,0 +1,4425 @@
+{
+ "generated_by": "voicemeeter-zh-cn/src/build_mempatch.py",
+ "product": "potato",
+ "target_exe": "voicemeeter8x64.exe",
+ "sha256_original": "7F783F03599F704124BEDB1E13E8D8A6E91AB58FD74DC37D675F3A718ACB81EB",
+ "count": 552,
+ "items": [
+  {
+   "rva": 1365968,
+   "bytes": "cec4bcfed2d1b9d8b1d500",
+   "orig": "46696c6520416c726561647920436c6f73656400",
+   "text": "文件已关闭",
+   "kind": "A",
+   "src": "File Already Closed"
+  },
+  {
+   "rva": 1365992,
+   "bytes": "cec4bcfed2d1b4f2bfaa00",
+   "orig": "46696c6520416c7265616479204f70656e6e656400",
+   "text": "文件已打开",
+   "kind": "A",
+   "src": "File Already Openned"
+  },
+  {
+   "rva": 1366168,
+   "bytes": "ceb4d6aa205741564520d2f4c6b5b8f1cabd00",
+   "orig": "556e6b6e6f776e205741564520417564696f20466f726d617400",
+   "text": "未知 WAVE 音频格式",
+   "kind": "A",
+   "src": "Unknown WAVE Audio Format"
+  },
+  {
+   "rva": 1366224,
+   "bytes": "cedeb7a8b4b4bda82057415620cec4bcfe00",
+   "orig": "43616e6e6f7420437265617465205741562066696c6500",
+   "text": "无法创建 WAV 文件",
+   "kind": "A",
+   "src": "Cannot Create WAV file"
+  },
+  {
+   "rva": 1366312,
+   "bytes": "b4b4bda82057415620cec4bcfeb3f6b4ed00",
+   "orig": "4572726f72204372656174696e67205741562066696c6500",
+   "text": "创建 WAV 文件出错",
+   "kind": "A",
+   "src": "Error Creating WAV file"
+  },
+  {
+   "rva": 1366336,
+   "bytes": "ceb4d6aa204149464620d2f4c6b5b8f1cabd00",
+   "orig": "556e6b6e6f776e204149464620417564696f20466f726d617400",
+   "text": "未知 AIFF 音频格式",
+   "kind": "A",
+   "src": "Unknown AIFF Audio Format"
+  },
+  {
+   "rva": 1366392,
+   "bytes": "cedeb7a8b4b4bda82041494620cec4bcfe00",
+   "orig": "43616e6e6f7420437265617465204149462066696c6500",
+   "text": "无法创建 AIF 文件",
+   "kind": "A",
+   "src": "Cannot Create AIF file"
+  },
+  {
+   "rva": 1366480,
+   "bytes": "b4b4bda82041494620cec4bcfeb3f6b4ed00",
+   "orig": "4572726f72204372656174696e67204149462066696c6500",
+   "text": "创建 AIF 文件出错",
+   "kind": "A",
+   "src": "Error Creating AIF file"
+  },
+  {
+   "rva": 1366504,
+   "bytes": "ceb4d6aad2f4c6b5b8f1cabd00",
+   "orig": "556e6b6e6f776e20417564696f20466f726d617400",
+   "text": "未知音频格式",
+   "kind": "A",
+   "src": "Unknown Audio Format"
+  },
+  {
+   "rva": 1366552,
+   "bytes": "cedeb7a8b4b4bda8204d503320cec4bcfe00",
+   "orig": "43616e6e6f7420437265617465204d50332066696c6500",
+   "text": "无法创建 MP3 文件",
+   "kind": "A",
+   "src": "Cannot Create MP3 file"
+  },
+  {
+   "rva": 1366576,
+   "bytes": "b4b4bda8204d503320cec4bcfeb3f6b4ed00",
+   "orig": "4572726f72204372656174696e67204d50332066696c6500",
+   "text": "创建 MP3 文件出错",
+   "kind": "A",
+   "src": "Error Creating MP3 file"
+  },
+  {
+   "rva": 1366640,
+   "bytes": "cede204153494f20c7fdb6af00",
+   "orig": "4e6f204153494f2044726976657200",
+   "text": "无 ASIO 驱动",
+   "kind": "A",
+   "src": "No ASIO Driver"
+  },
+  {
+   "rva": 1366656,
+   "bytes": "cede204153494f20c7fdb6afb4edcef300",
+   "orig": "4e6f204153494f20447269766572204572726f7200",
+   "text": "无 ASIO 驱动错误",
+   "kind": "A",
+   "src": "No ASIO Driver Error"
+  },
+  {
+   "rva": 1376160,
+   "bytes": "fc5bfa51a18b977b3a670763b97e0000",
+   "orig": "4500780070006f0072007400200043006f006d0070007500740065007200200046006f006f0074007000720069006e0074000000",
+   "text": "导出计算机指纹",
+   "kind": "W",
+   "src": "Export Computer Footprint"
+  },
+  {
+   "rva": 1376232,
+   "bytes": "cec4bcfed2d1b4e6d4da00",
+   "orig": "46696c652045786973747300",
+   "text": "文件已存在",
+   "kind": "A",
+   "src": "File Exists"
+  },
+  {
+   "rva": 1376304,
+   "bytes": "b5bcb3f6b4edcef300",
+   "orig": "4578706f7274204572726f7200",
+   "text": "导出错误",
+   "kind": "A",
+   "src": "Export Error"
+  },
+  {
+   "rva": 1376400,
+   "bytes": "b5bcb3f6cdeab3c900",
+   "orig": "4578706f727420446f6e6500",
+   "text": "导出完成",
+   "kind": "A",
+   "src": "Export Done"
+  },
+  {
+   "rva": 1376416,
+   "bytes": "d6b8cec6cec4bcfed2d1b3c9b9a6b1a3b4e6a3a100",
+   "orig": "466f6f747072696e7420686173206265656e207361766564207375636365737366756c6c792100",
+   "text": "指纹文件已成功保存！",
+   "kind": "A",
+   "src": "Footprint has been saved successfully!"
+  },
+  {
+   "rva": 1376456,
+   "bytes": "d6b8cec6cec4bcfeceb4b1a3b4e6a1a300",
+   "orig": "466f6f747072696e74206e6f742073617665642e00",
+   "text": "指纹文件未保存。",
+   "kind": "A",
+   "src": "Footprint not saved."
+  },
+  {
+   "rva": 1376496,
+   "bytes": "fc5b6551a18b977b3a670763b97e0000",
+   "orig": "49006d0070006f0072007400200043006f006d0070007500740065007200200046006f006f0074007000720069006e0074000000",
+   "text": "导入计算机指纹",
+   "kind": "W",
+   "src": "Import Computer Footprint"
+  },
+  {
+   "rva": 1376552,
+   "bytes": "b5bcc8ebb4edcef300",
+   "orig": "496d706f7274204572726f7200",
+   "text": "导入错误",
+   "kind": "A",
+   "src": "Import Error"
+  },
+  {
+   "rva": 1376576,
+   "bytes": "cec4bcfeb4f3d0a1d2ecb3a320202020202020200ad6b8cec6d3ebb5b1c7b0204820c2ebcfb5cdb3b2bbbce6c8dd2e2e2e20202020202020202020202020202020202020202020202020202020",
+   "orig": "556e65787065637465642046696c652053697a650a466f6f747072696e74206e6f7420636f6d70617469626c6520776974682063757272656e742027482720636f64652073797374656d2e2e2e",
+   "text": "文件大小异常 / 指纹与当前 H 码系统不兼容...",
+   "kind": "ML",
+   "src": "Unexpected File Size\nFootprint not compatible with current 'H' code system..."
+  },
+  {
+   "rva": 1376656,
+   "bytes": "cedeb7a8d4d8c8ebcec4bcfe00",
+   "orig": "43616e6e6f74204c6f61642046696c6500",
+   "text": "无法载入文件",
+   "kind": "A",
+   "src": "Cannot Load File"
+  },
+  {
+   "rva": 1376688,
+   "bytes": "ceded0a7b5c4d6b8cec6cec4bcfe2020200a0ad6b8cec6bfc9c4dcd3ebb5b1c7b0204820c2ebcfb5cdb3b2bbbce6c8dda1a320202020202020202020202020202020202020202020202020202020202020200ac4fad0e8d2aabbf1c8a1d0c2b5c4d3a6b4f0c2eb2e2e2e2020202020202020202020202020",
+   "orig": "496e76616c696420466f6f745072696e740a0a466f6f747072696e7420706f737369626c79206e6f7420636f6d70617469626c6520776974682063757272656e742027482720636f64652073797374656d2e0a596f75206d7573742067657420616e6f7468657220526573706f6e736520436f64652e2e2e",
+   "text": "无效的指纹文件 /  / 指纹可能与当前 H 码系统不兼容。 / 您需要获取新的应答码...",
+   "kind": "ML",
+   "src": "Invalid FootPrint\n\nFootprint possibly not compatible with current 'H' code system.\nYou must get another Response Code..."
+  },
+  {
+   "rva": 1376928,
+   "bytes": "b8c3d6b8cec6cedeb7a8d4dad5e2cca8b5e7c4d4c9cfcab9d3c32020202020202020202020202020200ac4fad0e8d2aabbf1c8a1d0c2b5c4d3a6b4f0c2eb2e2e2e2020202020202020202020202020",
+   "orig": "466f6f747072696e742063616e6e6f742062652075736564206f6e207468697320636f6d70757465720a596f75206d7573742067657420616e6f7468657220526573706f6e736520436f64652e2e2e",
+   "text": "该指纹无法在这台电脑上使用 / 您需要获取新的应答码...",
+   "kind": "ML",
+   "src": "Footprint cannot be used on this computer\nYou must get another Response Code..."
+  },
+  {
+   "rva": 1377304,
+   "bytes": "cadac8a8bca4bbeebfaacabc00",
+   "orig": "4c6963656e73652041637469766174696f6e20537461727400",
+   "text": "授权激活开始",
+   "kind": "A",
+   "src": "License Activation Start"
+  },
+  {
+   "rva": 1377360,
+   "bytes": "bfaacabccdf8c2e7c1acbdd300",
+   "orig": "496e7465726e657420436f6e6e656374696f6e20537461727400",
+   "text": "开始网络连接",
+   "kind": "A",
+   "src": "Internet Connection Start"
+  },
+  {
+   "rva": 1377400,
+   "bytes": "d5fdd4dab7a2cbcdd1e9d6a4c7ebc7f32e2e2e00",
+   "orig": "53656e64696e672041757468656e7469636174696f6e20526571756573742e2e2e00",
+   "text": "正在发送验证请求...",
+   "kind": "A",
+   "src": "Sending Authentication Request..."
+  },
+  {
+   "rva": 1377440,
+   "bytes": "d5fdd4dab4a6c0edcfecd3a62e2e2e00",
+   "orig": "50726f63657373696e67207265706c792e2e2e00",
+   "text": "正在处理响应...",
+   "kind": "A",
+   "src": "Processing reply..."
+  },
+  {
+   "rva": 1377464,
+   "bytes": "cedeb7a8bdabd6a4cae9b4e6c8ebd7a2b2e1b1ed2e2e2e00",
+   "orig": "4661696c656420746f2053746f726520636572746966696361746520696e2072656769737472792e2e2e00",
+   "text": "无法将证书存入注册表...",
+   "kind": "A",
+   "src": "Failed to Store certificate in registry..."
+  },
+  {
+   "rva": 1377520,
+   "bytes": "b7fecef1c6f7cfecd3a6d2ecb3a300",
+   "orig": "53657276657220426164205265706c7900",
+   "text": "服务器响应异常",
+   "kind": "A",
+   "src": "Server Bad Reply"
+  },
+  {
+   "rva": 1377544,
+   "bytes": "c7ebbcecb2e9c4fab5c4d3cacfe4bacdd3a6b4f0c2eba3acbbf200",
+   "orig": "436865636b20796f757220652d6d61696c20616e6420726573706f6e736520636f6465206f7200",
+   "text": "请检查您的邮箱和应答码，或",
+   "kind": "A",
+   "src": "Check your e-mail and response code or"
+  },
+  {
+   "rva": 1377624,
+   "bytes": "57696e646f777320cdf8c2e7b4edcef33a20256900",
+   "orig": "57696e646f777320496e7465726e6574204572726f723a20256900",
+   "text": "Windows 网络错误: %i",
+   "kind": "A",
+   "src": "Windows Internet Error: %i"
+  },
+  {
+   "rva": 1377736,
+   "bytes": "d4dacfdfb7fecef1b2bbbfc9d3c300",
+   "orig": "4f6e6c696e652073657276696365206e6f7420617661696c61626c6500",
+   "text": "在线服务不可用",
+   "kind": "A",
+   "src": "Online service not available"
+  },
+  {
+   "rva": 1377768,
+   "bytes": "56422d417564696f20cadac8a8d1e9d6a4b7fecef100",
+   "orig": "56422d417564696f204c6963656e73652041757468656e7469636174696f6e205365727669636500",
+   "text": "VB-Audio 授权验证服务",
+   "kind": "A",
+   "src": "VB-Audio License Authentication Service"
+  },
+  {
+   "rva": 1377816,
+   "bytes": "cadac8a8bca4bbee00",
+   "orig": "4c6963656e73652041637469766174696f6e00",
+   "text": "授权激活",
+   "kind": "A",
+   "src": "License Activation"
+  },
+  {
+   "rva": 1377848,
+   "bytes": "bca4bbee00",
+   "orig": "416374697661746500",
+   "text": "激活",
+   "kind": "A",
+   "src": "Activate"
+  },
+  {
+   "rva": 1377864,
+   "bytes": "ced2b5c4cdf8c9cfc9ccb5ead5cbbba700",
+   "orig": "4d792077656273686f70206163636f756e7400",
+   "text": "我的网上商店账户",
+   "kind": "A",
+   "src": "My webshop account"
+  },
+  {
+   "rva": 1377888,
+   "bytes": "bca4bbeed2e2cde2b4edcef300",
+   "orig": "41637469766174696f6e20556e6578706563746564204572726f7200",
+   "text": "激活意外错误",
+   "kind": "A",
+   "src": "Activation Unexpected Error"
+  },
+  {
+   "rva": 1377920,
+   "bytes": "c9edb7ddd1e9d6a4b4edcef300",
+   "orig": "41757468656e7469636174696f6e204572726f7200",
+   "text": "身份验证错误",
+   "kind": "A",
+   "src": "Authentication Error"
+  },
+  {
+   "rva": 1377944,
+   "bytes": "c8b1c9d9b7fecef1c6f7c1b4bdd3a1a3202020200acedeb7a8d6b4d0d0c9edb7ddd1e9d6a4202020202020202020202020202020202020",
+   "orig": "4d697373696e6720736572766572206c696e6b2e0a41757468656e7469636174696f6e2063616e6e6f7420626520706572666f726d6564",
+   "text": "缺少服务器链接。 / 无法执行身份验证",
+   "kind": "ML",
+   "src": "Missing server link.\nAuthentication cannot be performed"
+  },
+  {
+   "rva": 1378000,
+   "bytes": "ceb4d5d2b5bdd6a4cae900",
+   "orig": "4365727469666963617465206e6f7420666f756e6400",
+   "text": "未找到证书",
+   "kind": "A",
+   "src": "Certificate not found"
+  },
+  {
+   "rva": 1378032,
+   "bytes": "bdabc4fab5c4d6a4cae9b8b4d6c6d5b3ccf9b5bdbff2d6d0202020202020202020202020202020200ac8bbbaf3d4d9b5e3bbf7bca4bbeeb0b4c5a52e2e2e20202020202020202020202020202020",
+   "orig": "436f7079202f20506173746520796f757220636572746966696361746520696e2074686520626f780a6265666f726520636c69636b696e67206f6e20416374697661746520627574746f6e2e2e2e",
+   "text": "将您的证书复制粘贴到框中 / 然后再点击激活按钮...",
+   "kind": "ML",
+   "src": "Copy / Paste your certificate in the box\nbefore clicking on Activate button..."
+  },
+  {
+   "rva": 1378112,
+   "bytes": "d6a4cae9b8f1cabdb4edcef300",
+   "orig": "43657274696669636174652062616420666f726d617400",
+   "text": "证书格式错误",
+   "kind": "A",
+   "src": "Certificate bad format"
+  },
+  {
+   "rva": 1378144,
+   "bytes": "d6a4cae9b1d8d0ebd2d4d7d6b7fb203e20bfaacdb720202020202020202020202020202020200ad6a4cae9d7d6b7fbb4aeb8f1cabdceaa20223e63657274696669636174653c222e2e2e202020202020202020202020",
+   "orig": "4365727469666963617465206d75737420737461727420627920746865206368617220273e270a436572746966696361746520737472696e6720666f726d617420697320223e63657274696669636174653c222e2e2e",
+   "text": "证书必须以字符 > 开头 / 证书字符串格式为 \">certificate<\"...",
+   "kind": "ML",
+   "src": "Certificate must start by the char '>'\nCertificate string format is \">certificate<\"..."
+  },
+  {
+   "rva": 1378232,
+   "bytes": "d7a2b2e1b1edb2d9d7f7caa7b0dc00",
+   "orig": "5265676973747279206661696c75726500",
+   "text": "注册表操作失败",
+   "kind": "A",
+   "src": "Registry failure"
+  },
+  {
+   "rva": 1378256,
+   "bytes": "cedeb7a8bdabd6a4cae9d0b4c8ebd7a2b2e1b1eda1a32020202020202020202020202020200ac7ebbcecb2e9d3c3bba7b7c3cecac8a8cfde2e2e2e2020202020202020202020",
+   "orig": "43616e6e6f742073746f726520636572746966696361746520696e2072656769737465722e0a436865636b20796f7572207573657220616363657373207269676874732e2e2e",
+   "text": "无法将证书写入注册表。 / 请检查用户访问权限...",
+   "kind": "ML",
+   "src": "Cannot store certificate in register.\nCheck your user access rights..."
+  },
+  {
+   "rva": 1378328,
+   "bytes": "c8e7d0e8cad6b6afbca4bbeecadac8a8a3ac00",
+   "orig": "546f20616374697661746520796f7572206c6963656e7365206d616e75616c6c792c00",
+   "text": "如需手动激活授权，",
+   "kind": "A",
+   "src": "To activate your license manually,"
+  },
+  {
+   "rva": 1378368,
+   "bytes": "c7ebbdf8c8ebcdf8c9cfc9ccb5ead5cbbba7b5c4a1b8ced2b5c4cadac8a8a1b9d2b3c3e62e2e2e00",
+   "orig": "676f20696e20796f75722077656273686f70206163636f756e7420224d79204c6963656e73652220706167652e2e2e00",
+   "text": "请进入网上商店账户的「我的授权」页面...",
+   "kind": "A",
+   "src": "go in your webshop account \"My License\" page..."
+  },
+  {
+   "rva": 1378416,
+   "bytes": "bbf1c8a1d6a4cae9d7d6b7fbb4aeb2a2d5b3ccf9b5bdcfc2b7bd00",
+   "orig": "416e642067657420796f7572204365727469666963617465206173206120737472696e6720746f2070617374652069742062656c6f7700",
+   "text": "获取证书字符串并粘贴到下方",
+   "kind": "A",
+   "src": "And get your Certificate as a string to paste it below"
+  },
+  {
+   "rva": 1378488,
+   "bytes": "b5c8b4fd20256920c3eb00",
+   "orig": "77616974202569207365636f6e647300",
+   "text": "等待 %i 秒",
+   "kind": "A",
+   "src": "wait %i seconds"
+  },
+  {
+   "rva": 1378504,
+   "bytes": "c9d4baf3d7a2b2e100",
+   "orig": "77696c6c207265676973746572206c6174657200",
+   "text": "稍后注册",
+   "kind": "A",
+   "src": "will register later"
+  },
+  {
+   "rva": 1378528,
+   "bytes": "c6c0b9c0c4a3cabd00",
+   "orig": "5374696c6c204576616c756174696e6700",
+   "text": "评估模式",
+   "kind": "A",
+   "src": "Still Evaluating"
+  },
+  {
+   "rva": 1378552,
+   "bytes": "d7a2b2e1d3cacfe43a00",
+   "orig": "5265676973746572656420652d6d61696c3a00",
+   "text": "注册邮箱:",
+   "kind": "A",
+   "src": "Registered e-mail:"
+  },
+  {
+   "rva": 1378576,
+   "bytes": "d6cad1afc2eb3a00",
+   "orig": "4368616c6c656e676520636f64653a00",
+   "text": "质询码:",
+   "kind": "A",
+   "src": "Challenge code:"
+  },
+  {
+   "rva": 1378592,
+   "bytes": "d3a6b4f0c2eb3a00",
+   "orig": "526573706f6e736520636f64653a00",
+   "text": "应答码:",
+   "kind": "A",
+   "src": "Response code:"
+  },
+  {
+   "rva": 1378608,
+   "bytes": "d2d1bca4bbee00",
+   "orig": "41435449564154454400",
+   "text": "已激活",
+   "kind": "A",
+   "src": "ACTIVATED"
+  },
+  {
+   "rva": 1378624,
+   "bytes": "b8b4d6c6d6cad1afc2eba3a8bcf4ccf9b0e5a3a900",
+   "orig": "436f7079204368616c6c656e676520436f64652028436c6970426f6172642900",
+   "text": "复制质询码（剪贴板）",
+   "kind": "A",
+   "src": "Copy Challenge Code (ClipBoard)"
+  },
+  {
+   "rva": 1378656,
+   "bytes": "b5bcc8ebbcc6cbe3bbfad6b8cec600",
+   "orig": "496d706f727420436f6d707574657220466f6f747072696e7400",
+   "text": "导入计算机指纹",
+   "kind": "A",
+   "src": "Import Computer Footprint"
+  },
+  {
+   "rva": 1378688,
+   "bytes": "b5bcb3f6bcc6cbe3bbfad6b8cec600",
+   "orig": "4578706f727420436f6d707574657220466f6f747072696e7400",
+   "text": "导出计算机指纹",
+   "kind": "A",
+   "src": "Export Computer Footprint"
+  },
+  {
+   "rva": 1378720,
+   "bytes": "c7ebbcecb2e9c4facac7b7f1d3d020524547454ea3a8cdf8c9cfc9ccb5ead5cbbba7cadac8a8d2b3c3e6a3a900",
+   "orig": "436865636b20696620796f752068617665206120524547454e2028696e20796f75722077656273686f70206163636f756e74206c6963656e736520706167652900",
+   "text": "请检查您是否有 REGEN（网上商店账户授权页面）",
+   "kind": "A",
+   "src": "Check if you have a REGEN (in your webshop account license page)"
+  },
+  {
+   "rva": 1378792,
+   "bytes": "cfd4cabed3a6b4f0c2eb00",
+   "orig": "53686f7720526573706f6e736520436f646500",
+   "text": "显示应答码",
+   "kind": "A",
+   "src": "Show Response Code"
+  },
+  {
+   "rva": 1378816,
+   "bytes": "d2feb2d8d3cacfe4b5d8d6b700",
+   "orig": "4869646520652d6d61696c206164647265737300",
+   "text": "隐藏邮箱地址",
+   "kind": "A",
+   "src": "Hide e-mail address"
+  },
+  {
+   "rva": 1378840,
+   "bytes": "cadac8a8d2d1bca4bbee00",
+   "orig": "4c6963656e73652041637469766174656400",
+   "text": "授权已激活",
+   "kind": "A",
+   "src": "License Activated"
+  },
+  {
+   "rva": 1378864,
+   "bytes": "c4fab5c4d0edbfc9d6a4d2d1bca4bbeea1a3202020202020202020202020202020200ab8d0d0bbc4fab5c4b2ced3eba3a120202020202020202020202020202020",
+   "orig": "596f7572204c6963656e736520697320616c7265616479204163746976617465642e0a5468616e6b7320666f7220796f75722070617274696369706174696f6e21",
+   "text": "您的许可证已激活。 / 感谢您的参与！",
+   "kind": "ML",
+   "src": "Your License is already Activated.\nThanks for your participation!"
+  },
+  {
+   "rva": 1378936,
+   "bytes": "d7a2b2e1202f20bca4bbee00",
+   "orig": "526567697374726174696f6e202f2041637469766174696f6e00",
+   "text": "注册 / 激活",
+   "kind": "A",
+   "src": "Registration / Activation"
+  },
+  {
+   "rva": 1378976,
+   "bytes": "c7ebcae4c8ebb5e7d7d3d3cacfe4b5d8d6b7a1a320202020202020200abcb4c4fad4dacdf8c9cfc9ccb5eab9bac2f2cadac8a8cab1cab9d3c3b5c4d3cacfe4a1a3202020202020202020",
+   "orig": "506c6561736520456e74657220452d4d61696c20616464726573732e0a546865206f6e652075736564206f6e205765622d53686f7020746f207075726368617365206c6963656e73652e",
+   "text": "请输入电子邮箱地址。 / 即您在网上商店购买授权时使用的邮箱。",
+   "kind": "ML",
+   "src": "Please Enter E-Mail address.\nThe one used on Web-Shop to purchase license."
+  },
+  {
+   "rva": 1379056,
+   "bytes": "c7ebcae4c8ebd3a6b4f0c2eba1a3202020202020202020202020200ab9bac2f2baf3d3c9cdf8c9cfc9ccb5eacce1b9a9a1a3202020202020202020202020202020",
+   "orig": "506c6561736520456e74657220526573706f6e736520436f64652e0a476976656e20627920746865207765622d73686f702061667465722070757263686173652e",
+   "text": "请输入应答码。 / 购买后由网上商店提供。",
+   "kind": "ML",
+   "src": "Please Enter Response Code.\nGiven by the web-shop after purchase."
+  },
+  {
+   "rva": 1379136,
+   "bytes": "d3a6b4f0c2ebb1d8d0ebceaa20313020cebba1a320202020202020202020202020202020202020200ac0fdc8e7203031323334353637383920bbf22030313233414243444546a1a32020",
+   "orig": "54686520526573706f6e736520436f6465206d757374206265203130206469676974206c6f6e672e0a4578616d706c652030313233343536373839206f7220303132334142434445462e",
+   "text": "应答码必须为 10 位。 / 例如 0123456789 或 0123ABCDEF。",
+   "kind": "ML",
+   "src": "The Response Code must be 10 digit long.\nExample 0123456789 or 0123ABCDEF."
+  },
+  {
+   "rva": 1379216,
+   "bytes": "bca4bbeeb3a2cad4b4cecafdb3accfde00",
+   "orig": "41637469766174696f6e20617474656d70747320657863656564656400",
+   "text": "激活尝试次数超限",
+   "kind": "A",
+   "src": "Activation attempts exceeded"
+  },
+  {
+   "rva": 1379248,
+   "bytes": "bca4bbeeb3a2cad4b4cecafdb9fdb6e0a1a320202020202020202020200a0ac7ebb9d8b1d5b4cbb6d4bbb0bff2baf3d6d8cad42e2e2e202020202020202020202020202020202020202020202020",
+   "orig": "546f6f206d616e79202741637469766174652720617474656d7074732e0a0a506c6561736520636c6f73652074686973206469616c6f6720626f7820616e6420726574727920616761696e2e2e2e",
+   "text": "激活尝试次数过多。 /  / 请关闭此对话框后重试...",
+   "kind": "ML",
+   "src": "Too many 'Activate' attempts.\n\nPlease close this dialog box and retry again..."
+  },
+  {
+   "rva": 1379328,
+   "bytes": "bca4bbeecaa7b0dc00",
+   "orig": "41637469766174696f6e204661696c656400",
+   "text": "激活失败",
+   "kind": "A",
+   "src": "Activation Failed"
+  },
+  {
+   "rva": 1379360,
+   "bytes": "bca4bbeec2ebc9edb7ddd1e9d6a4caa7b0dca1a3202020202020202020202020202020202020200ac7ebbcecb2e9d3cacfe4b5d8d6b7c6b4d0b4bacdd3a6b4f0c2ebcac7b7f1d5fdc8b72e2e2e2020202020202020202020200a0ac7ebb5bdcdf8c9cfc9ccb5eabacbb6d4c4fab5c4cadac8a8c2eb2e2e2e2020202020202020202020202020202020202020",
+   "orig": "41435449564154494f4e20434f44452041555448454e5449434154494f4e204641494c5552452e0a506c6561736520636865636b20652d6d61696c207370656c6c696e6720616e6420726573706f6e736520636f64652e2e2e0a0a476f20746f20796f7572207765622d73686f7020746f20636865636b20796f7572206c6963656e736520636f64652e2e2e",
+   "text": "激活码身份验证失败。 / 请检查邮箱地址拼写和应答码是否正确... /  / 请到网上商店核对您的授权码...",
+   "kind": "ML",
+   "src": "ACTIVATION CODE AUTHENTICATION FAILURE.\nPlease check e-mail spelling and response code...\n\nGo to your web-shop to check your license code..."
+  },
+  {
+   "rva": 1379504,
+   "bytes": "bca4bbeeb3c9b9a600",
+   "orig": "41637469766174696f6e205375636365737300",
+   "text": "激活成功",
+   "kind": "A",
+   "src": "Activation Success"
+  },
+  {
+   "rva": 1379528,
+   "bytes": "b9a7cfb2a3a12020202020202020200ac4fab5c4cadac8a8d2d1bca4bbee2e2e2e202020202020202020202020202020",
+   "orig": "434f4e47524154554c4154494f4e2e0a596f7572204c6963656e7365206973206e6f77206163746976617465642e2e2e",
+   "text": "恭喜！ / 您的授权已激活...",
+   "kind": "ML",
+   "src": "CONGRATULATION.\nYour License is now activated..."
+  },
+  {
+   "rva": 1379584,
+   "bytes": "b5bcc8ebcdeab3c900",
+   "orig": "496d706f727420446f6e6500",
+   "text": "导入完成",
+   "kind": "A",
+   "src": "Import Done"
+  },
+  {
+   "rva": 1379600,
+   "bytes": "d6b8cec6cec4bcfed2d1b3c9b9a6d4d8c8eba3a1202020202020202020202020202020202020200acfd6d4dad0e8d2aad6d8d0c2bca4bbeec4fab5c4cadac8a8a1a320202020202020202020202020",
+   "orig": "466f6f747072696e7420686173206265656e206c6f61646564207375636365737366756c6c79210a596f7572206c6963656e73652073686f756c64206e6f772062652072656163746976617465642e",
+   "text": "指纹文件已成功载入！ / 现在需要重新激活您的授权。",
+   "kind": "ML",
+   "src": "Footprint has been loaded successfully!\nYour license should now be reactivated."
+  },
+  {
+   "rva": 1379680,
+   "bytes": "d6b8cec6cec4bcfed2d1b3c9b9a6d4d8c8eba3a1202020202020202020202020202020202020200ac4fad3a6b8c3d2d1d5d2bbd8d6aec7b0b5c4d6cad1afc2eba1a32020202020202020202020202020202020202020202020202020202020",
+   "orig": "466f6f747072696e7420686173206265656e206c6f61646564207375636365737366756c6c79210a596f752073686f756c6420686176652072657472696576656420796f75722070726576696f7573206368616c6c656e676520636f64652e",
+   "text": "指纹文件已成功载入！ / 您应该已找回之前的质询码。",
+   "kind": "ML",
+   "src": "Footprint has been loaded successfully!\nYou should have retrieved your previous challenge code."
+  },
+  {
+   "rva": 1379776,
+   "bytes": "b0e6b1be3a20257300",
+   "orig": "56657273696f6e3a20257300",
+   "text": "版本: %s",
+   "kind": "A",
+   "src": "Version: %s"
+  },
+  {
+   "rva": 1379792,
+   "bytes": "b9d8d3da202f20d7a2b2e1d0c5cfa22e2e2e00",
+   "orig": "41626f7574202f20526567697374726174696f6e20696e666f2e2e2e00",
+   "text": "关于 / 注册信息...",
+   "kind": "A",
+   "src": "About / Registration info..."
+  },
+  {
+   "rva": 1380616,
+   "bytes": "d0e9c4e200",
+   "orig": "5669727475616c00",
+   "text": "虚拟",
+   "kind": "A",
+   "src": "Virtual"
+  },
+  {
+   "rva": 1380696,
+   "bytes": "c8a1cffb00",
+   "orig": "43616e63656c00",
+   "text": "取消",
+   "kind": "A",
+   "src": "Cancel"
+  },
+  {
+   "rva": 1380712,
+   "bytes": "cae4c8ebcab1bce400",
+   "orig": "456e7465722054696d6500",
+   "text": "输入时间",
+   "kind": "A",
+   "src": "Enter Time"
+  },
+  {
+   "rva": 1380792,
+   "bytes": "cae4c8ebd2f4c0d6cab1bce400",
+   "orig": "456e746572204d75736963616c2054696d6500",
+   "text": "输入音乐时间",
+   "kind": "A",
+   "src": "Enter Musical Time"
+  },
+  {
+   "rva": 1380824,
+   "bytes": "cce6bbbbc4a3cabd00",
+   "orig": "5265706c616365206d6f646500",
+   "text": "替换模式",
+   "kind": "A",
+   "src": "Replace mode"
+  },
+  {
+   "rva": 1380840,
+   "bytes": "d2f4c0d6cab1b3a4a1a300",
+   "orig": "4d75736963616c206475726174696f6e2e00",
+   "text": "音乐时长。",
+   "kind": "A",
+   "src": "Musical duration."
+  },
+  {
+   "rva": 1380864,
+   "bytes": "cae4c8ebd2f4c0d6cebbd6c300",
+   "orig": "456e746572204d75736963616c20506f736974696f6e00",
+   "text": "输入音乐位置",
+   "kind": "A",
+   "src": "Enter Musical Position"
+  },
+  {
+   "rva": 1380896,
+   "bytes": "c5c4bac500",
+   "orig": "54696d65205369676e617475726500",
+   "text": "拍号",
+   "kind": "A",
+   "src": "Time Signature"
+  },
+  {
+   "rva": 1380912,
+   "bytes": "cae4c8ebcad3c6b5d6a100",
+   "orig": "456e74657220566964656f204672616d6500",
+   "text": "输入视频帧",
+   "kind": "A",
+   "src": "Enter Video Frame"
+  },
+  {
+   "rva": 1380936,
+   "bytes": "c3bfc3ebd6a1cafd00",
+   "orig": "4672616d6520706572207365636f6e6400",
+   "text": "每秒帧数",
+   "kind": "A",
+   "src": "Frame per second"
+  },
+  {
+   "rva": 1380960,
+   "bytes": "caf3b1eabfd8d6c6c4a3cabd00",
+   "orig": "4d6f75736520436f6e74726f6c206d6f646500",
+   "text": "鼠标控制模式",
+   "kind": "A",
+   "src": "Mouse Control mode"
+  },
+  {
+   "rva": 1380984,
+   "bytes": "cbb3d0f2d2c6b6af00",
+   "orig": "53657175656e7469616c206d6f76657300",
+   "text": "顺序移动",
+   "kind": "A",
+   "src": "Sequential moves"
+  },
+  {
+   "rva": 1381008,
+   "bytes": "b0b4cebbd6c3c9e8b6a800",
+   "orig": "53657420427920506f736974696f6e00",
+   "text": "按位置设定",
+   "kind": "A",
+   "src": "Set By Position"
+  },
+  {
+   "rva": 1381024,
+   "bytes": "d7a5c8a1b2a2d2c6b6af00",
+   "orig": "4772617020616e64204d6f766500",
+   "text": "抓取并移动",
+   "kind": "A",
+   "src": "Grap and Move"
+  },
+  {
+   "rva": 1381040,
+   "bytes": "cdcbb3f6b2cbb5a500",
+   "orig": "45786974204d656e7500",
+   "text": "退出菜单",
+   "kind": "A",
+   "src": "Exit Menu"
+  },
+  {
+   "rva": 1381056,
+   "bytes": "beabc3dcc8fdb6cebbacbfe900",
+   "orig": "507265636973696f6e2054726920536c6964657200",
+   "text": "精密三段滑块",
+   "kind": "A",
+   "src": "Precision Tri Slider"
+  },
+  {
+   "rva": 1381080,
+   "bytes": "b5f7d5fbcafdd6b500",
+   "orig": "41646a7573742056616c756500",
+   "text": "调整数值",
+   "kind": "A",
+   "src": "Adjust Value"
+  },
+  {
+   "rva": 1381096,
+   "bytes": "b7b4cff2caf3b1ead2c6b6afc4a3cabd00",
+   "orig": "496e7665727365206d6f7573656d6f7665206d6f646500",
+   "text": "反向鼠标移动模式",
+   "kind": "A",
+   "src": "Inverse mousemove mode"
+  },
+  {
+   "rva": 1381128,
+   "bytes": "caf3b1ead2c6b6afd0d0ceaa00",
+   "orig": "4d6f757365204d6f7665204265686176696f7200",
+   "text": "鼠标移动行为",
+   "kind": "A",
+   "src": "Mouse Move Behavior"
+  },
+  {
+   "rva": 1381152,
+   "bytes": "cff2d3d2d0fdd7aac4a3cabd00",
+   "orig": "5475726e206279207269676874204d6f646500",
+   "text": "向右旋转模式",
+   "kind": "A",
+   "src": "Turn by right Mode"
+  },
+  {
+   "rva": 1381176,
+   "bytes": "c9cfcfc2c4a3cabd00",
+   "orig": "557020616e6420446f776e204d6f646500",
+   "text": "上下模式",
+   "kind": "A",
+   "src": "Up and Down Mode"
+  },
+  {
+   "rva": 1381200,
+   "bytes": "bdc7b6c8c4a3cabd00",
+   "orig": "416e67756c6172204d6f646500",
+   "text": "角度模式",
+   "kind": "A",
+   "src": "Angular Mode"
+  },
+  {
+   "rva": 1381216,
+   "bytes": "cfd4cabeb8bdbcd3d0c5cfa200",
+   "orig": "446973706c617920457874726120496e666f00",
+   "text": "显示附加信息",
+   "kind": "A",
+   "src": "Display Extra Info"
+  },
+  {
+   "rva": 1381240,
+   "bytes": "cfd4cabed0fdc5a5b6afd7f700",
+   "orig": "446973706c6179204b6e6f62204d6f76657300",
+   "text": "显示旋钮动作",
+   "kind": "A",
+   "src": "Display Knob Moves"
+  },
+  {
+   "rva": 1381264,
+   "bytes": "c6f4d3c3cafdd6b5d0c5cfa2bff200",
+   "orig": "456e61626c6520496e666f2056616c756520426f7800",
+   "text": "启用数值信息框",
+   "kind": "A",
+   "src": "Enable Info Value Box"
+  },
+  {
+   "rva": 1381288,
+   "bytes": "cafdd6b5b1e0bcad00",
+   "orig": "56616c75652045646974696e6700",
+   "text": "数值编辑",
+   "kind": "A",
+   "src": "Value Editing"
+  },
+  {
+   "rva": 1381304,
+   "bytes": "b5b1c7b03a2000",
+   "orig": "43757272656e74203a2000",
+   "text": "当前: ",
+   "kind": "A",
+   "src": "Current : "
+  },
+  {
+   "rva": 1381328,
+   "bytes": "c4acc8cf3a00",
+   "orig": "44656661756c74203a00",
+   "text": "默认:",
+   "kind": "A",
+   "src": "Default :"
+  },
+  {
+   "rva": 1381368,
+   "bytes": "b1e0bcad5b4354524c2bb5e3bbf75d00",
+   "orig": "45646974205b4354524c2b434c4b5d00",
+   "text": "编辑[CTRL+点击]",
+   "kind": "A",
+   "src": "Edit [CTRL+CLK]"
+  },
+  {
+   "rva": 1381384,
+   "bytes": "b5f7d5fb205b53484946542bb5a5bbf75d00",
+   "orig": "41646a757374205b53484946542b434c4b5d00",
+   "text": "调整 [SHIFT+单击]",
+   "kind": "A",
+   "src": "Adjust [SHIFT+CLK]"
+  },
+  {
+   "rva": 1381408,
+   "bytes": "caf3b1eacfecd3a6cbd9c2ca00",
+   "orig": "4d6f757365205265616374696f6e205261746500",
+   "text": "鼠标响应速率",
+   "kind": "A",
+   "src": "Mouse Reaction Rate"
+  },
+  {
+   "rva": 1381528,
+   "bytes": "d4dad0c5cfa2bff2d6d0cfd4cabecafdd6b500",
+   "orig": "446973706c61792056616c756520696e20496e666f20426f7800",
+   "text": "在信息框中显示数值",
+   "kind": "A",
+   "src": "Display Value in Info Box"
+  },
+  {
+   "rva": 1381560,
+   "bytes": "cfd4cabed4dad7f3c9cf00",
+   "orig": "446973706c6179206f6e204c65667420546f7000",
+   "text": "显示在左上",
+   "kind": "A",
+   "src": "Display on Left Top"
+  },
+  {
+   "rva": 1381584,
+   "bytes": "cfd4cabed4dad3d2c9cf00",
+   "orig": "446973706c6179206f6e20526967687420546f7000",
+   "text": "显示在右上",
+   "kind": "A",
+   "src": "Display on Right Top"
+  },
+  {
+   "rva": 1381608,
+   "bytes": "cfd4cabed4dad3d2cfc200",
+   "orig": "446973706c6179206f6e20526967687420426f74746f6d00",
+   "text": "显示在右下",
+   "kind": "A",
+   "src": "Display on Right Bottom"
+  },
+  {
+   "rva": 1381632,
+   "bytes": "cfd4cabed4dad7f3cfc200",
+   "orig": "446973706c6179206f6e204c65667420426f74746f6d00",
+   "text": "显示在左下",
+   "kind": "A",
+   "src": "Display on Left Bottom"
+  },
+  {
+   "rva": 1381656,
+   "bytes": "d4a4b6a8d2e5cafdd6b500",
+   "orig": "507265646566696e65642076616c756528732900",
+   "text": "预定义数值",
+   "kind": "A",
+   "src": "Predefined value(s)"
+  },
+  {
+   "rva": 1381688,
+   "bytes": "caf3b1ead2d1b2b6bbf100",
+   "orig": "4d6f75736520436170747572656400",
+   "text": "鼠标已捕获",
+   "kind": "A",
+   "src": "Mouse Captured"
+  },
+  {
+   "rva": 1381704,
+   "bytes": "d6b1bdd3caf3b1eacebbd6c300",
+   "orig": "446972656374206d6f75736520706f736974696f6e00",
+   "text": "直接鼠标位置",
+   "kind": "A",
+   "src": "Direct mouse position"
+  },
+  {
+   "rva": 1383008,
+   "bytes": "c7fdb6afbbd8b5f7d6d8c8eb2e2e2e2020202020202020202020202020200ad2e2cde2b4edcef32e2e2e2020202020202020",
+   "orig": "4472697665722043616c6c6261636b2052652d656e7472616e63652e2e2e0a556e6578706563746564206572726f722e2e2e",
+   "text": "驱动回调重入... / 意外错误...",
+   "kind": "ML",
+   "src": "Driver Callback Re-entrance...\nUnexpected error..."
+  },
+  {
+   "rva": 1383064,
+   "bytes": "ceb4cce1b9a9cafdbeddd7aabbbb2e2e2e202020202020202020202020200ad7aabbbbb4edcef3b1e0bac53a20256920202020202020200a",
+   "orig": "4e6f206461746120636f6e76657273696f6e20737570706c6965642e2e2e0a436f6e76657273696f6e206572726f72206e75203a2025690a",
+   "text": "未提供数据转换... / 转换错误编号: %i / ",
+   "kind": "ML",
+   "src": "No data conversion supplied...\nConversion error nu : %i\n"
+  },
+  {
+   "rva": 1383136,
+   "bytes": "c0b4d7d4d2f4c6b5c7fdb6afb5c4c7ebc7f3202020202020200ab2c9d1f9c2cad2d1b8fcb8c4a3ac20202020202020202020202020202020200ad2f4c6b5c1f7d0e8d2aacdeac8abd6d8d6c320202020202020202020202020202020200a0ac7ebd6d8d0c2c6f4b6afd2f4c6b5c9e8b1b82e2e2e2020202020202020202020202020",
+   "orig": "526571756573742046726f6d20417564696f204472697665720a53616d706c696e67207261746520686173206265656e204368616e6765642c0a417564696f2053747265616d206e65656473206120636f6d706c6574652052455345540a0a506c656173652052652d53746172742074686520417564696f204465766963652e2e2e",
+   "text": "来自音频驱动的请求 / 采样率已更改， / 音频流需要完全重置 /  / 请重新启动音频设备...",
+   "kind": "ML",
+   "src": "Request From Audio Driver\nSampling rate has been Changed,\nAudio Stream needs a complete RESET\n\nPlease Re-Start the Audio Device..."
+  },
+  {
+   "rva": 1383280,
+   "bytes": "c0b4d7d4d2f4c6b5c7fdb6afb5c4c7ebc7f3202020202020200ad2f4c6b5c1f7d0e8d2aacdeac8abd6d8d6c320202020202020202020202020202020200a0ac7ebd6d8d0c2c6f4b6afd2f4c6b5c9e8b1b82e2e2e2020202020202020202020202020",
+   "orig": "526571756573742046726f6d20417564696f204472697665720a417564696f2053747265616d206e65656473206120636f6d706c6574652052455345540a0a506c656173652052652d53746172742074686520417564696f204465766963652e2e2e",
+   "text": "来自音频驱动的请求 / 音频流需要完全重置 /  / 请重新启动音频设备...",
+   "kind": "ML",
+   "src": "Request From Audio Driver\nAudio Stream needs a complete RESET\n\nPlease Re-Start the Audio Device..."
+  },
+  {
+   "rva": 1383392,
+   "bytes": "c0b4d7d4d2f4c6b5c7fdb6afb5c4d6d8d0c2cdacb2bdc7ebc7f32020202020202020202020202020202020200ad2f4c6b5c1f7d0e8d2aacdeac8abd6d8d6c320202020202020202020202020202020200a0ac7ebd6d8d0c2c6f4b6afd2f4c6b5c9e8b1b82e2e2e2020202020202020202020202020",
+   "orig": "526571756573742046726f6d20417564696f204472697665722072652d73796e6368726f6e697a6174696f6e0a417564696f2053747265616d206e65656473206120636f6d706c6574652052455345540a0a506c656173652052652d53746172742074686520417564696f204465766963652e2e2e",
+   "text": "来自音频驱动的重新同步请求 / 音频流需要完全重置 /  / 请重新启动音频设备...",
+   "kind": "ML",
+   "src": "Request From Audio Driver re-synchronization\nAudio Stream needs a complete RESET\n\nPlease Re-Start the Audio Device..."
+  },
+  {
+   "rva": 1383512,
+   "bytes": "cedeb7a8bbf1c8a1c9f9b5c0d0c5cfa23a2000",
+   "orig": "4661696c656420746f20476574204368616e6e656c7320696e666f726d6174696f6e3a2000",
+   "text": "无法获取声道信息: ",
+   "kind": "A",
+   "src": "Failed to Get Channels information: "
+  },
+  {
+   "rva": 1383552,
+   "bytes": "ceb4d5d2b5bdc9f9b5c0202f20c9e8b1b8bfc9c4dcceb4c1acbdd32e2e2e00",
+   "orig": "4e6f204368616e6e656c20666f756e64202f2044657669636520706f737369626c79206e6f7420636f6e6e65637465642e2e2e00",
+   "text": "未找到声道 / 设备可能未连接...",
+   "kind": "A",
+   "src": "No Channel found / Device possibly not connected..."
+  },
+  {
+   "rva": 1383608,
+   "bytes": "cedeb7a8bbf1c8a1bbbab3e5c7f8d0c5cfa23a2000",
+   "orig": "4661696c656420746f204765742042756666657220696e666f726d6174696f6e3a2000",
+   "text": "无法获取缓冲区信息: ",
+   "kind": "A",
+   "src": "Failed to Get Buffer information: "
+  },
+  {
+   "rva": 1383648,
+   "bytes": "c9e8b1b8ceb4b4f2bfaa2e2e2e00",
+   "orig": "446576696365206973206e6f74206f70656e65642e2e2e00",
+   "text": "设备未打开...",
+   "kind": "A",
+   "src": "Device is not opened..."
+  },
+  {
+   "rva": 1383672,
+   "bytes": "c9e8b1b8d2d1d7bcb1b82e2e2e00",
+   "orig": "44657669636520697320416c72656164792070726570617265642e2e2e00",
+   "text": "设备已准备...",
+   "kind": "A",
+   "src": "Device is Already prepared..."
+  },
+  {
+   "rva": 1383704,
+   "bytes": "cedeb7a8bbf1c8a1b5b1c7b0b2c9d1f9c2cad0c5cfa23a2000",
+   "orig": "4661696c656420746f204765742043757272656e742053616d706c655261746520696e666f726d6174696f6e3a2000",
+   "text": "无法获取当前采样率信息: ",
+   "kind": "A",
+   "src": "Failed to Get Current SampleRate information: "
+  },
+  {
+   "rva": 1383752,
+   "bytes": "b2bbd6a7b3d6b5c4b2c9d1f9c2ca3a20256920487a00",
+   "orig": "556e737570706f727465642053616d706c65726174653a20256920487a00",
+   "text": "不支持的采样率: %i Hz",
+   "kind": "A",
+   "src": "Unsupported Samplerate: %i Hz"
+  },
+  {
+   "rva": 1383784,
+   "bytes": "ceb4b6a8d2e5bbbab3e5c7f8b4f3d0a12e2e2e00",
+   "orig": "556e646566696e6564204275666665722053697a652e2e2e00",
+   "text": "未定义缓冲区大小...",
+   "kind": "A",
+   "src": "Undefined Buffer Size..."
+  },
+  {
+   "rva": 1383816,
+   "bytes": "cedeb7a8bbf1c8a1cda8b5c0d0c5cfa23a2000",
+   "orig": "4661696c656420746f20476574204368616e6e656c20696e666f726d6174696f6e3a2000",
+   "text": "无法获取通道信息: ",
+   "kind": "A",
+   "src": "Failed to Get Channel information: "
+  },
+  {
+   "rva": 1383856,
+   "bytes": "cedeb7a8d7bcb1b8bbbab3e5c7f83a2000",
+   "orig": "4661696c656420746f207072657061726520627566666572733a2000",
+   "text": "无法准备缓冲区: ",
+   "kind": "A",
+   "src": "Failed to prepare buffers: "
+  },
+  {
+   "rva": 1383888,
+   "bytes": "c9e8b1b8d2d1b4a6d3daceb4d7bcb1b8d7b4ccac2e2e2e00",
+   "orig": "44657669636520697320416c726561647920756e70726570617265642e2e2e00",
+   "text": "设备已处于未准备状态...",
+   "kind": "A",
+   "src": "Device is Already unprepared..."
+  },
+  {
+   "rva": 1383920,
+   "bytes": "4153494f20c9e8b1b8d2d1d4dab2a5b7c52e2e2e00",
+   "orig": "4153494f2044657669636520416c726561647920506c6179696e672e2e2e00",
+   "text": "ASIO 设备已在播放...",
+   "kind": "A",
+   "src": "ASIO Device Already Playing..."
+  },
+  {
+   "rva": 1384008,
+   "bytes": "c9e8b1b8d2d1c6f4b6afa1a300",
+   "orig": "44657669636520497320537461727465642e00",
+   "text": "设备已启动。",
+   "kind": "A",
+   "src": "Device Is Started."
+  },
+  {
+   "rva": 1384032,
+   "bytes": "c9e8b1b8ceb4c6f4b6af3a00",
+   "orig": "446576696365204e6f7420537461727465643a00",
+   "text": "设备未启动:",
+   "kind": "A",
+   "src": "Device Not Started:"
+  },
+  {
+   "rva": 1384056,
+   "bytes": "ceb4d5d2b5bdc7fdb6af00",
+   "orig": "447269766572206e6f7420666f756e6400",
+   "text": "未找到驱动",
+   "kind": "A",
+   "src": "Driver not found"
+  },
+  {
+   "rva": 1384080,
+   "bytes": "b3f5cabcbbaf204153494f20c7fdb6afcaa7b0dc00",
+   "orig": "4661696c656420746f20696e6974204153494f2044726976657200",
+   "text": "初始化 ASIO 驱动失败",
+   "kind": "A",
+   "src": "Failed to init ASIO Driver"
+  },
+  {
+   "rva": 1384192,
+   "bytes": "cedebfc9d3c3bbd8b5f700",
+   "orig": "4e6f2043616c6c6261636b20417661696c61626c6500",
+   "text": "无可用回调",
+   "kind": "A",
+   "src": "No Callback Available"
+  },
+  {
+   "rva": 1384216,
+   "bytes": "c9e8b1b8d2d1b4f2bfaaa1a300",
+   "orig": "446576696365204973204f70656e6e65642e00",
+   "text": "设备已打开。",
+   "kind": "A",
+   "src": "Device Is Openned."
+  },
+  {
+   "rva": 1385264,
+   "bytes": "b2a5b7c5c9e8b1b800",
+   "orig": "506c61796261636b2044657669636500",
+   "text": "播放设备",
+   "kind": "A",
+   "src": "Playback Device"
+  },
+  {
+   "rva": 1385312,
+   "bytes": "c2bcd2f4c9e8b1b800",
+   "orig": "5265636f7264696e672044657669636500",
+   "text": "录音设备",
+   "kind": "A",
+   "src": "Recording Device"
+  },
+  {
+   "rva": 1385344,
+   "bytes": "beafb8e63a2057696e646f777320cda8d0c5d1a1cfeeceb4c9e8d6c3ceaaa1b8b2bbd6b4d0d0c8cebaceb2d9d7f7a1b9a3a100",
+   "orig": "5741524e494e473a2057696e646f777320436f6d6d756e69636174696f6e204f7074696f6e206973206e6f742073657420746f2027446f204e6f7468696e67272100",
+   "text": "警告: Windows 通信选项未设置为「不执行任何操作」！",
+   "kind": "A",
+   "src": "WARNING: Windows Communication Option is not set to 'Do Nothing'!"
+  },
+  {
+   "rva": 1385648,
+   "bytes": "b4f2bfaa205641494f20bfd8d6c6c3e6b0e52e2e2e00",
+   "orig": "4f70656e205641494f20436f6e74726f6c2050616e656c2e2e2e00",
+   "text": "打开 VAIO 控制面板...",
+   "kind": "A",
+   "src": "Open VAIO Control Panel..."
+  },
+  {
+   "rva": 1385680,
+   "bytes": "cbf5b7c5203130302500",
+   "orig": "5a6f6f6d203130302500",
+   "text": "缩放 100%",
+   "kind": "A",
+   "src": "Zoom 100%"
+  },
+  {
+   "rva": 1385696,
+   "bytes": "cbf5b7c52039302500",
+   "orig": "5a6f6f6d2039302500",
+   "text": "缩放 90%",
+   "kind": "A",
+   "src": "Zoom 90%"
+  },
+  {
+   "rva": 1385712,
+   "bytes": "cbf5b7c52037352500",
+   "orig": "5a6f6f6d2037352500",
+   "text": "缩放 75%",
+   "kind": "A",
+   "src": "Zoom 75%"
+  },
+  {
+   "rva": 1385728,
+   "bytes": "cbf5b7c52036302500",
+   "orig": "5a6f6f6d2036302500",
+   "text": "缩放 60%",
+   "kind": "A",
+   "src": "Zoom 60%"
+  },
+  {
+   "rva": 1385744,
+   "bytes": "cbf5b7c52035302500",
+   "orig": "5a6f6f6d2035302500",
+   "text": "缩放 50%",
+   "kind": "A",
+   "src": "Zoom 50%"
+  },
+  {
+   "rva": 1385760,
+   "bytes": "57696e646f777320c9f9d2f4c9e8d6c32e2e2e00",
+   "orig": "57696e646f777320536f756e642053657474696e67732e2e2e00",
+   "text": "Windows 声音设置...",
+   "kind": "A",
+   "src": "Windows Sound Settings..."
+  },
+  {
+   "rva": 1385792,
+   "bytes": "57696e646f777320d3a6d3c3d2f4c1bfd3ebc9e8b1b8cad7d1a1cfee2e2e2e00",
+   "orig": "57696e646f7773204170707320566f6c756d6520616e642044657669636520507265666572656e6365732e2e2e00",
+   "text": "Windows 应用音量与设备首选项...",
+   "kind": "A",
+   "src": "Windows Apps Volume and Device Preferences..."
+  },
+  {
+   "rva": 1385840,
+   "bytes": "57696e646f777320c2f3bfcbb7e7d2fecbbdc9e8d6c32e2e2e00",
+   "orig": "57696e646f7773205072697661637920666f72204d6963726f70686f6e652e2e2e00",
+   "text": "Windows 麦克风隐私设置...",
+   "kind": "A",
+   "src": "Windows Privacy for Microphone..."
+  },
+  {
+   "rva": 1385880,
+   "bytes": "57696e646f777320c9f9d2f4b2a5b7c5c9e8b1b82e2e2e00",
+   "orig": "57696e646f777320536f756e647320506c61796261636b20446576696365732e2e2e00",
+   "text": "Windows 声音播放设备...",
+   "kind": "A",
+   "src": "Windows Sounds Playback Devices..."
+  },
+  {
+   "rva": 1385920,
+   "bytes": "57696e646f777320c9f9d2f4c2bcd2f4c9e8b1b82e2e2e00",
+   "orig": "57696e646f777320536f756e6473205265636f7264696e6720446576696365732e2e2e00",
+   "text": "Windows 声音录音设备...",
+   "kind": "A",
+   "src": "Windows Sounds Recording Devices..."
+  },
+  {
+   "rva": 1387288,
+   "bytes": "77617665496e4f70656e20b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e2077617665496e4f70656e206661696c65642e0a2573",
+   "text": "waveInOpen 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveInOpen failed.\n%s"
+  },
+  {
+   "rva": 1387320,
+   "bytes": "b7d6c5e4205761766520bbbab3e5c7f8caa7b0dc00",
+   "orig": "4661696c656420746f20616c6c6f636174652057617665204275666665727300",
+   "text": "分配 Wave 缓冲区失败",
+   "kind": "A",
+   "src": "Failed to allocate Wave Buffers"
+  },
+  {
+   "rva": 1387352,
+   "bytes": "b7d6c5e4204b53205761766520bbbab3e5c7f8caa7b0dc00",
+   "orig": "4661696c656420746f20616c6c6f63617465204b532057617665204275666665727300",
+   "text": "分配 KS Wave 缓冲区失败",
+   "kind": "A",
+   "src": "Failed to allocate KS Wave Buffers"
+  },
+  {
+   "rva": 1387392,
+   "bytes": "b7d6c5e4d2f4c6b5bbbab3e5c7f8caa7b0dc00",
+   "orig": "4661696c656420746f20616c6c6f6361746520417564696f204275666665727300",
+   "text": "分配音频缓冲区失败",
+   "kind": "A",
+   "src": "Failed to allocate Audio Buffers"
+  },
+  {
+   "rva": 1387432,
+   "bytes": "4b5320b2c9bcafcfdfb3ccceb4c6f4b6af00",
+   "orig": "4b534361707475726520546872656164206e6f74206c61756e6368656400",
+   "text": "KS 采集线程未启动",
+   "kind": "A",
+   "src": "KSCapture Thread not launched"
+  },
+  {
+   "rva": 1387464,
+   "bytes": "77617665496e5072657061726548656164657220b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e2077617665496e50726570617265486561646572206661696c65642e0a2573",
+   "text": "waveInPrepareHeader 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveInPrepareHeader failed.\n%s"
+  },
+  {
+   "rva": 1387504,
+   "bytes": "77617665496e41646442756666657220b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e2077617665496e416464427566666572206661696c65642e0a2573",
+   "text": "waveInAddBuffer 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveInAddBuffer failed.\n%s"
+  },
+  {
+   "rva": 1387544,
+   "bytes": "77617665496e537461727420b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e2077617665496e5374617274206661696c65642e0a2573",
+   "text": "waveInStart 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveInStart failed.\n%s"
+  },
+  {
+   "rva": 1387576,
+   "bytes": "776176654f75744f70656e20b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e20776176654f75744f70656e206661696c65642e0a2573",
+   "text": "waveOutOpen 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveOutOpen failed.\n%s"
+  },
+  {
+   "rva": 1387608,
+   "bytes": "4b5320e4d6c8becfdfb3ccceb4c6f4b6af00",
+   "orig": "4b5372656e64657220546872656164206e6f74206c61756e6368656400",
+   "text": "KS 渲染线程未启动",
+   "kind": "A",
+   "src": "KSrender Thread not launched"
+  },
+  {
+   "rva": 1387640,
+   "bytes": "776176654f75745072657061726548656164657220b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e20776176654f757450726570617265486561646572206661696c65642e0a2573",
+   "text": "waveOutPrepareHeader 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveOutPrepareHeader failed.\n%s"
+  },
+  {
+   "rva": 1387688,
+   "bytes": "776176654f757441646442756666657220b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e20776176654f7574416464427566666572206661696c65642e0a2573",
+   "text": "waveOutAddBuffer 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveOutAddBuffer failed.\n%s"
+  },
+  {
+   "rva": 1387728,
+   "bytes": "776176654f7574537461727420b5f7d3c3caa7b0dca1a32020202020200a2573",
+   "orig": "46756e6374696f6e20776176654f75745374617274206661696c65642e0a2573",
+   "text": "waveOutStart 调用失败。 / %s",
+   "kind": "ML",
+   "src": "Function waveOutStart failed.\n%s"
+  },
+  {
+   "rva": 1388840,
+   "bytes": "c9beb3fdcbf9d1a100",
+   "orig": "52656d6f76652053656c656374696f6e00",
+   "text": "删除所选",
+   "kind": "A",
+   "src": "Remove Selection"
+  },
+  {
+   "rva": 1388912,
+   "bytes": "cdcbb3f6202f20c8a1cffb00",
+   "orig": "45786974202f2043616e63656c00",
+   "text": "退出 / 取消",
+   "kind": "A",
+   "src": "Exit / Cancel"
+  },
+  {
+   "rva": 1389040,
+   "bytes": "b4cbc9e8b1b8d2d1b1bbd1a1d4f1a1a3202020202020202020202020202020200acac7b7f1d2aad2c6b3fdb4cbd1a1d4f1a3bf2020202020202020202020202020202020202020",
+   "orig": "546869732064657669636520697320616c72656164792073656c65637465642e0a446f20596f752077616e7420746f2052656d6f766520746869732073656c656374696f6e203f",
+   "text": "此设备已被选择。 / 是否要移除此选择？",
+   "kind": "ML",
+   "src": "This device is already selected.\nDo You want to Remove this selection ?"
+  },
+  {
+   "rva": 1389112,
+   "bytes": "313020cebb00",
+   "orig": "313020426269747300",
+   "text": "10 位",
+   "kind": "A",
+   "src": "10 Bbits"
+  },
+  {
+   "rva": 1389128,
+   "bytes": "313220cebb00",
+   "orig": "313220426269747300",
+   "text": "12 位",
+   "kind": "A",
+   "src": "12 Bbits"
+  },
+  {
+   "rva": 1389144,
+   "bytes": "313020cebb00",
+   "orig": "3130206269747300",
+   "text": "10 位",
+   "kind": "A",
+   "src": "10 bits"
+  },
+  {
+   "rva": 1389152,
+   "bytes": "313220cebb00",
+   "orig": "3132206269747300",
+   "text": "12 位",
+   "kind": "A",
+   "src": "12 bits"
+  },
+  {
+   "rva": 1389160,
+   "bytes": "363420cebbb8a1b5e300",
+   "orig": "3634206269747320666c6f617400",
+   "text": "64 位浮点",
+   "kind": "A",
+   "src": "64 bits float"
+  },
+  {
+   "rva": 1389176,
+   "bytes": "333220cebbb8a1b5e300",
+   "orig": "3332206269747320666c6f617400",
+   "text": "32 位浮点",
+   "kind": "A",
+   "src": "32 bits float"
+  },
+  {
+   "rva": 1389192,
+   "bytes": "333220cebb00",
+   "orig": "3332206269747300",
+   "text": "32 位",
+   "kind": "A",
+   "src": "32 bits"
+  },
+  {
+   "rva": 1389200,
+   "bytes": "323420cebb00",
+   "orig": "3234206269747300",
+   "text": "24 位",
+   "kind": "A",
+   "src": "24 bits"
+  },
+  {
+   "rva": 1389208,
+   "bytes": "313620cebb00",
+   "orig": "3136206269747300",
+   "text": "16 位",
+   "kind": "A",
+   "src": "16 bits"
+  },
+  {
+   "rva": 1389216,
+   "bytes": "3820cebb00",
+   "orig": "38206269747300",
+   "text": "8 位",
+   "kind": "A",
+   "src": "8 bits"
+  },
+  {
+   "rva": 1389328,
+   "bytes": "5642414e20b7fecef100",
+   "orig": "5642414e205365727669636500",
+   "text": "VBAN 服务",
+   "kind": "A",
+   "src": "VBAN Service"
+  },
+  {
+   "rva": 1390496,
+   "bytes": "555f3652200025003000340069002d0025003000320069002d00250030003200690020002500300032006900f665250030003200690006522500300032006900d2790000",
+   "orig": "5200650063006f0072006400200025003000340069002d0025003000320069002d00250030003200690020006100740020002500300032006900680025003000320069006d00250030003200690073000000",
+   "text": "录制 %04i-%02i-%02i %02i时%02i分%02i秒",
+   "kind": "W",
+   "src": "Record %04i-%02i-%02i at %02ih%02im%02is"
+  },
+  {
+   "rva": 1390592,
+   "bytes": "25007300200025003000340069002d0025003000320069002d00250030003200690020002500300032006900f665250030003200690006522500300032006900d2790000",
+   "orig": "25007300200025003000340069002d0025003000320069002d00250030003200690020006100740020002500300032006900680025003000320069006d00250030003200690073000000",
+   "text": "%s %04i-%02i-%02i %02i时%02i分%02i秒",
+   "kind": "W",
+   "src": "%s %04i-%02i-%02i at %02ih%02im%02is"
+  },
+  {
+   "rva": 1390672,
+   "bytes": "d5bbbbbab3e5c7f8c4dab4e6b2bbd7e3a1a300",
+   "orig": "4e6f20656e6f756768206d656d6f727920666f7220737461636b206275666665722e00",
+   "text": "栈缓冲区内存不足。",
+   "kind": "A",
+   "src": "No enough memory for stack buffer."
+  },
+  {
+   "rva": 1390712,
+   "bytes": "c1d9cab1bbbab3e5c7f8c4dab4e6b2bbd7e3a1a300",
+   "orig": "4e6f20656e6f756768206d656d6f727920666f722074656d706f72617279206275666665722e00",
+   "text": "临时缓冲区内存不足。",
+   "kind": "A",
+   "src": "No enough memory for temporary buffer."
+  },
+  {
+   "rva": 1390752,
+   "bytes": "b4b4bda8d2f4c6b5cec4bcfecaa7b0dca1a300",
+   "orig": "4661696c656420746f2043726561746520417564696f2046696c652e00",
+   "text": "创建音频文件失败。",
+   "kind": "A",
+   "src": "Failed to Create Audio File."
+  },
+  {
+   "rva": 1390808,
+   "bytes": "b4edcef33a20cec4bcfeb9fdb4f300",
+   "orig": "4572726f723a2066696c652073697a6520746f6f2062696700",
+   "text": "错误: 文件过大",
+   "kind": "A",
+   "src": "Error: file size too big"
+  },
+  {
+   "rva": 1390840,
+   "bytes": "b4edcef33a20d0b4c8ebcaa7b0dc00",
+   "orig": "4572726f723a207772697465206661696c75726500",
+   "text": "错误: 写入失败",
+   "kind": "A",
+   "src": "Error: write failure"
+  },
+  {
+   "rva": 1390864,
+   "bytes": "b4edcef33a20b4c5c5ccd2d1c2fa00",
+   "orig": "4572726f723a206469736b2066756c6c00",
+   "text": "错误: 磁盘已满",
+   "kind": "A",
+   "src": "Error: disk full"
+  },
+  {
+   "rva": 1391048,
+   "bytes": "b4e6b4a2d4a4c9e800",
+   "orig": "53746f72652050726573657400",
+   "text": "存储预设",
+   "kind": "A",
+   "src": "Store Preset"
+  },
+  {
+   "rva": 1391088,
+   "bytes": "b1e0bcadc3fbb3c600",
+   "orig": "45646974204e616d6500",
+   "text": "编辑名称",
+   "kind": "A",
+   "src": "Edit Name"
+  },
+  {
+   "rva": 1391104,
+   "bytes": "b1e0bcadb1b8d7a200",
+   "orig": "4564697420436f6d6d656e7400",
+   "text": "编辑备注",
+   "kind": "A",
+   "src": "Edit Comment"
+  },
+  {
+   "rva": 1391120,
+   "bytes": "b8b4d6c6d4a4c9e800",
+   "orig": "436f70792050726573657400",
+   "text": "复制预设",
+   "kind": "A",
+   "src": "Copy Preset"
+  },
+  {
+   "rva": 1391136,
+   "bytes": "d5b3ccf9d4a4c9e800",
+   "orig": "50617374652050726573657400",
+   "text": "粘贴预设",
+   "kind": "A",
+   "src": "Paste Preset"
+  },
+  {
+   "rva": 1391152,
+   "bytes": "d4d8c8ebd4a4c9e82e2e2e00",
+   "orig": "4c6f6164205072657365742e2e2e00",
+   "text": "载入预设...",
+   "kind": "A",
+   "src": "Load Preset..."
+  },
+  {
+   "rva": 1391192,
+   "bytes": "c9beb3fdd4a4c9e800",
+   "orig": "44656c6574652050726573657400",
+   "text": "删除预设",
+   "kind": "A",
+   "src": "Delete Preset"
+  },
+  {
+   "rva": 1391208,
+   "bytes": "455120d2d1b9d8b1d500",
+   "orig": "4551206973204f464600",
+   "text": "EQ 已关闭",
+   "kind": "A",
+   "src": "EQ is OFF"
+  },
+  {
+   "rva": 1391296,
+   "bytes": "c8abb2bfb8b4d6c600",
+   "orig": "436f707920416c6c00",
+   "text": "全部复制",
+   "kind": "A",
+   "src": "Copy All"
+  },
+  {
+   "rva": 1391308,
+   "bytes": "d5b3ccf900",
+   "orig": "506173746500",
+   "text": "粘贴",
+   "kind": "A",
+   "src": "Paste"
+  },
+  {
+   "rva": 1391376,
+   "bytes": "d4f6d2e6202f20d1d3b3d900",
+   "orig": "4761696e202f2044656c617900",
+   "text": "增益 / 延迟",
+   "kind": "A",
+   "src": "Gain / Delay"
+  },
+  {
+   "rva": 1391392,
+   "bytes": "c9f9b5c03a00",
+   "orig": "4368616e6e656c3a00",
+   "text": "声道:",
+   "kind": "A",
+   "src": "Channel:"
+  },
+  {
+   "rva": 1392332,
+   "bytes": "6851e890200028002a002e002a0029000000",
+   "orig": "41006c006c00200028002a002e002a0029000000",
+   "text": "全部 (*.*)",
+   "kind": "W",
+   "src": "All (*.*)"
+  },
+  {
+   "rva": 1392384,
+   "bytes": "dd4f585b535f4d522000450051002000be8b6e7f2e002e002e000000",
+   "orig": "53006100760065002000430075007200720065006e0074002000450051002000530065007400740069006e00670073002e002e002e000000",
+   "text": "保存当前 EQ 设置...",
+   "kind": "W",
+   "src": "Save Current EQ Settings..."
+  },
+  {
+   "rva": 1392616,
+   "bytes": "7d8f65512000450051002000be8b6e7f2e002e002e000000",
+   "orig": "4c006f00610064002000450051002000530065007400740069006e00670073002e002e002e000000",
+   "text": "载入 EQ 设置...",
+   "kind": "W",
+   "src": "Load EQ Settings..."
+  },
+  {
+   "rva": 1392712,
+   "bytes": "45005100500072006f002d004700360020003b60bf7e20004100320008ff6972067409ff0000",
+   "orig": "45005100500072006f002d004700360020004200550053002000410032002000280050006800790073006900630061006c0029000000",
+   "text": "EQPro-G6 总线 A2（物理）",
+   "kind": "W",
+   "src": "EQPro-G6 BUS A2 (Physical)"
+  },
+  {
+   "rva": 1392768,
+   "bytes": "45005100500072006f002d004700360020003b60bf7e20004100330008ff6972067409ff0000",
+   "orig": "45005100500072006f002d004700360020004200550053002000410033002000280050006800790073006900630061006c0029000000",
+   "text": "EQPro-G6 总线 A3（物理）",
+   "kind": "W",
+   "src": "EQPro-G6 BUS A3 (Physical)"
+  },
+  {
+   "rva": 1392936,
+   "bytes": "45005100500072006f002d004700360020003b60bf7e20004200310008ff5a86df6209ff0000",
+   "orig": "45005100500072006f002d00470036002000420055005300200042003100200028005600690072007400750061006c0029000000",
+   "text": "EQPro-G6 总线 B1（虚拟）",
+   "kind": "W",
+   "src": "EQPro-G6 BUS B1 (Virtual)"
+  },
+  {
+   "rva": 1392992,
+   "bytes": "45005100500072006f002d004700360020003b60bf7e20004200320008ff5a86df6209ff0000",
+   "orig": "45005100500072006f002d00470036002000420055005300200042003200200028005600690072007400750061006c0029000000",
+   "text": "EQPro-G6 总线 B2（虚拟）",
+   "kind": "W",
+   "src": "EQPro-G6 BUS B2 (Virtual)"
+  },
+  {
+   "rva": 1393552,
+   "bytes": "d4d8c8eb20455120c9e8d6c300",
+   "orig": "4c6f61642045512053657474696e677300",
+   "text": "载入 EQ 设置",
+   "kind": "A",
+   "src": "Load EQ Settings"
+  },
+  {
+   "rva": 1393576,
+   "bytes": "b1a3b4e620455120c9e8d6c300",
+   "orig": "536176652045512053657474696e677300",
+   "text": "保存 EQ 设置",
+   "kind": "A",
+   "src": "Save EQ Settings"
+  },
+  {
+   "rva": 1393600,
+   "bytes": "c1bfb3cc3a202d313820d6c1202b313820644200",
+   "orig": "5363616c653a202d313820746f202b313820644200",
+   "text": "量程: -18 至 +18 dB",
+   "kind": "A",
+   "src": "Scale: -18 to +18 dB"
+  },
+  {
+   "rva": 1393624,
+   "bytes": "c1bfb3cc3a202d333620d6c1202b313820644200",
+   "orig": "5363616c653a202d333620746f202b313820644200",
+   "text": "量程: -36 至 +18 dB",
+   "kind": "A",
+   "src": "Scale: -36 to +18 dB"
+  },
+  {
+   "rva": 1393648,
+   "bytes": "c1bfb3cc3a202d353420d6c1202b323420644200",
+   "orig": "5363616c653a202d353420746f202b323420644200",
+   "text": "量程: -54 至 +24 dB",
+   "kind": "A",
+   "src": "Scale: -54 to +24 dB"
+  },
+  {
+   "rva": 1393672,
+   "bytes": "c1bfb3cc3a202d373220d6c1202b333020644200",
+   "orig": "5363616c653a202d373220746f202b333020644200",
+   "text": "量程: -72 至 +30 dB",
+   "kind": "A",
+   "src": "Scale: -72 to +30 dB"
+  },
+  {
+   "rva": 1394148,
+   "bytes": "d7dccfdf423200",
+   "orig": "42555320423200",
+   "text": "总线B2",
+   "kind": "A",
+   "src": "BUS B2"
+  },
+  {
+   "rva": 1394156,
+   "bytes": "d7dccfdf423100",
+   "orig": "42555320423100",
+   "text": "总线B1",
+   "kind": "A",
+   "src": "BUS B1"
+  },
+  {
+   "rva": 1394180,
+   "bytes": "d7dccfdf413300",
+   "orig": "42555320413300",
+   "text": "总线A3",
+   "kind": "A",
+   "src": "BUS A3"
+  },
+  {
+   "rva": 1394188,
+   "bytes": "d7dccfdf413200",
+   "orig": "42555320413200",
+   "text": "总线A2",
+   "kind": "A",
+   "src": "BUS A2"
+  },
+  {
+   "rva": 1394196,
+   "bytes": "d7dccfdf413100",
+   "orig": "42555320413100",
+   "text": "总线A1",
+   "kind": "A",
+   "src": "BUS A1"
+  },
+  {
+   "rva": 1394212,
+   "bytes": "cae4c8eb00",
+   "orig": "496e70757400",
+   "text": "输入",
+   "kind": "A",
+   "src": "Input"
+  },
+  {
+   "rva": 1394256,
+   "bytes": "cae4c8eb203300",
+   "orig": "496e70757420233300",
+   "text": "输入 3",
+   "kind": "A",
+   "src": "Input #3"
+  },
+  {
+   "rva": 1394272,
+   "bytes": "cae4c8eb203200",
+   "orig": "496e70757420233200",
+   "text": "输入 2",
+   "kind": "A",
+   "src": "Input #2"
+  },
+  {
+   "rva": 1394288,
+   "bytes": "cae4c8eb203100",
+   "orig": "496e70757420233100",
+   "text": "输入 1",
+   "kind": "A",
+   "src": "Input #1"
+  },
+  {
+   "rva": 1394304,
+   "bytes": "ceefc0ed00",
+   "orig": "506879736963616c00",
+   "text": "物理",
+   "kind": "A",
+   "src": "Physical"
+  },
+  {
+   "rva": 1394320,
+   "bytes": "c4bfb1eac4bfc2bc3a00",
+   "orig": "546172676574204469726563746f72793a00",
+   "text": "目标目录:",
+   "kind": "A",
+   "src": "Target Directory:"
+  },
+  {
+   "rva": 1394344,
+   "bytes": "cec4bcfec3fbc7b0d7ba3a00",
+   "orig": "507265666978204e616d653a00",
+   "text": "文件名前缀:",
+   "kind": "A",
+   "src": "Prefix Name:"
+  },
+  {
+   "rva": 1394360,
+   "bytes": "d4a4c2bcd2f4cab1bce4a3a8d7eeb3a420256920c3eba3a93a00",
+   "orig": "507265205265636f7264696e672054696d652028256973206d6178293a00",
+   "text": "预录音时间（最长 %i 秒）:",
+   "kind": "A",
+   "src": "Pre Recording Time (%is max):"
+  },
+  {
+   "rva": 1394400,
+   "bytes": "cec4bcfec0e0d0cd3a00",
+   "orig": "46696c6520547970653a00",
+   "text": "文件类型:",
+   "kind": "A",
+   "src": "File Type:"
+  },
+  {
+   "rva": 1394416,
+   "bytes": "b2c9d1f9c2ca3a00",
+   "orig": "53616d706c6520526174653a00",
+   "text": "采样率:",
+   "kind": "A",
+   "src": "Sample Rate:"
+  },
+  {
+   "rva": 1394456,
+   "bytes": "256920cebb00",
+   "orig": "2569204269747300",
+   "text": "%i 位",
+   "kind": "A",
+   "src": "%i Bits"
+  },
+  {
+   "rva": 1394464,
+   "bytes": "c9f9b5c0cafd3a00",
+   "orig": "4368616e6e656c733a00",
+   "text": "声道数:",
+   "kind": "A",
+   "src": "Channels:"
+  },
+  {
+   "rva": 1394480,
+   "bytes": "b1c8ccd8c2ca3a00",
+   "orig": "42697420526174653a00",
+   "text": "比特率:",
+   "kind": "A",
+   "src": "Bit Rate:"
+  },
+  {
+   "rva": 1394504,
+   "bytes": "b6e0b9ecd1a1cfee203e20c9fab3c920256920b8f6b5a5c9f9b5c020257320cec4bcfe3a00",
+   "orig": "4d554c5449545241434b204f5054494f4e203e2047656e657261746573202569204d6f6e6f2025732066696c65733a00",
+   "text": "多轨选项 > 生成 %i 个单声道 %s 文件:",
+   "kind": "A",
+   "src": "MULTITRACK OPTION > Generates %i Mono %s files:"
+  },
+  {
+   "rva": 1394560,
+   "bytes": "d4d8c8ebbaf3b2a5b7c53a00",
+   "orig": "506c6179204f6e204c6f61643a00",
+   "text": "载入后播放:",
+   "kind": "A",
+   "src": "Play On Load:"
+  },
+  {
+   "rva": 1394576,
+   "bytes": "d1adbbb73a00",
+   "orig": "4c6f6f703a00",
+   "text": "循环:",
+   "kind": "A",
+   "src": "Loop:"
+  },
+  {
+   "rva": 1394584,
+   "bytes": "b2a5b7c500",
+   "orig": "506c61796261636b00",
+   "text": "播放",
+   "kind": "A",
+   "src": "Playback"
+  },
+  {
+   "rva": 1394608,
+   "bytes": "cda3d6b9c2bcd2f43a00",
+   "orig": "53746f70205265636f72643a00",
+   "text": "停止录音:",
+   "kind": "A",
+   "src": "Stop Record:"
+  },
+  {
+   "rva": 1394624,
+   "bytes": "cab1b3a4d6aebaf33a00",
+   "orig": "4166746572204475726174696f6e3a00",
+   "text": "时长之后:",
+   "kind": "A",
+   "src": "After Duration:"
+  },
+  {
+   "rva": 1394696,
+   "bytes": "0990e962ee7607688765f64e39590000",
+   "orig": "530065006c006500630074002000540061007200670065007400200046006f006c006400650072000000",
+   "text": "选择目标文件夹",
+   "kind": "W",
+   "src": "Select Target Folder"
+  },
+  {
+   "rva": 1394744,
+   "bytes": "c2bcd2f4bbfad1a1cfee00",
+   "orig": "5265636f72646572204f7074696f6e7300",
+   "text": "录音机选项",
+   "kind": "A",
+   "src": "Recorder Options"
+  },
+  {
+   "rva": 1394764,
+   "bytes": "cfb5cdb300",
+   "orig": "53797374656d00",
+   "text": "系统",
+   "kind": "A",
+   "src": "System"
+  },
+  {
+   "rva": 1394796,
+   "bytes": "d6d8d6c300",
+   "orig": "526573657400",
+   "text": "重置",
+   "kind": "A",
+   "src": "Reset"
+  },
+  {
+   "rva": 1398392,
+   "bytes": "d0e9c4e2cae4c8eb203200",
+   "orig": "5669727475616c20496e20233200",
+   "text": "虚拟输入 2",
+   "kind": "A",
+   "src": "Virtual In #2"
+  },
+  {
+   "rva": 1398408,
+   "bytes": "d0e9c4e2cae4c8eb203100",
+   "orig": "5669727475616c20496e20233100",
+   "text": "虚拟输入 1",
+   "kind": "A",
+   "src": "Virtual In #1"
+  },
+  {
+   "rva": 1398440,
+   "bytes": "cae4c8eb3300",
+   "orig": "496e20233300",
+   "text": "输入3",
+   "kind": "A",
+   "src": "In #3"
+  },
+  {
+   "rva": 1398448,
+   "bytes": "cae4c8eb3200",
+   "orig": "496e20233200",
+   "text": "输入2",
+   "kind": "A",
+   "src": "In #2"
+  },
+  {
+   "rva": 1398456,
+   "bytes": "cae4c8eb3100",
+   "orig": "496e20233100",
+   "text": "输入1",
+   "kind": "A",
+   "src": "In #1"
+  },
+  {
+   "rva": 1399000,
+   "bytes": "2028363420cebb2900",
+   "orig": "2028363420626974732900",
+   "text": " (64 位)",
+   "kind": "A",
+   "src": " (64 bits)"
+  },
+  {
+   "rva": 1399016,
+   "bytes": "5641494f20c0a9d5b9b9a6c4dccadac8a800",
+   "orig": "4578747261205641494f2046656174757265204c6963656e736500",
+   "text": "VAIO 扩展功能授权",
+   "kind": "A",
+   "src": "Extra VAIO Feature License"
+  },
+  {
+   "rva": 1399128,
+   "bytes": "b7b4c0a1d6b520bfaa3a00",
+   "orig": "466565646261636b2056616c7565204f4e3a00",
+   "text": "反馈值 开:",
+   "kind": "A",
+   "src": "Feedback Value ON:"
+  },
+  {
+   "rva": 1399152,
+   "bytes": "b7b4c0a1d6b520b9d83a00",
+   "orig": "466565646261636b2056616c7565204f46463a00",
+   "text": "反馈值 关:",
+   "kind": "A",
+   "src": "Feedback Value OFF:"
+  },
+  {
+   "rva": 1399176,
+   "bytes": "b7b4c0a1cffbcfa220bfaaa3a848455841a3a93a00",
+   "orig": "466565646261636b204d657373616765204f4e202848455841293a00",
+   "text": "反馈消息 开（HEXA）:",
+   "kind": "A",
+   "src": "Feedback Message ON (HEXA):"
+  },
+  {
+   "rva": 1399208,
+   "bytes": "b7b4c0a1cffbcfa220b9d8a3a848455841a3a93a00",
+   "orig": "466565646261636b204d657373616765204f4646202848455841293a00",
+   "text": "反馈消息 关（HEXA）:",
+   "kind": "A",
+   "src": "Feedback Message OFF (HEXA):"
+  },
+  {
+   "rva": 1399240,
+   "bytes": "4d49444920b7b4c0a1d1a1cfee2e2e2e00",
+   "orig": "4d49444920466565646261636b204f7074696f6e732e2e2e00",
+   "text": "MIDI 反馈选项...",
+   "kind": "A",
+   "src": "MIDI Feedback Options..."
+  },
+  {
+   "rva": 1399284,
+   "bytes": "d1a7cfb000",
+   "orig": "4c6561726e00",
+   "text": "学习",
+   "kind": "A",
+   "src": "Learn"
+  },
+  {
+   "rva": 1399304,
+   "bytes": "cfc2d2bbd2b3203e3e00",
+   "orig": "4e6578742050616765203e3e00",
+   "text": "下一页 >>",
+   "kind": "A",
+   "src": "Next Page >>"
+  },
+  {
+   "rva": 1399320,
+   "bytes": "3c3c20c9cfd2bbd2b300",
+   "orig": "3c3c20507265762e205061676500",
+   "text": "<< 上一页",
+   "kind": "A",
+   "src": "<< Prev. Page"
+  },
+  {
+   "rva": 1399336,
+   "bytes": "d4d8c8eb00",
+   "orig": "4c6f616400",
+   "text": "载入",
+   "kind": "A",
+   "src": "Load"
+  },
+  {
+   "rva": 1399344,
+   "bytes": "4d49444920d3b3c9e400",
+   "orig": "4d2e492e442e492e204d617000",
+   "text": "MIDI 映射",
+   "kind": "A",
+   "src": "M.I.D.I. Map"
+  },
+  {
+   "rva": 1399360,
+   "bytes": "b1a3b4e600",
+   "orig": "5361766500",
+   "text": "保存",
+   "kind": "A",
+   "src": "Save"
+  },
+  {
+   "rva": 1399368,
+   "bytes": "bfd8d6c6c6f700",
+   "orig": "436f6e74726f6c6c657200",
+   "text": "控制器",
+   "kind": "A",
+   "src": "Controller"
+  },
+  {
+   "rva": 1399384,
+   "bytes": "4d49444920cae4c8ebc9e8b1b83a00",
+   "orig": "4d2e492e442e492e20496e707574204465766963653a00",
+   "text": "MIDI 输入设备:",
+   "kind": "A",
+   "src": "M.I.D.I. Input Device:"
+  },
+  {
+   "rva": 1399408,
+   "bytes": "ceb4d1a1d4f100",
+   "orig": "4e6f742053656c656374656400",
+   "text": "未选择",
+   "kind": "A",
+   "src": "Not Selected"
+  },
+  {
+   "rva": 1399424,
+   "bytes": "4d49444920d3b3c9e4c3fbb3c63a00",
+   "orig": "4d2e492e442e492e204d6170204e616d653a00",
+   "text": "MIDI 映射名称:",
+   "kind": "A",
+   "src": "M.I.D.I. Map Name:"
+  },
+  {
+   "rva": 1399448,
+   "bytes": "4d49444920cae4b3f6c9e8b1b8a3a8b7b4c0a1a3a93a00",
+   "orig": "4d2e492e442e492e204f7574707574204465766963652028666565646261636b293a00",
+   "text": "MIDI 输出设备（反馈）:",
+   "kind": "A",
+   "src": "M.I.D.I. Output Device (feedback):"
+  },
+  {
+   "rva": 1399488,
+   "bytes": "4d49444920b8bdbcd3cae4c8ebc9e8b1b83a00",
+   "orig": "4d2e492e442e492e20457874726120496e707574204465766963653a00",
+   "text": "MIDI 附加输入设备:",
+   "kind": "A",
+   "src": "M.I.D.I. Extra Input Device:"
+  },
+  {
+   "rva": 1399520,
+   "bytes": "5642414e204d49444920cae4c8eb00",
+   "orig": "5642414e204d2e492e442e492e20696e70757400",
+   "text": "VBAN MIDI 输入",
+   "kind": "A",
+   "src": "VBAN M.I.D.I. input"
+  },
+  {
+   "rva": 1399560,
+   "bytes": "2d20cede204d494449202d00",
+   "orig": "2d204e6f204d696469202d00",
+   "text": "- 无 MIDI -",
+   "kind": "A",
+   "src": "- No Midi -"
+  },
+  {
+   "rva": 1399576,
+   "bytes": "dd4f585b535f4d5220004d0049004400490020002066045c2e002e002e000000",
+   "orig": "53006100760065002000430075007200720065006e00740020004d002e0049002e0044002e0049002e0020004d00610070002e002e002e000000",
+   "text": "保存当前 MIDI 映射...",
+   "kind": "W",
+   "src": "Save Current M.I.D.I. Map..."
+  },
+  {
+   "rva": 1399808,
+   "bytes": "7d8f655120004d0049004400490020002066045c2e002e002e000000",
+   "orig": "4c006f006100640020004d002e0049002e0044002e0049002e0020004d00610070002e002e002e000000",
+   "text": "载入 MIDI 映射...",
+   "kind": "W",
+   "src": "Load M.I.D.I. Map..."
+  },
+  {
+   "rva": 1399880,
+   "bytes": "d6d8d6c3d3b3c9e400",
+   "orig": "5265736574204d617000",
+   "text": "重置映射",
+   "kind": "A",
+   "src": "Reset Map"
+  },
+  {
+   "rva": 1399904,
+   "bytes": "bcb4bdabd6d8d6c3204d49444920d3b3c9e4a3ac20202020202020202020202020202020202020200acac7b7f1bcccd0f8a3bf2020202020202020202020202020",
+   "orig": "596f75206172652061626f757420746f207265736574204d2e492e442e492e204d617070696e672c0a446f20796f752077616e7420746f20636f6e74696e75653f",
+   "text": "即将重置 MIDI 映射， / 是否继续？",
+   "kind": "ML",
+   "src": "You are about to reset M.I.D.I. Mapping,\nDo you want to continue?"
+  },
+  {
+   "rva": 1399976,
+   "bytes": "bfd8d6c6c0e0d0cd3a20cfdfd0d4a3a8b3a3b9e6a3a900",
+   "orig": "436f6e74726f6c20547970653a204c696e6561722028726567756c61722900",
+   "text": "控制类型: 线性（常规）",
+   "kind": "A",
+   "src": "Control Type: Linear (regular)"
+  },
+  {
+   "rva": 1400008,
+   "bytes": "bfd8d6c6c0e0d0cd3a20b1e0c2ebc6f7c6abd2c600",
+   "orig": "436f6e74726f6c20547970653a20436f646572206f666673657400",
+   "text": "控制类型: 编码器偏移",
+   "kind": "A",
+   "src": "Control Type: Coder offset"
+  },
+  {
+   "rva": 1400040,
+   "bytes": "bfd8d6c6c0e0d0cd3a20b1e0c2ebc6f7b7fbbac5cebba3a84d61636b6965a3a900",
+   "orig": "436f6e74726f6c20547970653a20436f646572207369676e2062697420284d61636b69652900",
+   "text": "控制类型: 编码器符号位（Mackie）",
+   "kind": "A",
+   "src": "Control Type: Coder sign bit (Mackie)"
+  },
+  {
+   "rva": 1400080,
+   "bytes": "4d49444920d3b3c9e400",
+   "orig": "4d2e492e442e492e204d617070696e6700",
+   "text": "MIDI 映射",
+   "kind": "A",
+   "src": "M.I.D.I. Mapping"
+  },
+  {
+   "rva": 1401080,
+   "bytes": "bfec00",
+   "orig": "4661737400",
+   "text": "快",
+   "kind": "A",
+   "src": "Fast"
+  },
+  {
+   "rva": 1401088,
+   "bytes": "d6d000",
+   "orig": "4d656469756d00",
+   "text": "中",
+   "kind": "A",
+   "src": "Medium"
+  },
+  {
+   "rva": 1401096,
+   "bytes": "c2fd00",
+   "orig": "536c6f7700",
+   "text": "慢",
+   "kind": "A",
+   "src": "Slow"
+  },
+  {
+   "rva": 1401104,
+   "bytes": "badcc2fd00",
+   "orig": "5665727920536c6f7700",
+   "text": "很慢",
+   "kind": "A",
+   "src": "Very Slow"
+  },
+  {
+   "rva": 1401120,
+   "bytes": "c8ced2e2b5d8d6b700",
+   "orig": "416e79206164647265737300",
+   "text": "任意地址",
+   "kind": "A",
+   "src": "Any address"
+  },
+  {
+   "rva": 1401136,
+   "bytes": "d4b6b3cc00",
+   "orig": "52656d6f74696e6700",
+   "text": "远程",
+   "kind": "A",
+   "src": "Remoting"
+  },
+  {
+   "rva": 1401208,
+   "bytes": "55445020b6cbbfda3a00",
+   "orig": "55445020506f72743a00",
+   "text": "UDP 端口:",
+   "kind": "A",
+   "src": "UDP Port:"
+  },
+  {
+   "rva": 1401224,
+   "bytes": "d6f7c1f700",
+   "orig": "4d61696e2053747265616d00",
+   "text": "主流",
+   "kind": "A",
+   "src": "Main Stream"
+  },
+  {
+   "rva": 1401240,
+   "bytes": "bcecb2e2b5bd20256920b8f6c1f700",
+   "orig": "25692053747265616d20446574656374656400",
+   "text": "检测到 %i 个流",
+   "kind": "A",
+   "src": "%i Stream Detected"
+  },
+  {
+   "rva": 1401264,
+   "bytes": "bcecb2e2b5bd20256920b8f6c1f700",
+   "orig": "25692053747265616d7320446574656374656400",
+   "text": "检测到 %i 个流",
+   "kind": "A",
+   "src": "%i Streams Detected"
+  },
+  {
+   "rva": 1401328,
+   "bytes": "c1f7c3fbb3c63a00",
+   "orig": "53747265616d204e616d653a00",
+   "text": "流名称:",
+   "kind": "A",
+   "src": "Stream Name:"
+  },
+  {
+   "rva": 1401384,
+   "bytes": "b2c9d1f9c2ca3a00",
+   "orig": "53616d706c6572526174653a00",
+   "text": "采样率:",
+   "kind": "A",
+   "src": "SamplerRate:"
+  },
+  {
+   "rva": 1401400,
+   "bytes": "cdf8c2e7d6cac1bf3a00",
+   "orig": "4e6574205175616c6974793a00",
+   "text": "网络质量:",
+   "kind": "A",
+   "src": "Net Quality:"
+  },
+  {
+   "rva": 1401416,
+   "bytes": "c4bfb1ea3a00",
+   "orig": "44657374696e6174696f6e3a00",
+   "text": "目标:",
+   "kind": "A",
+   "src": "Destination:"
+  },
+  {
+   "rva": 1401456,
+   "bytes": "c4bfb1ea20495020b5d8d6b73a00",
+   "orig": "4950204164647265737320546f3a00",
+   "text": "目标 IP 地址:",
+   "kind": "A",
+   "src": "IP Address To:"
+  },
+  {
+   "rva": 1401472,
+   "bytes": "b2b6bbf1caf3b1eab9e2b1ea00",
+   "orig": "43617074757265204d6f75736520437572636f7200",
+   "text": "捕获鼠标光标",
+   "kind": "A",
+   "src": "Capture Mouse Curcor"
+  },
+  {
+   "rva": 1401496,
+   "bytes": "256920c9f9b5c000",
+   "orig": "2569206368616e6e656c7300",
+   "text": "%i 声道",
+   "kind": "A",
+   "src": "%i channels"
+  },
+  {
+   "rva": 1401520,
+   "bytes": "2028256920487a2c20256920c9f9b5c02900",
+   "orig": "2028256920487a2c202569206368616e6e656c732900",
+   "text": " (%i Hz, %i 声道)",
+   "kind": "A",
+   "src": " (%i Hz, %i channels)"
+  },
+  {
+   "rva": 1401544,
+   "bytes": "cab9d3c3b5c420495020b5d8d6b73a2025692e25692e25692e256900",
+   "orig": "49502d4164647265737320757365643a2025692e25692e25692e256900",
+   "text": "使用的 IP 地址: %i.%i.%i.%i",
+   "kind": "A",
+   "src": "IP-Address used: %i.%i.%i.%i"
+  },
+  {
+   "rva": 1401576,
+   "bytes": "cab9d3c3b5c420495020b5d8d6b73a20ceb4d5d2b5bda1a300",
+   "orig": "49502d4164647265737320757365643a206e6f7420666f756e642e00",
+   "text": "使用的 IP 地址: 未找到。",
+   "kind": "A",
+   "src": "IP-Address used: not found."
+  },
+  {
+   "rva": 1401608,
+   "bytes": "bcc7c2bccafdbeddb0fccab1d0f200",
+   "orig": "4c6f67205061636b65742054696d696e6700",
+   "text": "记录数据包时序",
+   "kind": "A",
+   "src": "Log Packet Timing"
+  },
+  {
+   "rva": 1401632,
+   "bytes": "b1a3b4e6b5b1c7b0c8d5d6be00",
+   "orig": "536176652043757272656e74204c6f6700",
+   "text": "保存当前日志",
+   "kind": "A",
+   "src": "Save Current Log"
+  },
+  {
+   "rva": 1401656,
+   "bytes": "cda3d6b9bcc7c2bc00",
+   "orig": "53746f70204c6f6700",
+   "text": "停止记录",
+   "kind": "A",
+   "src": "Stop Log"
+  },
+  {
+   "rva": 1401680,
+   "bytes": "dd4f585b535f4d5220005600420041004e0020004d916e7f2e002e002e000000",
+   "orig": "53006100760065002000430075007200720065006e00740020005600420041004e00200043006f006e00660069006700750072006100740069006f006e002e002e002e000000",
+   "text": "保存当前 VBAN 配置...",
+   "kind": "W",
+   "src": "Save Current VBAN Configuration..."
+  },
+  {
+   "rva": 1401920,
+   "bytes": "7d8f655120005600420041004e0020004d916e7f2e002e002e000000",
+   "orig": "4c006f006100640020005600420041004e00200043006f006e00660069006700750072006100740069006f006e002e002e002e000000",
+   "text": "载入 VBAN 配置...",
+   "kind": "W",
+   "src": "Load VBAN Configuration..."
+  },
+  {
+   "rva": 1402072,
+   "bytes": "c1f7b1eacab6b3e5cdbb00",
+   "orig": "53747265616d204964656e74696669636174696f6e20436f6e666c69637400",
+   "text": "流标识冲突",
+   "kind": "A",
+   "src": "Stream Identification Conflict"
+  },
+  {
+   "rva": 1402112,
+   "bytes": "b4cbb4abc8ebc1f7d2d1b1bbcab9d3c3a1a3202020202020202020202020202020202020200ac7ebbcecb2e9b4abc8ebc1f7c1d0b1eda1a320202020202020202020202020200ab2a2b7a2c1f7bdabcedeb7a8d5fdb3a3b9a4d7f72e2e2e2020202020202020202020202020202020200a",
+   "orig": "5468697320496e636f6d696e672053747265616d20697320616c726561647920757365642e0a436865636b20796f757220696e636f6d696e672073747265616d206c6973742e0a436f6e63757272656e742053747265616d20776f6e277420776f726b20636f72726563746c792e2e2e0a",
+   "text": "此传入流已被使用。 / 请检查传入流列表。 / 并发流将无法正常工作... / ",
+   "kind": "ML",
+   "src": "This Incoming Stream is already used.\nCheck your incoming stream list.\nConcurrent Stream won't work correctly...\n"
+  },
+  {
+   "rva": 1402240,
+   "bytes": "c1edd2bbb8f6b4abb3f6c1f7d2d1cab9d3c3cfe0cdacc3fbb3c6a3ac202020202020202020202020202020202020202020200ac7d2cebbd3dacfe0cdac20495020b5d8d6b7a3a8b9e3b2a5cab1ceaacfe0cdac20495020b6cea3a9a3ac2020202020202020202020202020200ac7ebcae4c8ebc6e4cbfc20495020b5d8d6b7bbf2c3fbb3c62e2e2e2020202020202020202020202020200a",
+   "orig": "416e6f74686572204f7574676f696e672053747265616d2068617320616c7265616479207468652073616d65206e616d652c0a6f6e207468652073616d65204950206164647265737320286f722073616d652049502072616e67652069662062726f6164636173746564292c0a506c6561736520656e74657220616e6f746865722049502041646472657373206f72204e616d652e2e2e0a",
+   "text": "另一个传出流已使用相同名称， / 且位于相同 IP 地址（广播时为相同 IP 段）， / 请输入其它 IP 地址或名称... / ",
+   "kind": "ML",
+   "src": "Another Outgoing Stream has already the same name,\non the same IP address (or same IP range if broadcasted),\nPlease enter another IP Address or Name...\n"
+  },
+  {
+   "rva": 1402400,
+   "bytes": "d6d8d6c3205642414e00",
+   "orig": "5265736574205642414e00",
+   "text": "重置 VBAN",
+   "kind": "A",
+   "src": "Reset VBAN"
+  },
+  {
+   "rva": 1402416,
+   "bytes": "bcb4bdabd6d8d6c3205642414e20c5e4d6c320202020202020202020202020202020202020202020200acac7b7f1bcccd0f8a3bf2020202020202020202020202020",
+   "orig": "596f75206172652061626f757420746f207265736574205642414e20436f6e66696775726174696f6e0a446f20796f752077616e7420746f20636f6e74696e75653f",
+   "text": "即将重置 VBAN 配置 / 是否继续？",
+   "kind": "ML",
+   "src": "You are about to reset VBAN Configuration\nDo you want to continue?"
+  },
+  {
+   "rva": 1402496,
+   "bytes": "b4cbb4abc8ebc1f7d2d1d4dacab9d3c3d6d0a1a3202020202020202020202020202020202020200ac7ebbcecb2e9b4abc8ebc1f7c1d0b1eda1a320202020202020202020202020200ab2a2b7a2c1f7bdabcedeb7a8d5fdb3a3b9a4d7f72e2e2e2020202020202020202020202020202020200a",
+   "orig": "5468697320496e636f6d696e672053747265616d20697320616c726561647920696e207573652e0a436865636b20796f757220696e636f6d696e672073747265616d206c6973742e0a436f6e63757272656e742053747265616d20776f6e277420776f726b20636f72726563746c792e2e2e0a",
+   "text": "此传入流已在使用中。 / 请检查传入流列表。 / 并发流将无法正常工作... / ",
+   "kind": "ML",
+   "src": "This Incoming Stream is already in use.\nCheck your incoming stream list.\nConcurrent Stream won't work correctly...\n"
+  },
+  {
+   "rva": 1402624,
+   "bytes": "c1edd2bbb8f6b4abb3f6c1f7d2d1cab9d3c3cfe0cdacc3fbb3c6a3ac202020202020202020202020202020202020202020200ac7d2cebbd3dacfe0cdac20495020b5d8d6b7a3a8b9e3b2a5cab1ceaacfe0cdac20495020b6cea3a9a3ac2020202020202020202020202020200ac7ebcae4c8ebc6e4cbfcc3fbb3c6a3a8bbf220495020b5d8d6b7a3a92e2e2e202020202020202020202020200a",
+   "orig": "416e6f74686572204f7574676f696e672053747265616d2068617320616c7265616479207468652073616d65206e616d652c0a6f6e207468652073616d65204950206164647265737320286f722073616d652049502072616e67652069662062726f6164636173746564292c0a506c6561736520656e74657220616e6f74686572204e616d6520286f722049502041646472657373292e2e2e0a",
+   "text": "另一个传出流已使用相同名称， / 且位于相同 IP 地址（广播时为相同 IP 段）， / 请输入其它名称（或 IP 地址）... / ",
+   "kind": "ML",
+   "src": "Another Outgoing Stream has already the same name,\non the same IP address (or same IP range if broadcasted),\nPlease enter another Name (or IP Address)...\n"
+  },
+  {
+   "rva": 1402808,
+   "bytes": "d6f7bbfac3fb3a20257300",
+   "orig": "486f73746e616d653a20257300",
+   "text": "主机名: %s",
+   "kind": "A",
+   "src": "Hostname: %s"
+  },
+  {
+   "rva": 1402824,
+   "bytes": "c9e8b1b83a20257300",
+   "orig": "4465766963653a20257300",
+   "text": "设备: %s",
+   "kind": "A",
+   "src": "Device: %s"
+  },
+  {
+   "rva": 1402840,
+   "bytes": "b3ccd0f23a20257300",
+   "orig": "4170706c69636174696f6e3a20257300",
+   "text": "程序: %s",
+   "kind": "A",
+   "src": "Application: %s"
+  },
+  {
+   "rva": 1402856,
+   "bytes": "d3efd1d4202f20b9fabcd23a20257300",
+   "orig": "4c616e6775616765202f20436f756e7472793a20257300",
+   "text": "语言 / 国家: %s",
+   "kind": "A",
+   "src": "Language / Country: %s"
+  },
+  {
+   "rva": 1402880,
+   "bytes": "cab1bce4b4c13a20253032693a253032693a2530326900",
+   "orig": "54696d655374616d703a20253032693a253032693a2530326900",
+   "text": "时间戳: %02i:%02i:%02i",
+   "kind": "A",
+   "src": "TimeStamp: %02i:%02i:%02i"
+  },
+  {
+   "rva": 1402912,
+   "bytes": "cab1bce4b4c13a20253034692d25732d25303269202f20253032693a253032693a2530326900",
+   "orig": "54696d655374616d703a20253034692d25732d25303269202f20253032693a253032693a2530326900",
+   "text": "时间戳: %04i-%s-%02i / %02i:%02i:%02i",
+   "kind": "A",
+   "src": "TimeStamp: %04i-%s-%02i / %02i:%02i:%02i"
+  },
+  {
+   "rva": 1402960,
+   "bytes": "b7a2cbcd205642414e2d50696e672e2e2e00",
+   "orig": "53656e64205642414e2d50696e672e2e2e00",
+   "text": "发送 VBAN-Ping...",
+   "kind": "A",
+   "src": "Send VBAN-Ping..."
+  },
+  {
+   "rva": 1403000,
+   "bytes": "2e2e2e20d5fdd4dacbd1cbf720495020b5d8d6b72e2e2e00",
+   "orig": "2e2e2e20536561726368696e6720495020416464726573732e2e2e00",
+   "text": "... 正在搜索 IP 地址...",
+   "kind": "A",
+   "src": "... Searching IP Address..."
+  },
+  {
+   "rva": 1403032,
+   "bytes": "d6d8cad4bde2cef620495020b5d8d6b72e2e2e00",
+   "orig": "526574727920746f207265736f6c766520495020416464726573732e2e2e00",
+   "text": "重试解析 IP 地址...",
+   "kind": "A",
+   "src": "Retry to resolve IP Address..."
+  },
+  {
+   "rva": 1403084,
+   "bytes": "6851e890200028002a002e002a0029000000",
+   "orig": "41006c006c00200028002a002e002a0029000000",
+   "text": "全部 (*.*)",
+   "kind": "W",
+   "src": "All (*.*)"
+  },
+  {
+   "rva": 1403120,
+   "bytes": "dd4f585b535f4d52e565d75f2e002e002e000000",
+   "orig": "53006100760065002000430075007200720065006e00740020004c006f0067002e002e002e000000",
+   "text": "保存当前日志...",
+   "kind": "W",
+   "src": "Save Current Log..."
+  },
+  {
+   "rva": 1403176,
+   "bytes": "56422d417564696f20cdf8c2e7c5e4d6c300",
+   "orig": "56422d417564696f204e6574776f726b20436f6e66696775726174696f6e00",
+   "text": "VB-Audio 网络配置",
+   "kind": "A",
+   "src": "VB-Audio Network Configuration"
+  },
+  {
+   "rva": 1403336,
+   "bytes": "cfb5cdb3bcc6cab1c6f7beabb6c83a2025302e3366206d7300",
+   "orig": "53797374656d2054696d6572205265736f6c7574696f6e3a2025302e3366206d7300",
+   "text": "系统计时器精度: %0.3f ms",
+   "kind": "A",
+   "src": "System Timer Resolution: %0.3f ms"
+  },
+  {
+   "rva": 1403376,
+   "bytes": "d2f4c6b5bddab5e33a00",
+   "orig": "417564696f20506f696e74733a00",
+   "text": "音频节点:",
+   "kind": "A",
+   "src": "Audio Points:"
+  },
+  {
+   "rva": 1403392,
+   "bytes": "d3b2bcfecae4c8eb2025693a00",
+   "orig": "486172647761726520496e707574202325693a00",
+   "text": "硬件输入 %i:",
+   "kind": "A",
+   "src": "Hardware Input #%i:"
+  },
+  {
+   "rva": 1403416,
+   "bytes": "d3b2bcfecae4b3f6204125693a00",
+   "orig": "4861726477617265204f7574707574204125693a00",
+   "text": "硬件输出 A%i:",
+   "kind": "A",
+   "src": "Hardware Output A%i:"
+  },
+  {
+   "rva": 1403440,
+   "bytes": "d0e9c4e220492f4f3a00",
+   "orig": "5669727475616c20492f4f3a00",
+   "text": "虚拟 I/O:",
+   "kind": "A",
+   "src": "Virtual I/O:"
+  },
+  {
+   "rva": 1403520,
+   "bytes": "c1f72025693a00",
+   "orig": "53747265616d202325693a00",
+   "text": "流 %i:",
+   "kind": "A",
+   "src": "Stream #%i:"
+  },
+  {
+   "rva": 1403600,
+   "bytes": "d2f4c6b520514f5320cdb3bcc62e2e2e00",
+   "orig": "415544494f20514f5320537461746973746963732e2e2e00",
+   "text": "音频 QOS 统计...",
+   "kind": "A",
+   "src": "AUDIO QOS Statistics..."
+  },
+  {
+   "rva": 1403624,
+   "bytes": "d7dccfdf206368256900",
+   "orig": "425553206368256900",
+   "text": "总线 ch%i",
+   "kind": "A",
+   "src": "BUS ch%i"
+  },
+  {
+   "rva": 1403856,
+   "bytes": "d6d8d2aabeafb8e600",
+   "orig": "496d706f7274616e74205761726e696e6700",
+   "text": "重要警告",
+   "kind": "A",
+   "src": "Important Warning"
+  },
+  {
+   "rva": 1403888,
+   "bytes": "b8fcb8c4b4cbb2cecafdd0e8d2aad7a8d2b5d6aacab6a1a32020202020202020202020202020202020202020202020202020202020200ac4acc8cfb2cecafdd4a4c6dabfc9d4dac8cebacec5e4d6c3cfc2203130302520d5fdb3a3b9a4d7f7a3a8b4d3203332206b487a20b5bd203438206b487a20b2c9d1f9c2caa3a9a1a320202020202020202020202020202020202020202020202020202020200a0ac8e7b9fbb8fcb8c4b4cbb2cecafdbaf3b3f6cfd6d2f4c6b5cecacce2a3ac2020202020202020202020202020202020202020200abda8d2e9bbd6b8b4c4acc8cfc9e8d6c3a1a32020202020202020202020202020202020202020202020202020",
+   "orig": "4368616e67696e67207468697320706172616d657465722072657175697265732061207370656369666963206578706572746973652e0a44656661756c7420706172616d65746572732061726520657870656374656420746f20776f726b203130302520666f7220616e7920636f6e66696775726174696f6e2866726f6d203332206b487a20746f203438206b487a2073616d706c6572617465292e0a0a496620796f75206368616e6765207468697320706172616d6574657220616e642067657420617564696f2070726f626c656d2c0a7765207265636f6d6d656e6420746f20676f206261636b20746f2064656661756c742073657474696e67732e",
+   "text": "更改此参数需要专业知识。 / 默认参数预期可在任何配置下 100% 正常工作（从 32 kHz 到 48 kHz 采样率）。 /  / 如果更改此参数后出现音频问题， / 建议恢复默认设置。",
+   "kind": "ML",
+   "src": "Changing this parameter requires a specific expertise.\nDefault parameters are expected to work 100% for any configuration(from 32 kHz to 48 kHz samplerate).\n\nIf you change this parameter and get audio problem,\nwe recommend to go back to default settings."
+  },
+  {
+   "rva": 1404144,
+   "bytes": "57444d20d7a8bcd2d1a1cfee00",
+   "orig": "57444d20457870657274204f7074696f6e7300",
+   "text": "WDM 专家选项",
+   "kind": "A",
+   "src": "WDM Expert Options"
+  },
+  {
+   "rva": 1404176,
+   "bytes": "d5e2d0a9d1a1cfeed2d1b1bbbdfbd3c3a1a32020202020202020200ad2fdc7e6c4a3cabdb1d8d0ebb1a3b3d6204e4f524d414c20202020200a57444d20cae4c8ebb6c0d5bcc4a3cabdb1d8d0ebbdfbd3c3a1a3202020202020202020202020202020200a",
+   "orig": "5468657365206f7074696f6e73206172652064697361626c65642e0a456e67696e65204d6f6465206d7573742073746179204e4f524d414c0a57444d20496e707574204578636c7573697665206d6f6465206d7573742062652064697361626c65642e0a",
+   "text": "这些选项已被禁用。 / 引擎模式必须保持 NORMAL / WDM 输入独占模式必须禁用。 / ",
+   "kind": "ML",
+   "src": "These options are disabled.\nEngine Mode must stay NORMAL\nWDM Input Exclusive mode must be disabled.\n"
+  },
+  {
+   "rva": 1404280,
+   "bytes": "d7b4ccac3a20b9d800",
+   "orig": "5374617475733a204f464600",
+   "text": "状态: 关",
+   "kind": "A",
+   "src": "Status: OFF"
+  },
+  {
+   "rva": 1404296,
+   "bytes": "d7b4ccac3a20bfaa00",
+   "orig": "5374617475733a204f4e00",
+   "text": "状态: 开",
+   "kind": "A",
+   "src": "Status: ON"
+  },
+  {
+   "rva": 1404424,
+   "bytes": "566f6963656d656574657220b0e6b1be3a2025732028363420cebb2900",
+   "orig": "566f6963656d65657465722056657273696f6e3a2025732028363420626974732900",
+   "text": "Voicemeeter 版本: %s (64 位)",
+   "kind": "A",
+   "src": "Voicemeeter Version: %s (64 bits)"
+  },
+  {
+   "rva": 1404464,
+   "bytes": "494e256920ceefc0edcae4c8eb20256900",
+   "orig": "494e256920506879736963616c20496e7075742023256900",
+   "text": "IN%i 物理输入 %i",
+   "kind": "A",
+   "src": "IN%i Physical Input #%i"
+  },
+  {
+   "rva": 1404496,
+   "bytes": "e065d56c5362005f938f6551be8b07593a002000250073000000",
+   "orig": "4600610069006c0065006400200074006f0020004f00700065006e00200049006e0070007500740020004400650076006900630065003a002000250073000000",
+   "text": "无法打开输入设备: %s",
+   "kind": "W",
+   "src": "Failed to Open Input Device: %s"
+  },
+  {
+   "rva": 1404560,
+   "bytes": "cae4b3f641256900",
+   "orig": "4f55542041256900",
+   "text": "输出A%i",
+   "kind": "A",
+   "src": "OUT A%i"
+  },
+  {
+   "rva": 1404568,
+   "bytes": "20d6f7c9e8b1b800",
+   "orig": "204d61696e2044657669636500",
+   "text": " 主设备",
+   "kind": "A",
+   "src": " Main Device"
+  },
+  {
+   "rva": 1404864,
+   "bytes": "e065d56c5362005f938ffa51be8b07593a002000250073000000",
+   "orig": "4600610069006c0065006400200074006f0020004f00700065006e0020004f007500740070007500740020004400650076006900630065003a002000250073000000",
+   "text": "无法打开输出设备: %s",
+   "kind": "W",
+   "src": "Failed to Open Output Device: %s"
+  },
+  {
+   "rva": 1405056,
+   "bytes": "938ffa5120004100250069003a000000",
+   "orig": "4f005500540020004100250069003a000000",
+   "text": "输出 A%i:",
+   "kind": "W",
+   "src": "OUT A%i:"
+  },
+  {
+   "rva": 1406096,
+   "bytes": "3a4ea863505b4d52938f65512f542875d263655108ff2500690020001a9053905a86df6220004100530049004f002000719aa85209ff0000",
+   "orig": "41006300740069007600610074006500200049006e007300650072007400200070006500720020005000520045002d0046006100640065007200200049006e007000750074007300200028002500690020006300680061006e006e0065006c00730020007600690072007400750061006c0020004100530049004f00200044007200690076006500720029000000",
+   "text": "为推子前输入启用插入（%i 通道虚拟 ASIO 驱动）",
+   "kind": "W",
+   "src": "Activate Insert per PRE-Fader Inputs (%i channels virtual ASIO Driver)"
+  },
+  {
+   "rva": 1406240,
+   "bytes": "cfb5cdb3c9e8d6c3202f20d1a1cfee2e2e2e00",
+   "orig": "53797374656d2073657474696e6773202f204f7074696f6e732e2e2e00",
+   "text": "系统设置 / 选项...",
+   "kind": "A",
+   "src": "System settings / Options..."
+  },
+  {
+   "rva": 1406272,
+   "bytes": "4153494f20cafdbeddc0e0d0cdb1e4b8fc00",
+   "orig": "4153494f20446174612054797065204368616e676500",
+   "text": "ASIO 数据类型变更",
+   "kind": "A",
+   "src": "ASIO Data Type Change"
+  },
+  {
+   "rva": 1406304,
+   "bytes": "d2aab8fcb8c4d0e9c4e2204153494f20cafdbeddc0e0d0cda3ac20202020202020202020200ad0e8d2aad6d8c6f420566f6963656d656574657220b3ccd0f22e2e2e2020202020202020202020202020202020202020",
+   "orig": "546f206368616e676520746865205669727475616c204153494f204461746120747970652c0a566f6963656d6565746572206170706c69636174696f6e206e6565647320746f206265207265737461727465642e2e2e",
+   "text": "要更改虚拟 ASIO 数据类型， / 需要重启 Voicemeeter 程序...",
+   "kind": "ML",
+   "src": "To change the Virtual ASIO Data type,\nVoicemeeter application needs to be restarted..."
+  },
+  {
+   "rva": 1406416,
+   "bytes": "cedeb7a8b4f2bfaad6f7cae4b3f6c9e8b1b820284131292020202020202020202020202020200ac9e8b1b8ceb4becdd0f7bbf2d2d1b1bbc6e4cbfcbdf8b3ccd5bcd3c3a1a320202020202020202020202020200ac7ebcfc8d1a1d4f120413120cae4b3f6c9e8b1b8a3a12020202020202020200a0ab1a3c1f4c4acc8cfc9e8d6c3a3a8c4acc8cfbbbab3e5c7f8b4f3d0a1a3a9a1a32020202020202020202020200ac9e8b1b8c5e4d6c3bdf6d6a7b3d6203332a1a234342e31a1a23438a1a238382e3220bbf22039366b487a20202020202020202020202020202020202020200a0a25730a",
+   "orig": "4661696c656420746f204f70656e204d61696e204f75747075742044657669636520284131290a446576696365206e6f74207265616479206f72207573656420627920616e6f746865722070726f636573732e0a53656c656374204131204f75747075742044657669636520666972737420210a0a4b6565702064656661756c742073657474696e6773202864656661756c74206275666665722073697a65292e0a44657669636520636f6e66696775726174696f6e206d696768742062652033322c2034342e312c2034382c2038382e32206f722039366b487a206f6e6c790a0a25730a",
+   "text": "无法打开主输出设备 (A1) / 设备未就绪或已被其它进程占用。 / 请先选择 A1 输出设备！ /  / 保留默认设置（默认缓冲区大小）。 / 设备配置仅支持 32、44.1、48、88.2 或 96kHz /  / %s / ",
+   "kind": "ML",
+   "src": "Failed to Open Main Output Device (A1)\nDevice not ready or used by another process.\nSelect A1 Output Device first !\n\nKeep default settings (default buffer size).\nDevice configuration might be 32, 44.1, 48, 88.2 or 96kHz only\n\n%s\n"
+  },
+  {
+   "rva": 1406648,
+   "bytes": "b7d6c5e4204153494f20bbbab3e5c7f8caa7b0dca1a3202020202020202020200a",
+   "orig": "4661696c656420746f20616c6c6f63617465204153494f20427566666572732e0a",
+   "text": "分配 ASIO 缓冲区失败。 / ",
+   "kind": "ML",
+   "src": "Failed to allocate ASIO Buffers.\n"
+  },
+  {
+   "rva": 1406688,
+   "bytes": "b2bbd6a7b3d6b2c9d1f9c2ca20256920487aa1a320202020202020202020200ac7ebbdab204153494f20c7fdb6afc5e4d6c3ceaab1ead7bcb2c9d1f9c2ca20202020202020202020202020202020202020202020202020202020",
+   "orig": "53616d706c655261746520256920487a206e6f7420737570706f727465642e0a506c6561736520636f6e66696775726520796f7572204153494f206472697665722077697468207374616e646172642053616d706c6552617465",
+   "text": "不支持采样率 %i Hz。 / 请将 ASIO 驱动配置为标准采样率",
+   "kind": "ML",
+   "src": "SampleRate %i Hz not supported.\nPlease configure your ASIO driver with standard SampleRate"
+  },
+  {
+   "rva": 1406784,
+   "bytes": "cedeb7a8b4f2bfaad6f7cae4b3f6c9e8b1b820284131292020202020202020202020202020200abbbab3e5c7f8b4f3d0a1b2bbc4dcb3acb9fd203230343820b2c9d1f9a1a320202020202020202020200a",
+   "orig": "4661696c656420746f204f70656e204d61696e204f75747075742044657669636520284131290a4275666665722073697a652063616e6e6f742062652061626f766520323034382073616d706c65732e0a",
+   "text": "无法打开主输出设备 (A1) / 缓冲区大小不能超过 2048 采样。 / ",
+   "kind": "ML",
+   "src": "Failed to Open Main Output Device (A1)\nBuffer size cannot be above 2048 samples.\n"
+  },
+  {
+   "rva": 1406872,
+   "bytes": "cedeb7a8d7bcb1b8d2f4c6b5c9e8b1b800",
+   "orig": "4661696c656420746f207072657061726520617564696f206465766963657300",
+   "text": "无法准备音频设备",
+   "kind": "A",
+   "src": "Failed to prepare audio devices"
+  },
+  {
+   "rva": 1406920,
+   "bytes": "cedeb7a8d7bcb1b8c8abb2bfd2f4c6b5c9e8b1b800",
+   "orig": "4661696c656420746f207072657061726520616c6c20617564696f206465766963657300",
+   "text": "无法准备全部音频设备",
+   "kind": "A",
+   "src": "Failed to prepare all audio devices"
+  },
+  {
+   "rva": 1407008,
+   "bytes": "cedeb7a8b4f2bfaad6f7cae4b3f6c9e8b1b820284131292020202020202020202020202020200ac9e8b1b8d2d1d4dacab9d3c3d6d0bbf2c5e4d6c3b2bbd5fdc8b7a1a32020202020202020202020202020202020202020200a0aa3a8cae4b3f620413120bdf6d6a7b3d6b1ead7bcb2c9d1f9c2caa3a920202020202020202020202020202020200a",
+   "orig": "4661696c656420746f204f70656e204d61696e204f75747075742044657669636520284131290a44657669636520616c726561647920696e20757365206f72206e6f742070726f7065726c7920636f6e666967757265642e0a0a284f757470757420413120737570706f727473207374616e646172642053616d706c6552617465206f6e6c79290a",
+   "text": "无法打开主输出设备 (A1) / 设备已在使用中或配置不正确。 /  / （输出 A1 仅支持标准采样率） / ",
+   "kind": "ML",
+   "src": "Failed to Open Main Output Device (A1)\nDevice already in use or not properly configured.\n\n(Output A1 supports standard SampleRate only)\n"
+  },
+  {
+   "rva": 1407152,
+   "bytes": "5642414e2055445020b6cbbfdad2d1b1bbc6e4cbfcb3ccd0f2d5bcd3c3a1a3202020202020202020202020202020202020202020200a5642414e20b4abb3f6c1f7d3a6bfc9d5fdb3a3b9a4d7f7a3acb5ab202020202020202020200a5642414e20b7fecef1bfc9c4dccedeb7a8d5fdb3a3b9a4d7f7a3acb2a2c7d2202020202020202020200ab4abc8eb205642414e20c1f7bfc9c4dccedeb7a8bdd3cad52e2e2e202020202020202020202020202020202020200a0ad2aabde2bef6b4cbcecacce2a3acc7ebb8fcb8c42055445020b6cbbfdabbf22020202020202020202020200ab9d8b1d5c6e4cbfcb3ccd0f2a1a32020202020202020202020202020",
+   "orig": "5642414e2055445020706f727420697320616c7265616479207573656420627920616e6f74686572206170706c69636174696f6e2e0a5642414e206f7574676f696e672073747265616d2073686f756c6420776f726b2c206275740a5642414e205365727669636520636f756c64206e6f7420776f726b20636f72726563746c7920616e640a496e636f6d696e67205642414e2073747265616d7320636f756c64206e6f742062652072656365697665642e2e2e0a0a546f20736f6c766520746869732069737375652c204368616e6765207468652055445020706f7274206f720a436c6f736520746865206f74686572206170706c69636174696f6e2e",
+   "text": "VBAN UDP 端口已被其它程序占用。 / VBAN 传出流应可正常工作，但 / VBAN 服务可能无法正常工作，并且 / 传入 VBAN 流可能无法接收... /  / 要解决此问题，请更改 UDP 端口或 / 关闭其它程序。",
+   "kind": "ML",
+   "src": "VBAN UDP port is already used by another application.\nVBAN outgoing stream should work, but\nVBAN Service could not work correctly and\nIncoming VBAN streams could not be received...\n\nTo solve this issue, Change the UDP port or\nClose the other application."
+  },
+  {
+   "rva": 1407440,
+   "bytes": "d1b9cbf5c6f7cfeac7e900",
+   "orig": "436f6d70726573736f722044657461696c7300",
+   "text": "压缩器详情",
+   "kind": "A",
+   "src": "Compressor Details"
+  },
+  {
+   "rva": 1407464,
+   "bytes": "d4ebc9f9c3c5cfeac7e900",
+   "orig": "476174652044657461696c7300",
+   "text": "噪声门详情",
+   "kind": "A",
+   "src": "Gate Details"
+  },
+  {
+   "rva": 1408144,
+   "bytes": "d6d8c3fcc3fbd4a4c9e800",
+   "orig": "52656e616d652050726573657400",
+   "text": "重命名预设",
+   "kind": "A",
+   "src": "Rename Preset"
+  },
+  {
+   "rva": 1408160,
+   "bytes": "b4e6b4a2b5b1c7b0cafdd6b500",
+   "orig": "53746f72652063757272656e742076616c75657300",
+   "text": "存储当前数值",
+   "kind": "A",
+   "src": "Store current values"
+  },
+  {
+   "rva": 1408184,
+   "bytes": "d6d8d6c3d4a4c9e800",
+   "orig": "52657365742050726573657400",
+   "text": "重置预设",
+   "kind": "A",
+   "src": "Reset Preset"
+  },
+  {
+   "rva": 1408200,
+   "bytes": "d4d8c8ebb1e4b5f7d4a4c9e82e2e2e00",
+   "orig": "4c6f6164205069746368205072657365742e2e2e00",
+   "text": "载入变调预设...",
+   "kind": "A",
+   "src": "Load Pitch Preset..."
+  },
+  {
+   "rva": 1408224,
+   "bytes": "b1e4b5f7d4a4c9e8c1edb4e6ceaa2e2e2e00",
+   "orig": "53617665205069746368205072657365742041732e2e2e00",
+   "text": "变调预设另存为...",
+   "kind": "A",
+   "src": "Save Pitch Preset As..."
+  },
+  {
+   "rva": 1408248,
+   "bytes": "bdb5d4ebc6f700",
+   "orig": "44656e6f6973657200",
+   "text": "降噪器",
+   "kind": "A",
+   "src": "Denoiser"
+  },
+  {
+   "rva": 1408264,
+   "bytes": "c8cbc9f9bda8c4a300",
+   "orig": "566f696365204d6f64656c657200",
+   "text": "人声建模",
+   "kind": "A",
+   "src": "Voice Modeler"
+  },
+  {
+   "rva": 1408280,
+   "bytes": "d4a4c9e800",
+   "orig": "50726573657400",
+   "text": "预设",
+   "kind": "A",
+   "src": "Preset"
+  },
+  {
+   "rva": 1415424,
+   "bytes": "8498be8b3a576f66200025003000320069002000e653585b3a4e2e002e002e000000",
+   "orig": "5300610076006500200050007200650073006500740020005300630065006e006500200025003000320069002000410073002e002e002e000000",
+   "text": "预设场景 %02i 另存为...",
+   "kind": "W",
+   "src": "Save Preset Scene %02i As..."
+  },
+  {
+   "rva": 1415488,
+   "bytes": "7d8f65513a576f6620002500300032006900200084768498be8b0000",
+   "orig": "4c006f00610064002000500072006500730065007400200069006e0020005300630065006e006500200025003000320069000000",
+   "text": "载入场景 %02i 的预设",
+   "kind": "W",
+   "src": "Load Preset in Scene %02i"
+  },
+  {
+   "rva": 1415640,
+   "bytes": "2a677d8f65518765f64e20002100210021000000",
+   "orig": "6e006f002000660069006c00650020006c006f00610064006500640020002100210021000000",
+   "text": "未载入文件 !!!",
+   "kind": "W",
+   "src": "no file loaded !!!"
+  },
+  {
+   "rva": 1415680,
+   "bytes": "cfd4cabebfd8d6c6c3e6b0e52e2e2e00",
+   "orig": "53686f7720436f6e74726f6c2050616e656c2e2e2e00",
+   "text": "显示控制面板...",
+   "kind": "A",
+   "src": "Show Control Panel..."
+  },
+  {
+   "rva": 1415704,
+   "bytes": "d6d8c6f4d2f4c6b5d2fdc7e600",
+   "orig": "5265737461727420417564696f20456e67696e6500",
+   "text": "重启音频引擎",
+   "kind": "A",
+   "src": "Restart Audio Engine"
+  },
+  {
+   "rva": 1415728,
+   "bytes": "cfd4cabe20566f6963656d656574657200",
+   "orig": "53686f7720566f6963656d656574657200",
+   "text": "显示 Voicemeeter",
+   "kind": "A",
+   "src": "Show Voicemeeter"
+  },
+  {
+   "rva": 1415752,
+   "bytes": "d4dac4acc8cfcebbd6c3cfd4cabe20566f6963656d656574657200",
+   "orig": "53686f7720566f6963656d6565746572202864656661756c7420706f736974696f6e2900",
+   "text": "在默认位置显示 Voicemeeter",
+   "kind": "A",
+   "src": "Show Voicemeeter (default position)"
+  },
+  {
+   "rva": 1415792,
+   "bytes": "d2feb2d820566f6963656d656574657200",
+   "orig": "4869646520566f6963656d656574657200",
+   "text": "隐藏 Voicemeeter",
+   "kind": "A",
+   "src": "Hide Voicemeeter"
+  },
+  {
+   "rva": 1415816,
+   "bytes": "cdcbb3f620566f6963656d656574657200",
+   "orig": "5368757420446f776e20566f6963656d656574657200",
+   "text": "退出 Voicemeeter",
+   "kind": "A",
+   "src": "Shut Down Voicemeeter"
+  },
+  {
+   "rva": 1415840,
+   "bytes": "d6d8c6f4d2f4c6b5d2fdc7e6095b43544c2b525d00",
+   "orig": "5265737461727420417564696f20456e67696e65095b43544c2b525d00",
+   "text": "重启音频引擎\t[CTL+R]",
+   "kind": "A",
+   "src": "Restart Audio Engine\t[CTL+R]"
+  },
+  {
+   "rva": 1415872,
+   "bytes": "d7d4b6afd6d8c6f4d2f4c6b5d2fdc7e6a3a8413120c9e8b1b8a3a900",
+   "orig": "4175746f205265737461727420417564696f20456e67696e6520284131204465766963652900",
+   "text": "自动重启音频引擎（A1 设备）",
+   "kind": "A",
+   "src": "Auto Restart Audio Engine (A1 Device)"
+  },
+  {
+   "rva": 1415912,
+   "bytes": "d7d4b6afd6d8c6f4d2f4c6b5d2fdc7e6a3a8cbf9d3d0c9e8b1b8a3a900",
+   "orig": "4175746f205265737461727420417564696f20456e67696e652028416c6c204465766963652900",
+   "text": "自动重启音频引擎（所有设备）",
+   "kind": "A",
+   "src": "Auto Restart Audio Engine (All Device)"
+  },
+  {
+   "rva": 1415952,
+   "bytes": "b5afb3f6b4c5b4f8a3a8cacdb7c5d2f4c6b5cec4bcfea3a900",
+   "orig": "456a656374204361737365747465202872656c6561736520617564696f2066696c652900",
+   "text": "弹出磁带（释放音频文件）",
+   "kind": "A",
+   "src": "Eject Cassette (release audio file)"
+  },
+  {
+   "rva": 1415992,
+   "bytes": "d4d8c8ebc9e8d6c32e2e2e00",
+   "orig": "4c6f61642053657474696e67732e2e2e00",
+   "text": "载入设置...",
+   "kind": "A",
+   "src": "Load Settings..."
+  },
+  {
+   "rva": 1416016,
+   "bytes": "c6f4b6afcab1d4d8c8ebc9e8d6c33a00",
+   "orig": "4c6f61642053657474696e6773206f6e20537461727475703a00",
+   "text": "启动时载入设置:",
+   "kind": "A",
+   "src": "Load Settings on Startup:"
+  },
+  {
+   "rva": 1416048,
+   "bytes": "b1a3b4e6c9e8d6c32e2e2e00",
+   "orig": "536176652053657474696e67732e2e2e00",
+   "text": "保存设置...",
+   "kind": "A",
+   "src": "Save Settings..."
+  },
+  {
+   "rva": 1416072,
+   "bytes": "d6d8d6c3c9e8d6c3a3a8d6d8d0c2b3f5cabcbbafa3a900",
+   "orig": "52657365742053657474696e6773202852652d496e697469616c697a6174696f6e2900",
+   "text": "重置设置（重新初始化）",
+   "kind": "A",
+   "src": "Reset Settings (Re-Initialization)"
+  },
+  {
+   "rva": 1416112,
+   "bytes": "cfb5cdb3cdd0c5cc00",
+   "orig": "53797374656d205472617900",
+   "text": "系统托盘",
+   "kind": "A",
+   "src": "System Tray"
+  },
+  {
+   "rva": 1416128,
+   "bytes": "cbe62057696e646f777320c6f4b6af00",
+   "orig": "52756e206f6e2057696e646f7773205374617274757000",
+   "text": "随 Windows 启动",
+   "kind": "A",
+   "src": "Run on Windows Startup"
+  },
+  {
+   "rva": 1416152,
+   "bytes": "c6f4b6afcab1cfd4cabeb3ccd0f200",
+   "orig": "53686f7720417070204f6e205374617274757000",
+   "text": "启动时显示程序",
+   "kind": "A",
+   "src": "Show App On Startup"
+  },
+  {
+   "rva": 1416176,
+   "bytes": "cabcd6d5bfc9bcfb00",
+   "orig": "53657420617320416c776179732056697369626c6500",
+   "text": "始终可见",
+   "kind": "A",
+   "src": "Set as Always Visible"
+  },
+  {
+   "rva": 1416200,
+   "bytes": "cbf8b6a8cdbcd0cebde7c3e600",
+   "orig": "4c6f636b2047726170686963205573657220496e7465726661636500",
+   "text": "锁定图形界面",
+   "kind": "A",
+   "src": "Lock Graphic User Interface"
+  },
+  {
+   "rva": 1416232,
+   "bytes": "cbe620566f6963656d656574657220c6f4b6af204d6163726f427574746f6e7300",
+   "orig": "52756e204d6163726f427574746f6e73206f6e20566f6963656d656574657220737461727400",
+   "text": "随 Voicemeeter 启动 MacroButtons",
+   "kind": "A",
+   "src": "Run MacroButtons on Voicemeeter start"
+  },
+  {
+   "rva": 1416272,
+   "bytes": "cbe620566f6963656d656574657220c6f4b6af2053747265616d6572205669657700",
+   "orig": "52756e2053747265616d65722056696577206f6e20566f6963656d656574657220737461727400",
+   "text": "随 Voicemeeter 启动 Streamer View",
+   "kind": "A",
+   "src": "Run Streamer View on Voicemeeter start"
+  },
+  {
+   "rva": 1416312,
+   "bytes": "d4cbd0d02038783820d4f6d2e6bed8d5f320412e502e412e2e2e00",
+   "orig": "52756e20387838204761696e204d617472697820412e502e412e2e2e00",
+   "text": "运行 8x8 增益矩阵 A.P.A...",
+   "kind": "A",
+   "src": "Run 8x8 Gain Matrix A.P.A..."
+  },
+  {
+   "rva": 1416344,
+   "bytes": "d4cbd0d020313520b6cecdbcd0cebef9bae2c6f720412e502e412e2e2e00",
+   "orig": "52756e2031352042616e6473204772617068696320455120412e502e412e2e2e00",
+   "text": "运行 15 段图形均衡器 A.P.A...",
+   "kind": "A",
+   "src": "Run 15 Bands Graphic EQ A.P.A..."
+  },
+  {
+   "rva": 1416384,
+   "bytes": "d4cbd0d0204d4944492d5642414e20d7aabbbbc6f72e2e2e00",
+   "orig": "52756e204d4944492d5642414e20436f6e7665727465722e2e2e00",
+   "text": "运行 MIDI-VBAN 转换器...",
+   "kind": "A",
+   "src": "Run MIDI-VBAN Converter..."
+  },
+  {
+   "rva": 1416416,
+   "bytes": "d4cbd0d0c6e4cbfc20566f6963656d656574657220b9a4bedf2e2e2e00",
+   "orig": "52756e206f7468657220566f6963656d656574657220746f6f6c732e2e2e00",
+   "text": "运行其它 Voicemeeter 工具...",
+   "kind": "A",
+   "src": "Run other Voicemeeter tools..."
+  },
+  {
+   "rva": 1416448,
+   "bytes": "bdd3b9dcd2f4c1bfbcfca3a8d3c3d3da20413120cae4b3f6b5e7c6bda3a900",
+   "orig": "486f6f6b20566f6c756d65204b6579732028466f72204c6576656c204f75747075742041312900",
+   "text": "接管音量键（用于 A1 输出电平）",
+   "kind": "A",
+   "src": "Hook Volume Keys (For Level Output A1)"
+  },
+  {
+   "rva": 1416488,
+   "bytes": "bdd3b9dcd2f4c1bfbcfca3a8d3c3d3da20413220cae4b3f6b5e7c6bda3a900",
+   "orig": "486f6f6b20566f6c756d65204b6579732028466f72204c6576656c204f75747075742041322900",
+   "text": "接管音量键（用于 A2 输出电平）",
+   "kind": "A",
+   "src": "Hook Volume Keys (For Level Output A2)"
+  },
+  {
+   "rva": 1416528,
+   "bytes": "bdd3b9dcd2f4c1bfbcfca3a8d3c3d3dacae4c8eb203120b5e7c6bda3a900",
+   "orig": "486f6f6b20566f6c756d65204b6579732028466f72204c6576656c20496e7075742023312900",
+   "text": "接管音量键（用于输入 1 电平）",
+   "kind": "A",
+   "src": "Hook Volume Keys (For Level Input #1)"
+  },
+  {
+   "rva": 1416568,
+   "bytes": "bdd3b9dc204374726c2b4631302c4631312c463132a3a8d3c3d3da20413120cae4b3f6b5e7c6bda3a900",
+   "orig": "486f6f6b204374726c2b4631302c4631312c4631322028466f72204c6576656c204f75747075742041312900",
+   "text": "接管 Ctrl+F10,F11,F12（用于 A1 输出电平）",
+   "kind": "A",
+   "src": "Hook Ctrl+F10,F11,F12 (For Level Output A1)"
+  },
+  {
+   "rva": 1416616,
+   "bytes": "bdd3b9dc204374726c2b4631302c4631312c463132a3a8d3c3d3da20413220cae4b3f6b5e7c6bda3a900",
+   "orig": "486f6f6b204374726c2b4631302c4631312c4631322028466f72204c6576656c204f75747075742041322900",
+   "text": "接管 Ctrl+F10,F11,F12（用于 A2 输出电平）",
+   "kind": "A",
+   "src": "Hook Ctrl+F10,F11,F12 (For Level Output A2)"
+  },
+  {
+   "rva": 1416664,
+   "bytes": "bdd3b9dc204374726c2b4631302c4631312c463132a3a8d3c3d3dacae4c8eb203120b5e7c6bda3a900",
+   "orig": "486f6f6b204374726c2b4631302c4631312c4631322028466f72204c6576656c20496e7075742023312900",
+   "text": "接管 Ctrl+F10,F11,F12（用于输入 1 电平）",
+   "kind": "A",
+   "src": "Hook Ctrl+F10,F11,F12 (For Level Input #1)"
+  },
+  {
+   "rva": 1416712,
+   "bytes": "bdd3b9dc2046352c463620bacd204638a3a8d3c3d3dab2a5b7c5a1a2cda3d6b9a1a2c2bcd2f4a3a900",
+   "orig": "486f6f6b2046352c463620616e642046382028466f7220504c41592c2053544f5020616e64205245432900",
+   "text": "接管 F5,F6 和 F8（用于播放、停止、录音）",
+   "kind": "A",
+   "src": "Hook F5,F6 and F8 (For PLAY, STOP and REC)"
+  },
+  {
+   "rva": 1416760,
+   "bytes": "bfecbdddbcfca3a8bdd3b9dca3a92e2e2e00",
+   "orig": "53686f7274637574204b65792028486f6f6b292e2e2e00",
+   "text": "快捷键（接管）...",
+   "kind": "A",
+   "src": "Shortcut Key (Hook)..."
+  },
+  {
+   "rva": 1416784,
+   "bytes": "cfded6c6d4b6b3ccd4f6d2e6ceaa2030206442667300",
+   "orig": "4c696d69742052656d6f7465204761696e20746f2030206442667300",
+   "text": "限制远程增益为 0 dBfs",
+   "kind": "A",
+   "src": "Limit Remote Gain to 0 dBfs"
+  },
+  {
+   "rva": 1416816,
+   "bytes": "d4dab1eacce2c0b8cfd4cabec9cfcfc2cec4b0efd6fa00",
+   "orig": "53686f7720436f6e7465787475616c2048656c7020496e2043617074696f6e00",
+   "text": "在标题栏显示上下文帮助",
+   "kind": "A",
+   "src": "Show Contextual Help In Caption"
+  },
+  {
+   "rva": 1416848,
+   "bytes": "c6f4b6afcab1cfd4cabed4a4c9e8b3a1beb000",
+   "orig": "53686f7720507265736574205363656e65204f6e205374617274757000",
+   "text": "启动时显示预设场景",
+   "kind": "A",
+   "src": "Show Preset Scene On Startup"
+  },
+  {
+   "rva": 1416880,
+   "bytes": "d4a4c9e8b3a1beb02e2e2e095b4354524c2b345d00",
+   "orig": "507265736574205363656e652e2e2e095b4354524c2b345d00",
+   "text": "预设场景...\t[CTRL+4]",
+   "kind": "A",
+   "src": "Preset Scene...\t[CTRL+4]"
+  },
+  {
+   "rva": 1416912,
+   "bytes": "cfb5cdb3c9e8d6c32e2e2e095b4354524c2b272c275d00",
+   "orig": "53797374656d2053657474696e67732e2e2e095b4354524c2b272c275d00",
+   "text": "系统设置...\t[CTRL+',']",
+   "kind": "A",
+   "src": "System Settings...\t[CTRL+',']"
+  },
+  {
+   "rva": 1416944,
+   "bytes": "b4c5b4f8c2bcd2f4bbfad1a1cfee2e2e2e095b4354524c2b355d00",
+   "orig": "54617065205265636f72646572204f7074696f6e732e2e2e095b4354524c2b355d00",
+   "text": "磁带录音机选项...\t[CTRL+5]",
+   "kind": "A",
+   "src": "Tape Recorder Options...\t[CTRL+5]"
+  },
+  {
+   "rva": 1416984,
+   "bytes": "4d49444920d3b3c9e42e2e2e095b4354524c2b335d00",
+   "orig": "4d2e492e442e492e204d617070696e672e2e2e095b4354524c2b335d00",
+   "text": "MIDI 映射...\t[CTRL+3]",
+   "kind": "A",
+   "src": "M.I.D.I. Mapping...\t[CTRL+3]"
+  },
+  {
+   "rva": 1417016,
+   "bytes": "5642414e20d1a1cfee2e2e2ea3a856422d417564696f20cdf8c2e7a3a9095b4354524c2b315d00",
+   "orig": "5642414e204f7074696f6e732e2e2e202856422d417564696f204e6574776f726b29095b4354524c2b315d00",
+   "text": "VBAN 选项...（VB-Audio 网络）\t[CTRL+1]",
+   "kind": "A",
+   "src": "VBAN Options... (VB-Audio Network)\t[CTRL+1]"
+  },
+  {
+   "rva": 1417064,
+   "bytes": "5642414e20c1c4cceccad22e2e2ea3a856422d417564696f20cdf8c2e7a3a9095b4354524c2b325d00",
+   "orig": "5642414e204368617420526f6f6d2e2e2e202856422d417564696f204e6574776f726b29095b4354524c2b325d00",
+   "text": "VBAN 聊天室...（VB-Audio 网络）\t[CTRL+2]",
+   "kind": "A",
+   "src": "VBAN Chat Room... (VB-Audio Network)\t[CTRL+2]"
+  },
+  {
+   "rva": 1417112,
+   "bytes": "57696e646f777320d2f4c6b5d3b3c9e42e2e2e095b4354524c2b365d00",
+   "orig": "57696e646f777320417564696f204d61702e2e2e095b4354524c2b365d00",
+   "text": "Windows 音频映射...\t[CTRL+6]",
+   "kind": "A",
+   "src": "Windows Audio Map...\t[CTRL+6]"
+  },
+  {
+   "rva": 1417144,
+   "bytes": "57696e646f777320d2f4c6b5c9e8d6c32e2e2e00",
+   "orig": "57696e646f777320417564696f2053657474696e67732e2e2e00",
+   "text": "Windows 音频设置...",
+   "kind": "A",
+   "src": "Windows Audio Settings..."
+  },
+  {
+   "rva": 1417176,
+   "bytes": "b9d8d3da202f20cadac8a82e2e2e00",
+   "orig": "41626f757420426f78202f204c6963656e73652e2e2e00",
+   "text": "关于 / 授权...",
+   "kind": "A",
+   "src": "About Box / License..."
+  },
+  {
+   "rva": 1417200,
+   "bytes": "5641494f20c0a9d5b9cadac8a82e2e2e00",
+   "orig": "5641494f20457874656e73696f6e204c6963656e73652e2e2e00",
+   "text": "VAIO 扩展授权...",
+   "kind": "A",
+   "src": "VAIO Extension License..."
+  },
+  {
+   "rva": 1417232,
+   "bytes": "d4dacfdfb0efd6fa202f20d6a7b3d62e2e2e00",
+   "orig": "4f6e6c696e652048656c70202f20537570706f72742e2e2e00",
+   "text": "在线帮助 / 支持...",
+   "kind": "A",
+   "src": "Online Help / Support..."
+  },
+  {
+   "rva": 1417264,
+   "bytes": "bcecb2e9c7fdb6afb0b2d7b02e2e2e00",
+   "orig": "436865636b2044726976657220496e7374616c6c6174696f6e2e2e2e00",
+   "text": "检查驱动安装...",
+   "kind": "A",
+   "src": "Check Driver Installation..."
+  },
+  {
+   "rva": 1417440,
+   "bytes": "57696e646f777320d2f4c6b5d3b3c9e4a3a8257320b8bdbdfca3a900",
+   "orig": "57696e646f777320417564696f204d6170202861726f756e642025732900",
+   "text": "Windows 音频映射（%s 附近）",
+   "kind": "A",
+   "src": "Windows Audio Map (around %s)"
+  },
+  {
+   "rva": 1417472,
+   "bytes": "d2f4c6b5d2fdc7e6d5fdd4dac6f4b6af2e2e2e00",
+   "orig": "417564696f20456e67696e65206973205374617274696e672e2e2e00",
+   "text": "音频引擎正在启动...",
+   "kind": "A",
+   "src": "Audio Engine is Starting..."
+  },
+  {
+   "rva": 1417504,
+   "bytes": "c7ebb5c8b4fdd2f4c6b5d2fdc7e6c6f4b6afa1a300",
+   "orig": "506c65617365205761697420666f7220617564696f20656e67696e652073746172742e00",
+   "text": "请等待音频引擎启动。",
+   "kind": "A",
+   "src": "Please Wait for audio engine start."
+  },
+  {
+   "rva": 1417584,
+   "bytes": "2d002a677d540d542d000000",
+   "orig": "2d006e006f006e0061006d0065002d000000",
+   "text": "-未命名-",
+   "kind": "W",
+   "src": "-noname-"
+  },
+  {
+   "rva": 1417624,
+   "bytes": "cda8b5c0203120d4f6d2e6cdc6d7d300",
+   "orig": "4761696e20466164657220537472697020233100",
+   "text": "通道 1 增益推子",
+   "kind": "A",
+   "src": "Gain Fader Strip #1"
+  },
+  {
+   "rva": 1417664,
+   "bytes": "cda8b5c0203220d4f6d2e6cdc6d7d300",
+   "orig": "4761696e20466164657220537472697020233200",
+   "text": "通道 2 增益推子",
+   "kind": "A",
+   "src": "Gain Fader Strip #2"
+  },
+  {
+   "rva": 1417704,
+   "bytes": "cda8b5c0203320d4f6d2e6cdc6d7d300",
+   "orig": "4761696e20466164657220537472697020233300",
+   "text": "通道 3 增益推子",
+   "kind": "A",
+   "src": "Gain Fader Strip #3"
+  },
+  {
+   "rva": 1417968,
+   "bytes": "cda8b5c0203120d7f3d3d2c9f9cff100",
+   "orig": "4c2f522050414e20537472697020233100",
+   "text": "通道 1 左右声像",
+   "kind": "A",
+   "src": "L/R PAN Strip #1"
+  },
+  {
+   "rva": 1418008,
+   "bytes": "cda8b5c0203220d7f3d3d2c9f9cff100",
+   "orig": "4c2f522050414e20537472697020233200",
+   "text": "通道 2 左右声像",
+   "kind": "A",
+   "src": "L/R PAN Strip #2"
+  },
+  {
+   "rva": 1418048,
+   "bytes": "cda8b5c0203320d7f3d3d2c9f9cff100",
+   "orig": "4c2f522050414e20537472697020233300",
+   "text": "通道 3 左右声像",
+   "kind": "A",
+   "src": "L/R PAN Strip #3"
+  },
+  {
+   "rva": 1418312,
+   "bytes": "d6d8d6c3cda8b5c0203120d7f3d3d2c9f9cff100",
+   "orig": "5265736574204c2f522050414e20537472697020233100",
+   "text": "重置通道 1 左右声像",
+   "kind": "A",
+   "src": "Reset L/R PAN Strip #1"
+  },
+  {
+   "rva": 1418352,
+   "bytes": "d6d8d6c3cda8b5c0203220d7f3d3d2c9f9cff100",
+   "orig": "5265736574204c2f522050414e20537472697020233200",
+   "text": "重置通道 2 左右声像",
+   "kind": "A",
+   "src": "Reset L/R PAN Strip #2"
+  },
+  {
+   "rva": 1418392,
+   "bytes": "d6d8d6c3cda8b5c0203320d7f3d3d2c9f9cff100",
+   "orig": "5265736574204c2f522050414e20537472697020233300",
+   "text": "重置通道 3 左右声像",
+   "kind": "A",
+   "src": "Reset L/R PAN Strip #3"
+  },
+  {
+   "rva": 1418624,
+   "bytes": "20cda8b5c0203120beb2d2f400",
+   "orig": "204d75746520537472697020233100",
+   "text": " 通道 1 静音",
+   "kind": "A",
+   "src": " Mute Strip #1"
+  },
+  {
+   "rva": 1418648,
+   "bytes": "cda8b5c0203220beb2d2f400",
+   "orig": "4d75746520537472697020233200",
+   "text": "通道 2 静音",
+   "kind": "A",
+   "src": "Mute Strip #2"
+  },
+  {
+   "rva": 1418672,
+   "bytes": "cda8b5c0203320beb2d2f400",
+   "orig": "4d75746520537472697020233300",
+   "text": "通道 3 静音",
+   "kind": "A",
+   "src": "Mute Strip #3"
+  },
+  {
+   "rva": 1418864,
+   "bytes": "cda8b5c0203120b6c0d7e000",
+   "orig": "536f6c6f20537472697020233100",
+   "text": "通道 1 独奏",
+   "kind": "A",
+   "src": "Solo Strip #1"
+  },
+  {
+   "rva": 1418888,
+   "bytes": "cda8b5c0203220b6c0d7e000",
+   "orig": "536f6c6f20537472697020233200",
+   "text": "通道 2 独奏",
+   "kind": "A",
+   "src": "Solo Strip #2"
+  },
+  {
+   "rva": 1418912,
+   "bytes": "cda8b5c0203320b6c0d7e000",
+   "orig": "536f6c6f20537472697020233300",
+   "text": "通道 3 独奏",
+   "kind": "A",
+   "src": "Solo Strip #3"
+  },
+  {
+   "rva": 1419232,
+   "bytes": "cda8b5c0203120d1b9cbf5c6f700",
+   "orig": "436f6d7072657373696f6e20537472697020233100",
+   "text": "通道 1 压缩器",
+   "kind": "A",
+   "src": "Compression Strip #1"
+  },
+  {
+   "rva": 1419264,
+   "bytes": "cda8b5c0203220d1b9cbf5c6f700",
+   "orig": "436f6d7072657373696f6e20537472697020233200",
+   "text": "通道 2 压缩器",
+   "kind": "A",
+   "src": "Compression Strip #2"
+  },
+  {
+   "rva": 1419296,
+   "bytes": "cda8b5c0203320d1b9cbf5c6f700",
+   "orig": "436f6d7072657373696f6e20537472697020233300",
+   "text": "通道 3 压缩器",
+   "kind": "A",
+   "src": "Compression Strip #3"
+  },
+  {
+   "rva": 1419392,
+   "bytes": "cda8b5c0203120d4ebc9f9c3c500",
+   "orig": "4761746520537472697020233100",
+   "text": "通道 1 噪声门",
+   "kind": "A",
+   "src": "Gate Strip #1"
+  },
+  {
+   "rva": 1419416,
+   "bytes": "cda8b5c0203220d4ebc9f9c3c500",
+   "orig": "4761746520537472697020233200",
+   "text": "通道 2 噪声门",
+   "kind": "A",
+   "src": "Gate Strip #2"
+  },
+  {
+   "rva": 1419440,
+   "bytes": "cda8b5c0203320d4ebc9f9c3c500",
+   "orig": "4761746520537472697020233300",
+   "text": "通道 3 噪声门",
+   "kind": "A",
+   "src": "Gate Strip #3"
+  },
+  {
+   "rva": 1421520,
+   "bytes": "cda8b5c0203120cfded6c6c6f700",
+   "orig": "4c696d697420537472697020233100",
+   "text": "通道 1 限制器",
+   "kind": "A",
+   "src": "Limit Strip #1"
+  },
+  {
+   "rva": 1421552,
+   "bytes": "cda8b5c0203220cfded6c6c6f700",
+   "orig": "4c696d697420537472697020233200",
+   "text": "通道 2 限制器",
+   "kind": "A",
+   "src": "Limit Strip #2"
+  },
+  {
+   "rva": 1421584,
+   "bytes": "cda8b5c0203320cfded6c6c6f700",
+   "orig": "4c696d697420537472697020233300",
+   "text": "通道 3 限制器",
+   "kind": "A",
+   "src": "Limit Strip #3"
+  },
+  {
+   "rva": 1421784,
+   "bytes": "413120cda8b5c020256900",
+   "orig": "41312053747269702023256900",
+   "text": "A1 通道 %i",
+   "kind": "A",
+   "src": "A1 Strip #%i"
+  },
+  {
+   "rva": 1421816,
+   "bytes": "413220cda8b5c020256900",
+   "orig": "41322053747269702023256900",
+   "text": "A2 通道 %i",
+   "kind": "A",
+   "src": "A2 Strip #%i"
+  },
+  {
+   "rva": 1421848,
+   "bytes": "413320cda8b5c020256900",
+   "orig": "41332053747269702023256900",
+   "text": "A3 通道 %i",
+   "kind": "A",
+   "src": "A3 Strip #%i"
+  },
+  {
+   "rva": 1421944,
+   "bytes": "423120cda8b5c020256900",
+   "orig": "42312053747269702023256900",
+   "text": "B1 通道 %i",
+   "kind": "A",
+   "src": "B1 Strip #%i"
+  },
+  {
+   "rva": 1421976,
+   "bytes": "423220cda8b5c020256900",
+   "orig": "42322053747269702023256900",
+   "text": "B2 通道 %i",
+   "kind": "A",
+   "src": "B2 Strip #%i"
+  },
+  {
+   "rva": 1423464,
+   "bytes": "d7dccfdf20413120d4f6d2e600",
+   "orig": "4761696e206f662042555320413100",
+   "text": "总线 A1 增益",
+   "kind": "A",
+   "src": "Gain of BUS A1"
+  },
+  {
+   "rva": 1423496,
+   "bytes": "d7dccfdf20413220d4f6d2e600",
+   "orig": "4761696e206f662042555320413200",
+   "text": "总线 A2 增益",
+   "kind": "A",
+   "src": "Gain of BUS A2"
+  },
+  {
+   "rva": 1423528,
+   "bytes": "d7dccfdf20413320d4f6d2e600",
+   "orig": "4761696e206f662042555320413300",
+   "text": "总线 A3 增益",
+   "kind": "A",
+   "src": "Gain of BUS A3"
+  },
+  {
+   "rva": 1423624,
+   "bytes": "d7dccfdf20423120d4f6d2e600",
+   "orig": "4761696e206f662042555320423100",
+   "text": "总线 B1 增益",
+   "kind": "A",
+   "src": "Gain of BUS B1"
+  },
+  {
+   "rva": 1423656,
+   "bytes": "d7dccfdf20423220d4f6d2e600",
+   "orig": "4761696e206f662042555320423200",
+   "text": "总线 B2 增益",
+   "kind": "A",
+   "src": "Gain of BUS B2"
+  },
+  {
+   "rva": 1423720,
+   "bytes": "d7dccfdf20413120beb2d2f400",
+   "orig": "4d7574652042555320413100",
+   "text": "总线 A1 静音",
+   "kind": "A",
+   "src": "Mute BUS A1"
+  },
+  {
+   "rva": 1423752,
+   "bytes": "d7dccfdf20413220beb2d2f400",
+   "orig": "4d7574652042555320413200",
+   "text": "总线 A2 静音",
+   "kind": "A",
+   "src": "Mute BUS A2"
+  },
+  {
+   "rva": 1423784,
+   "bytes": "d7dccfdf20413320beb2d2f400",
+   "orig": "4d7574652042555320413300",
+   "text": "总线 A3 静音",
+   "kind": "A",
+   "src": "Mute BUS A3"
+  },
+  {
+   "rva": 1423880,
+   "bytes": "d7dccfdf20423120beb2d2f400",
+   "orig": "4d7574652042555320423100",
+   "text": "总线 B1 静音",
+   "kind": "A",
+   "src": "Mute BUS B1"
+  },
+  {
+   "rva": 1423912,
+   "bytes": "d7dccfdf20423220beb2d2f400",
+   "orig": "4d7574652042555320423200",
+   "text": "总线 B2 静音",
+   "kind": "A",
+   "src": "Mute BUS B2"
+  },
+  {
+   "rva": 1423976,
+   "bytes": "c7d0bbbbcda8b5c0203120b5c42042312f423200",
+   "orig": "546f67676c652042312f4232206f6e20537472697020233100",
+   "text": "切换通道 1 的 B1/B2",
+   "kind": "A",
+   "src": "Toggle B1/B2 on Strip #1"
+  },
+  {
+   "rva": 1424024,
+   "bytes": "d7dccfdf20413120d6f720455100",
+   "orig": "4d61737465722045512042555320413100",
+   "text": "总线 A1 主 EQ",
+   "kind": "A",
+   "src": "Master EQ BUS A1"
+  },
+  {
+   "rva": 1424064,
+   "bytes": "d7dccfdf20413220d6f720455100",
+   "orig": "4d61737465722045512042555320413200",
+   "text": "总线 A2 主 EQ",
+   "kind": "A",
+   "src": "Master EQ BUS A2"
+  },
+  {
+   "rva": 1424104,
+   "bytes": "d7dccfdf20413320d6f720455100",
+   "orig": "4d61737465722045512042555320413300",
+   "text": "总线 A3 主 EQ",
+   "kind": "A",
+   "src": "Master EQ BUS A3"
+  },
+  {
+   "rva": 1424224,
+   "bytes": "d7dccfdf20423120d6f720455100",
+   "orig": "4d61737465722045512042555320423100",
+   "text": "总线 B1 主 EQ",
+   "kind": "A",
+   "src": "Master EQ BUS B1"
+  },
+  {
+   "rva": 1424264,
+   "bytes": "d7dccfdf20423220d6f720455100",
+   "orig": "4d61737465722045512042555320423200",
+   "text": "总线 B2 主 EQ",
+   "kind": "A",
+   "src": "Master EQ BUS B2"
+  },
+  {
+   "rva": 1424344,
+   "bytes": "d7dccfdf20413120cfded6c6c6f700",
+   "orig": "4c696d69742042757320413100",
+   "text": "总线 A1 限制器",
+   "kind": "A",
+   "src": "Limit Bus A1"
+  },
+  {
+   "rva": 1424376,
+   "bytes": "d7dccfdf20413220cfded6c6c6f700",
+   "orig": "4c696d69742042757320413200",
+   "text": "总线 A2 限制器",
+   "kind": "A",
+   "src": "Limit Bus A2"
+  },
+  {
+   "rva": 1424408,
+   "bytes": "d7dccfdf20413320cfded6c6c6f700",
+   "orig": "4c696d69742042757320413300",
+   "text": "总线 A3 限制器",
+   "kind": "A",
+   "src": "Limit Bus A3"
+  },
+  {
+   "rva": 1424504,
+   "bytes": "d7dccfdf20423120cfded6c6c6f700",
+   "orig": "4c696d69742042757320423100",
+   "text": "总线 B1 限制器",
+   "kind": "A",
+   "src": "Limit Bus B1"
+  },
+  {
+   "rva": 1424536,
+   "bytes": "d7dccfdf20423220cfded6c6c6f700",
+   "orig": "4c696d69742042757320423200",
+   "text": "总线 B2 限制器",
+   "kind": "A",
+   "src": "Limit Bus B2"
+  },
+  {
+   "rva": 1424600,
+   "bytes": "b2a5b7c5b4c5b4f800",
+   "orig": "504c4159205441504500",
+   "text": "播放磁带",
+   "kind": "A",
+   "src": "PLAY TAPE"
+  },
+  {
+   "rva": 1424624,
+   "bytes": "c2bcd6c6b4c5b4f800",
+   "orig": "524543205441504500",
+   "text": "录制磁带",
+   "kind": "A",
+   "src": "REC TAPE"
+  },
+  {
+   "rva": 1424656,
+   "bytes": "cda3d6b9b4c5b4f800",
+   "orig": "53544f50205441504500",
+   "text": "停止磁带",
+   "kind": "A",
+   "src": "STOP TAPE"
+  },
+  {
+   "rva": 1424680,
+   "bytes": "b5b9b4f800",
+   "orig": "524557205441504500",
+   "text": "倒带",
+   "kind": "A",
+   "src": "REW TAPE"
+  },
+  {
+   "rva": 1424704,
+   "bytes": "bfecbdf800",
+   "orig": "4646205441504500",
+   "text": "快进",
+   "kind": "A",
+   "src": "FF TAPE"
+  },
+  {
+   "rva": 1424728,
+   "bytes": "d6d8b2a5b4c5b4f800",
+   "orig": "5245504c4159205441504500",
+   "text": "重播磁带",
+   "kind": "A",
+   "src": "REPLAY TAPE"
+  },
+  {
+   "rva": 1424760,
+   "bytes": "b4c5b4f8b2a5b7c5d4f6d2e600",
+   "orig": "5441504520506c61796261636b204761696e00",
+   "text": "磁带播放增益",
+   "kind": "A",
+   "src": "TAPE Playback Gain"
+  },
+  {
+   "rva": 1424904,
+   "bytes": "cdbcb2e3c7d0bbbbcab1cba2d0c200",
+   "orig": "52656672657368206f6e204c61796572206368616e676500",
+   "text": "图层切换时刷新",
+   "kind": "A",
+   "src": "Refresh on Layer change"
+  },
+  {
+   "rva": 1425072,
+   "bytes": "b970fb510990e9628189ad643e658476f39791988765f64e0000",
+   "orig": "43006c00690063006b00200074006f002000530065006c00650063007400200041007500640069006f002000660069006c006500200066006f007200200050006c00610079006200610063006b000000",
+   "text": "点击选择要播放的音频文件",
+   "kind": "W",
+   "src": "Click to Select Audio file for Playback"
+  },
+  {
+   "rva": 1425152,
+   "bytes": "1662b970fb510b4e62978476555ff3970963ae940000",
+   "orig": "4f007200200063006c00690063006b0020006f006e0020005200650063006f0072006400200042007500740074006f006e002000620065006c006f0077000000",
+   "text": "或点击下面的录音按钮",
+   "kind": "W",
+   "src": "Or click on Record Button below"
+  },
+  {
+   "rva": 1425392,
+   "bytes": "d5fdd4dac2bcd2f42e2e2e00",
+   "orig": "5265636f7264696e672e2e2e00",
+   "text": "正在录音...",
+   "kind": "A",
+   "src": "Recording..."
+  },
+  {
+   "rva": 1425416,
+   "bytes": "a863505b9e58ca760000",
+   "orig": "4600610064006500720020004700610069006e000000",
+   "text": "推子增益",
+   "kind": "W",
+   "src": "Fader Gain"
+  },
+  {
+   "rva": 1425472,
+   "bytes": "cbf5bbec00",
+   "orig": "4d49582d444f574e00",
+   "text": "缩混",
+   "kind": "A",
+   "src": "MIX-DOWN"
+  },
+  {
+   "rva": 1425528,
+   "bytes": "baf3d7f300",
+   "orig": "52454152204c45465400",
+   "text": "后左",
+   "kind": "A",
+   "src": "REAR LEFT"
+  },
+  {
+   "rva": 1425544,
+   "bytes": "baf3d3d200",
+   "orig": "5245415220524947485400",
+   "text": "后右",
+   "kind": "A",
+   "src": "REAR RIGHT"
+  },
+  {
+   "rva": 1425560,
+   "bytes": "d6d8d6c3cda8b5c000",
+   "orig": "526573657420537472697000",
+   "text": "重置通道",
+   "kind": "A",
+   "src": "Reset Strip"
+  },
+  {
+   "rva": 1425576,
+   "bytes": "d6d8d6c3bef9bae2c6f700",
+   "orig": "526573657420455155414c495a455200",
+   "text": "重置均衡器",
+   "kind": "A",
+   "src": "Reset EQUALIZER"
+  },
+  {
+   "rva": 1425592,
+   "bytes": "d6d8d6c3c9f9cff100",
+   "orig": "52657365742050616e20506f7400",
+   "text": "重置声像",
+   "kind": "A",
+   "src": "Reset Pan Pot"
+  },
+  {
+   "rva": 1425632,
+   "bytes": "d6d8d6c3d6c7c4dcc9f9cff100",
+   "orig": "526573657420494e54454c4c4950414e00",
+   "text": "重置智能声像",
+   "kind": "A",
+   "src": "Reset INTELLIPAN"
+  },
+  {
+   "rva": 1425656,
+   "bytes": "d6d8d6c3d1b9cbf5c6f700",
+   "orig": "526573657420436f6d70726573736f7200",
+   "text": "重置压缩器",
+   "kind": "A",
+   "src": "Reset Compressor"
+  },
+  {
+   "rva": 1425680,
+   "bytes": "d6d8d6c3d4ebc9f9c3c500",
+   "orig": "5265736574204761746500",
+   "text": "重置噪声门",
+   "kind": "A",
+   "src": "Reset Gate"
+  },
+  {
+   "rva": 1425736,
+   "bytes": "b8b4d6c6bef9bae2c6f700",
+   "orig": "436f707920455155414c495a455200",
+   "text": "复制均衡器",
+   "kind": "A",
+   "src": "Copy EQUALIZER"
+  },
+  {
+   "rva": 1425752,
+   "bytes": "b8b4d6c6c9f9cff100",
+   "orig": "436f70792050616e20506f7400",
+   "text": "复制声像",
+   "kind": "A",
+   "src": "Copy Pan Pot"
+  },
+  {
+   "rva": 1425792,
+   "bytes": "b8b4d6c6d6c7c4dcc9f9cff100",
+   "orig": "436f707920494e54454c4c4950414e00",
+   "text": "复制智能声像",
+   "kind": "A",
+   "src": "Copy INTELLIPAN"
+  },
+  {
+   "rva": 1425808,
+   "bytes": "b8b4d6c6d1b9cbf5c6f700",
+   "orig": "436f707920436f6d70726573736f7200",
+   "text": "复制压缩器",
+   "kind": "A",
+   "src": "Copy Compressor"
+  },
+  {
+   "rva": 1425824,
+   "bytes": "b8b4d6c6d4ebc9f9c3c500",
+   "orig": "436f7079204761746500",
+   "text": "复制噪声门",
+   "kind": "A",
+   "src": "Copy Gate"
+  },
+  {
+   "rva": 1425880,
+   "bytes": "c8abb2bfb1a3b4e600",
+   "orig": "5361766520416c6c00",
+   "text": "全部保存",
+   "kind": "A",
+   "src": "Save All"
+  },
+  {
+   "rva": 1425896,
+   "bytes": "b1a3b4e6bef9bae2c6f700",
+   "orig": "5361766520455155414c495a455200",
+   "text": "保存均衡器",
+   "kind": "A",
+   "src": "Save EQUALIZER"
+  },
+  {
+   "rva": 1425912,
+   "bytes": "b1a3b4e6c9f9cff100",
+   "orig": "536176652050616e20506f7400",
+   "text": "保存声像",
+   "kind": "A",
+   "src": "Save Pan Pot"
+  },
+  {
+   "rva": 1425952,
+   "bytes": "b1a3b4e6d6c7c4dcc9f9cff100",
+   "orig": "5361766520494e54454c4c4950414e00",
+   "text": "保存智能声像",
+   "kind": "A",
+   "src": "Save INTELLIPAN"
+  },
+  {
+   "rva": 1425968,
+   "bytes": "b1a3b4e6d1b9cbf5c6f700",
+   "orig": "5361766520436f6d70726573736f7200",
+   "text": "保存压缩器",
+   "kind": "A",
+   "src": "Save Compressor"
+  },
+  {
+   "rva": 1425984,
+   "bytes": "b1a3b4e6d4ebc9f9c3c500",
+   "orig": "53617665204761746500",
+   "text": "保存噪声门",
+   "kind": "A",
+   "src": "Save Gate"
+  },
+  {
+   "rva": 1426040,
+   "bytes": "d4d8c8eb2e2e2e00",
+   "orig": "4c6f61642e2e2e00",
+   "text": "载入...",
+   "kind": "A",
+   "src": "Load..."
+  },
+  {
+   "rva": 1426856,
+   "bytes": "dd4f585b1a905390be8b6e7f2e002e002e000000",
+   "orig": "53006100760065002000530074007200690070002000530065007400740069006e00670073002e002e002e000000",
+   "text": "保存通道设置...",
+   "kind": "W",
+   "src": "Save Strip Settings..."
+  },
+  {
+   "rva": 1426904,
+   "bytes": "7d8f65511a905390be8b6e7f2e002e002e000000",
+   "orig": "4c006f00610064002000530074007200690070002000530065007400740069006e00670073002e002e002e000000",
+   "text": "载入通道设置...",
+   "kind": "W",
+   "src": "Load Strip Settings..."
+  },
+  {
+   "rva": 1434216,
+   "bytes": "8551e8903b4ef6659f940000",
+   "orig": "49006e007400650072006e0061006c0020004d0061007300740065007200200043004c004f0043004b000000",
+   "text": "内部主时钟",
+   "kind": "W",
+   "src": "Internal Master CLOCK"
+  },
+  {
+   "rva": 1434264,
+   "bytes": "2a677e62305220004100530049004f002000be8b07590000",
+   "orig": "4100530049004f00200044006500760069006300650020006e006f007400200066006f0075006e0064000000",
+   "text": "未找到 ASIO 设备",
+   "kind": "W",
+   "src": "ASIO Device not found"
+  },
+  {
+   "rva": 1434424,
+   "bytes": "4100310020004100530049004f002000938f65510000",
+   "orig": "4100310020004100530049004f00200069006e007000750074000000",
+   "text": "A1 ASIO 输入",
+   "kind": "W",
+   "src": "A1 ASIO input"
+  },
+  {
+   "rva": 1434456,
+   "bytes": "0990e962938f6551be8b07590000",
+   "orig": "530065006c00650063007400200049006e0070007500740020004400650076006900630065000000",
+   "text": "选择输入设备",
+   "kind": "W",
+   "src": "Select Input Device"
+  },
+  {
+   "rva": 1434528,
+   "bytes": "2500730020002800e65d3a0020002500690029000000",
+   "orig": "25007300200028004c006500660074003a0020002500690029000000",
+   "text": "%s (左: %i)",
+   "kind": "W",
+   "src": "%s (Left: %i)"
+  },
+  {
+   "rva": 1434560,
+   "bytes": "2500730020002800f3533a0020002500690029000000",
+   "orig": "2500730020002800520069006700680074003a0020002500690029000000",
+   "text": "%s (右: %i)",
+   "kind": "W",
+   "src": "%s (Right: %i)"
+  },
+  {
+   "rva": 1434912,
+   "bytes": "e065719aa8520000",
+   "orig": "6e006f0020006400720069007600650072002000700072006500730065006e0074000000",
+   "text": "无驱动",
+   "kind": "W",
+   "src": "no driver present"
+  },
+  {
+   "rva": 1434952,
+   "bytes": "cb7a534ff058938f65510000",
+   "orig": "530074006500720065006f00200049006e007000750074000000",
+   "text": "立体声输入",
+   "kind": "W",
+   "src": "Stereo Input"
+  },
+  {
+   "rva": 1434984,
+   "bytes": "cb7a534ff058938f65512000250069000000",
+   "orig": "530074006500720065006f00200049006e007000750074002000250069000000",
+   "text": "立体声输入 %i",
+   "kind": "W",
+   "src": "Stereo Input %i"
+  },
+  {
+   "rva": 1435016,
+   "bytes": "b8dfd2f400",
+   "orig": "547265626c6500",
+   "text": "高音",
+   "kind": "A",
+   "src": "Treble"
+  },
+  {
+   "rva": 1435024,
+   "bytes": "b5cdd2f400",
+   "orig": "4261737300",
+   "text": "低音",
+   "kind": "A",
+   "src": "Bass"
+  },
+  {
+   "rva": 1435040,
+   "bytes": "f3979198200028007700610076002c0020006d00700033002c0020006200770066002c0020006100690066002c0020006d003400610029000000",
+   "orig": "41007500640069006f00200028007700610076002c0020006d00700033002c0020006200770066002c0020006100690066002c0020006d003400610029000000",
+   "text": "音频 (wav, mp3, bwf, aif, m4a)",
+   "kind": "W",
+   "src": "Audio (wav, mp3, bwf, aif, m4a)"
+  },
+  {
+   "rva": 1435164,
+   "bytes": "c6899198200028006100760069002c0020006d00700034002c0020006d006f0076002c00200077006d0061002c00200077006d00760029000000",
+   "orig": "56006900640065006f00200028006100760069002c0020006d00700034002c0020006d006f0076002c00200077006d0061002c00200077006d00760029000000",
+   "text": "视频 (avi, mp4, mov, wma, wmv)",
+   "kind": "W",
+   "src": "Video (avi, mp4, mov, wma, wmv)"
+  },
+  {
+   "rva": 1435288,
+   "bytes": "6851e890200028002a002e002a0029000000",
+   "orig": "41006c006c00200028002a002e002a0029000000",
+   "text": "全部 (*.*)",
+   "kind": "W",
+   "src": "All (*.*)"
+  },
+  {
+   "rva": 1435320,
+   "bytes": "0990e962f39791988765f64e0000",
+   "orig": "530065006c00650063007400200041007500640069006f002000460069006c0065000000",
+   "text": "选择音频文件",
+   "kind": "W",
+   "src": "Select Audio File"
+  },
+  {
+   "rva": 1435360,
+   "bytes": "d2d1c1acbdd3b5bd2056422d417564696f20bbd8b5f7b5c4bfcdbba7b6cbb3ccd0f23a202020202020202020202020202020200a0acae4c8ebb2e5c8eb3a202573202020200ad7dccfdfb2e5c8eb3a20257320200ad6f7c1f73a202573202020202020200a",
+   "orig": "436f6e6e656374656420436c69656e74204170706c69636174696f6e7320546f2056422d417564696f2043616c6c6261636b3a0a0a494e50555420494e534552543a2025730a42555320494e534552543a2025730a4d41494e2053545245414d3a2025730a",
+   "text": "已连接到 VB-Audio 回调的客户端程序: /  / 输入插入: %s / 总线插入: %s / 主流: %s / ",
+   "kind": "ML",
+   "src": "Connected Client Applications To VB-Audio Callback:\n\nINPUT INSERT: %s\nBUS INSERT: %s\nMAIN STREAM: %s\n"
+  },
+  {
+   "rva": 1435488,
+   "bytes": "d1a1d4f1cae4c8ebc9e8b1b820256900",
+   "orig": "53656c65637420496e707574204465766963652023256900",
+   "text": "选择输入设备 %i",
+   "kind": "A",
+   "src": "Select Input Device #%i"
+  },
+  {
+   "rva": 1435512,
+   "bytes": "d1a1d4f12041256920cae4b3f6c9e8b1b800",
+   "orig": "53656c65637420412569204f75747075742044657669636500",
+   "text": "选择 A%i 输出设备",
+   "kind": "A",
+   "src": "Select A%i Output Device"
+  },
+  {
+   "rva": 1435544,
+   "bytes": "c4fad2d1bdab204153494f20c9e8b1b8d1a1ceaacae4b3f6204131a3a120202020202020202020202020202020200a",
+   "orig": "596f7520686176652073656c656374656420616e204153494f20646576696365206173206f7574707574204131210a",
+   "text": "您已将 ASIO 设备选为输出 A1！ / ",
+   "kind": "ML",
+   "src": "You have selected an ASIO device as output A1!\n"
+  },
+  {
+   "rva": 1435600,
+   "bytes": "c7ebbcecb2e9b4cbc9e8b1b8cac7b7f1d2d1d4dac6e4cbfcd2f4c6b5bddab5e3c9cfb1bbd1a1d4f1a3ac202020202020202020202020202020202020202020200a",
+   "orig": "436865636b207468697320646576696365206973206e6f7420616c72656164792073656c6563746564206f6e206f7468657220617564696f20706f696e74732c0a",
+   "text": "请检查此设备是否已在其它音频节点上被选择， / ",
+   "kind": "ML",
+   "src": "Check this device is not already selected on other audio points,\n"
+  },
+  {
+   "rva": 1435672,
+   "bytes": "d2d4b1dcc3e2d2f4c6b5bdd3bfdab3e5cdbba3acb7f1d4f2c7ebc8a1cffbd1a1d4f1a1a32020202020202020202020202020202020202020200a0a",
+   "orig": "746f2061766f696420617564696f20696e7465726661636520636f6e666c6963742e206f746865727769736520756e73656c6563742069742e0a0a",
+   "text": "以避免音频接口冲突，否则请取消选择。 /  / ",
+   "kind": "ML",
+   "src": "to avoid audio interface conflict. otherwise unselect it.\n\n"
+  },
+  {
+   "rva": 1435736,
+   "bytes": "c7ebd4dacfb5cdb3c9e8d6c3b6d4bbb0bff2d6d0cab9d3c3204153494f20504154434820c0b4b7d6c5e42020202020202020202020200a",
+   "orig": "557365204153494f20504154434820696e2053797374656d2053657474696e6773204469616c6f6720426f7820746f2061737369676e0a",
+   "text": "请在系统设置对话框中使用 ASIO PATCH 来分配 / ",
+   "kind": "ML",
+   "src": "Use ASIO PATCH in System Settings Dialog Box to assign\n"
+  },
+  {
+   "rva": 1435792,
+   "bytes": "4153494f20cae4c8ebcda8b5c0b5bd20566f6963656d656574657220cae4c8ebcda8b5c020202020202020202020200a0a",
+   "orig": "4153494f20696e707574206368616e6e656c7320746f20566f6963656d656574657220696e707574207374726970730a0a",
+   "text": "ASIO 输入通道到 Voicemeeter 输入通道 /  / ",
+   "kind": "ML",
+   "src": "ASIO input channels to Voicemeeter input strips\n\n"
+  },
+  {
+   "rva": 1435848,
+   "bytes": "c6e4cbfccae4b3f6d7dccfdfb5bd204153494f20cae4b3f6cda8b5c0a1a320202020202020202020200a0a",
+   "orig": "6f74686572206f75747075742042555320746f204153494f206f7574707574206368616e6e656c732e0a0a",
+   "text": "其它输出总线到 ASIO 输出通道。 /  / ",
+   "kind": "ML",
+   "src": "other output BUS to ASIO output channels.\n\n"
+  },
+  {
+   "rva": 1435896,
+   "bytes": "bbbbbee4bbb0cbb5a3acc7ebcef0d4dad2d4cfc2cebbd6c3d1a1d4f1b4cb204153494f20c9e8b1b83a202020202020200a",
+   "orig": "496e206f7468657220776f7264732c20646f6e27742073656c6563742074686973204153494f2064657669636520696e0a",
+   "text": "换句话说，请勿在以下位置选择此 ASIO 设备: / ",
+   "kind": "ML",
+   "src": "In other words, don't select this ASIO device in\n"
+  },
+  {
+   "rva": 1435952,
+   "bytes": "b3fdcae4b3f620413120d6aecde2b5c4c6e4cbfc20566f6963656d656574657220d2f4c6b5bddab5e3a1a300",
+   "orig": "6f7468657220566f6963656d6574657220617564696f20706f696e7473207468616e206f75747075742041312e00",
+   "text": "除输出 A1 之外的其它 Voicemeeter 音频节点。",
+   "kind": "A",
+   "src": "other Voicemeter audio points than output A1."
+  },
+  {
+   "rva": 1436000,
+   "bytes": "d6d8d2aad0c5cfa22e2e2e00",
+   "orig": "496d706f7274616e7420696e666f726d6174696f6e2e2e2e00",
+   "text": "重要信息...",
+   "kind": "A",
+   "src": "Important information..."
+  },
+  {
+   "rva": 1436088,
+   "bytes": "7d8f6551be8b6e7f2e002e002e000000",
+   "orig": "4c006f00610064002000530065007400740069006e00670073002e002e002e000000",
+   "text": "载入设置...",
+   "kind": "W",
+   "src": "Load Settings..."
+  },
+  {
+   "rva": 1436224,
+   "bytes": "d4d8c8ebb4edcef300",
+   "orig": "4c6f6164204572726f7200",
+   "text": "载入错误",
+   "kind": "A",
+   "src": "Load Error"
+  },
+  {
+   "rva": 1436240,
+   "bytes": "cedeb7a8b4d3b4cbcec4bcfed4d8c8ebc9e8d6c300",
+   "orig": "43616e6e6f74204c6f61642073657474696e67732066726f6d20746869732066696c6500",
+   "text": "无法从此文件载入设置",
+   "kind": "A",
+   "src": "Cannot Load settings from this file"
+  },
+  {
+   "rva": 1436280,
+   "bytes": "cae4b3f6c9e8b1b8b9a4d7f7d2ecb3a32e2e2e00",
+   "orig": "4f757470757420446576696365206e6f7420576f726b696e672e2e2e00",
+   "text": "输出设备工作异常...",
+   "kind": "A",
+   "src": "Output Device not Working..."
+  },
+  {
+   "rva": 1436312,
+   "bytes": "5642414e20beafb8e62e2e2e00",
+   "orig": "5642414e205761726e696e672e2e2e00",
+   "text": "VBAN 警告...",
+   "kind": "A",
+   "src": "VBAN Warning..."
+  },
+  {
+   "rva": 1436328,
+   "bytes": "bcecb2e2b5bdd2f4c6b5c7fdb6afb0b2d7b0d2ecb3a3a3a12020202020202020202020202020200a",
+   "orig": "42616420417564696f2044726976657220496e7374616c6c6174696f6e204465746563746564210a",
+   "text": "检测到音频驱动安装异常！ / ",
+   "kind": "ML",
+   "src": "Bad Audio Driver Installation Detected!\n"
+  },
+  {
+   "rva": 1436376,
+   "bytes": "c4b3d0a9d2f4c6b5c1f7bfc9c4dccedeb7a8d5fdb3a3b9a4d7f72e2e2e20202020202020202020202020200a0a",
+   "orig": "536f6d6520617564696f2073747265616d20636f756c64206e6f7420776f726b20636f72726563742e2e2e0a0a",
+   "text": "某些音频流可能无法正常工作... /  / ",
+   "kind": "ML",
+   "src": "Some audio stream could not work correct...\n\n"
+  },
+  {
+   "rva": 1436424,
+   "bytes": "c8e7b9fbd3f6b5bdcedeb7a8bde2cacdb5c4d2f4c6b5cecacce2a3acc4fabfc9d2d420202020202020202020200a",
+   "orig": "496e2063617365206f6620756e6578706c61696e656420617564696f2070726f626c656d2c20796f75206d61790a",
+   "text": "如果遇到无法解释的音频问题，您可以 / ",
+   "kind": "ML",
+   "src": "In case of unexplained audio problem, you may\n"
+  },
+  {
+   "rva": 1436472,
+   "bytes": "bfbcc2c7cab9d3c3a1b8bcecb2e9c7fdb6afb0b2d7b0a1b9b9a4bedfa3a8bcfbb2cbb5a5a3a92020202020202020202020202020200a",
+   "orig": "636f6e736964657220436865636b696e672044726976657220496e7374616c6c6174696f6e20746f6f6c2028736565204d656e75290a",
+   "text": "考虑使用「检查驱动安装」工具（见菜单） / ",
+   "kind": "ML",
+   "src": "consider Checking Driver Installation tool (see Menu)\n"
+  },
+  {
+   "rva": 1436528,
+   "bytes": "b2a2b0b4c6e4d6d0b5c4bda8d2e9b2d9d7f72e2e2e2020202020202020202020202020200a0a",
+   "orig": "616e6420666f6c6c6f77207265636f6d6d656e646174696f6e7320696620616e792e2e2e0a0a",
+   "text": "并按其中的建议操作... /  / ",
+   "kind": "ML",
+   "src": "and follow recommendations if any...\n\n"
+  },
+  {
+   "rva": 1436568,
+   "bytes": "c1edc7ebb2ced4c4b2cbb5a5d6d0b5c4b0efd6fad3ebd6a7b3d6c1b4bdd3a1a300",
+   "orig": "53656520616c736f207468652048656c7020616e6420537570706f7274206c696e6b20676976656e20696e204d656e752e00",
+   "text": "另请参阅菜单中的帮助与支持链接。",
+   "kind": "A",
+   "src": "See also the Help and Support link given in Menu."
+  },
+  {
+   "rva": 1436624,
+   "bytes": "b0b2d7b0beafb8e62e2e2e00",
+   "orig": "496e7374616c6c6174696f6e205761726e696e672e2e2e00",
+   "text": "安装警告...",
+   "kind": "A",
+   "src": "Installation Warning..."
+  },
+  {
+   "rva": 1436776,
+   "bytes": "d6d8d0c2b3f5cabcbbaf00",
+   "orig": "52652d496e697469616c697a6174696f6e00",
+   "text": "重新初始化",
+   "kind": "A",
+   "src": "Re-Initialization"
+  },
+  {
+   "rva": 1436800,
+   "bytes": "d6d8d6c3b5b1c7b0c9e8d6c3a3a1202020202020202020200a566f6963656d656574657220bdabbbd6b8b4ceaacad7b4ceb0b2d7b0baf3b5c4c5e4d6c3a1a3202020202020202020202020202020202020202020202020202020200a0acac7b7f1bcccd0f8a3bf202020202020202020202020202020",
+   "orig": "52657365742043757272656e742053657474696e677320210a566f6963656d65657465722077696c6c20626520636f6e666967757265642061732069742077617320616674657220666972737420696e7374616c6c6174696f6e2e0a0a446f20796f752077616e7420746f20636f6e74696e7565203f",
+   "text": "重置当前设置！ / Voicemeeter 将恢复为首次安装后的配置。 /  / 是否继续？",
+   "kind": "ML",
+   "src": "Reset Current Settings !\nVoicemeeter will be configured as it was after first installation.\n\nDo you want to continue ?"
+  },
+  {
+   "rva": 1436920,
+   "bytes": "566f6963656d656574657220b3a1beb000",
+   "orig": "566f6963656d6565746572205363656e6500",
+   "text": "Voicemeeter 场景",
+   "kind": "A",
+   "src": "Voicemeeter Scene"
+  },
+  {
+   "rva": 1437064,
+   "bytes": "d2fdc7e6bdabd4da2025302e306620c3ebbaf3c6f4b6af00",
+   "orig": "456e67696e6520537461727420696e2025302e3066207300",
+   "text": "引擎将在 %0.0f 秒后启动",
+   "kind": "A",
+   "src": "Engine Start in %0.0f s"
+  },
+  {
+   "rva": 1437088,
+   "bytes": "d5fdd4dac6f4b6af2e2e2e00",
+   "orig": "5374617274696e672e2e2e00",
+   "text": "正在启动...",
+   "kind": "A",
+   "src": "Starting..."
+  },
+  {
+   "rva": 1437616,
+   "bytes": "c6f4b6afb4edcef300",
+   "orig": "53746172747570204572726f7200",
+   "text": "启动错误",
+   "kind": "A",
+   "src": "Startup Error"
+  },
+  {
+   "rva": 1437632,
+   "bytes": "d7a2b2e1b4b0bfdac0e0caa7b0dc2e2e2e00",
+   "orig": "4661696c656420746f2072656769737465722077696e646f7720636c6173732e2e2e00",
+   "text": "注册窗口类失败...",
+   "kind": "A",
+   "src": "Failed to register window class..."
+  },
+  {
+   "rva": 1437672,
+   "bytes": "b4b4bda8b4b0bfdacaa7b0dc2e2e2e00",
+   "orig": "4661696c656420746f206372656174652077696e646f772e2e2e00",
+   "text": "创建窗口失败...",
+   "kind": "A",
+   "src": "Failed to create window..."
+  }
+ ]
+}
