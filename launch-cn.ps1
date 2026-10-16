@@ -277,6 +277,17 @@ function Invoke-EarlyPatch($key) {
     return $true
 }
 
+function Test-HelpXmlLocalized($key) {
+    # 上下文帮助(标题栏提示)的文字来自安装目录里的帮助 XML, 需要单独安装
+    # (要管理员权限)。这里只是检查并给出提示, 不自动修改任何文件。
+    $file = if ($key -eq 'banana') { 'VoicemeeterBanana_Help.xml' }
+            else { 'VoicemeeterPotato_Help.xml' }
+    $path = Join-Path $InstallDir $file
+    if (-not (Test-Path $path)) { return $null }
+    try { $txt = Get-Content -LiteralPath $path -Raw -Encoding UTF8 } catch { return $null }
+    return $txt.Contains('压缩器')      # 汉化版里才有这个中文
+}
+
 # ---------------------------------------------------------------- 主流程
 Write-Host ""
 Write-Host "VoiceMeeter 简体中文汉化启动器" -ForegroundColor White
@@ -293,4 +304,14 @@ if ($ok) {
 } else {
     Write-Host "未能全部应用, 请查看上面的提示。" -ForegroundColor Yellow
 }
+
+# 上下文帮助需要装汉化后的帮助 XML, 这里检查一下有没有装
+$helpZh = Test-HelpXmlLocalized $key
+if ($helpZh -eq $false) {
+    Write-Host ""
+    Write-Host "提示: 鼠标悬停控件的『上下文帮助』(标题栏提示)还是英文。" -ForegroundColor Yellow
+    Write-Host "      它来自安装目录的帮助 XML, 需要单独安装(需要管理员权限):" -ForegroundColor Yellow
+    Write-Host "        powershell -ExecutionPolicy Bypass -File .\src\install_help.ps1" -ForegroundColor Yellow
+}
+
 Write-Host "还原方法: 关闭 VoiceMeeter 后正常启动它即可 (磁盘文件从未修改)。" -ForegroundColor DarkGray

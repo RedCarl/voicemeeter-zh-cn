@@ -125,16 +125,29 @@ A1~A5 / B1~B3   mono  EQ  Mute  MC  K  solo  0dB  Menu  VBAN  Recorder  Input
 
 ### 上下文帮助也汉化了
 
-`translations/help/` 下是两个汉化好的帮助 XML（Banana 82 条 / Potato 133 条），
-它们提供「标题栏上下文帮助」的文本。安装（需管理员权限）：
+鼠标悬停在控件上时，标题栏会显示该控件的说明。这些文字来自安装目录里的
+**帮助 XML**，`translations/help/` 下是两个汉化好的版本（Banana 82 条 / Potato 133 条）：
+
+![上下文帮助中文效果](docs/images/help-caption-zh.png)
+
+安装（需管理员权限，会自动请求提升）：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\src\install_help.ps1          # 安装
 powershell -ExecutionPolicy Bypass -File .\src\install_help.ps1 -Restore # 还原
 ```
 
-注意该功能是菜单里的开关，**默认关闭**，需在 `Menu` 里打开
-「在标题栏显示上下文帮助」才能看到。
+要点：
+
+* 帮助 XML 是**纯文本数据文件**，不受 VoiceMeeter 完整性校验影响
+  （实测：原版 exe + 汉化 XML 正常启动）。
+* 装完需要**重启 VoiceMeeter** 才会读取新文件。
+* 提示里的 `API: Patch.insert[4] = 0;` 这一行是程序**实时生成**的接口文本，
+  保持原样是正确的（它是给远程 API 用户看的，不是界面说明）。
+* 该功能由 `Menu` 里的开关「**在标题栏显示上下文帮助**」控制。它**没有**写进
+  `%APPDATA%\VoiceMeeter*Default.xml`，注册表里也没有对应项（我找过），
+  所以它是会话级状态 —— 如果看不到提示，去菜单里打开这一项即可。
+* 启动器会检查这一项，如果安装目录里的帮助 XML 还是英文会提醒你去装。
 
 ---
 
