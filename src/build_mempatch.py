@@ -234,7 +234,8 @@ def main():
         return 0
 
     out = args.out or os.path.join(ROOT, f"mempatch_{product}.json")
-    with open(out, "w", encoding="utf-8") as f:
+    # newline="\n": 避免 Windows 上写出 CRLF，与 .gitattributes 的 eol=lf 保持一致
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
         json.dump({
             "generated_by": "voicemeeter-zh-cn/src/build_mempatch.py",
             "product": product,

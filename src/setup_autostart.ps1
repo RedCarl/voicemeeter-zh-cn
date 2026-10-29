@@ -75,8 +75,8 @@ if ($Remove) {
         }
     }
     if (-not $done) { Write-Host "  没有找到可还原的备份" -ForegroundColor DarkGray }
-    $d = Join-Path $DesktopDir 'VoiceMeeter Potato 中文.lnk'
-    if (Test-Path $d) { Remove-Item $d -Force; Write-Host "  已删除桌面快捷方式" -ForegroundColor Green }
+    Get-ChildItem $DesktopDir -Filter '*中文*.lnk' -ErrorAction SilentlyContinue |
+        ForEach-Object { Remove-Item $_.FullName -Force; Write-Host "  已删除桌面快捷方式: $($_.Name)" -ForegroundColor Green }
     Read-Host "按回车退出"
     exit
 }
@@ -104,8 +104,9 @@ $s.Description = "$($NameMap[$Product]) 简体中文（开机自启，经汉化�
 $s.Save()
 Write-Host "  已改写自启: $([IO.Path]::GetFileName($lnk))" -ForegroundColor Green
 
-# 2) 桌面快捷方式
-$dlnk = Join-Path $DesktopDir 'VoiceMeeter Potato 中文.lnk'
+# 2) 桌面快捷方式（名字跟着所选的构建走）
+$shortName = $NameMap[$Product] -replace ' \(', ' 中文 ('
+$dlnk = Join-Path $DesktopDir "$shortName.lnk"
 $s2 = $sh.CreateShortcut($dlnk)
 $s2.TargetPath = Join-Path $RepoRoot '启动汉化版VoiceMeeter.cmd'
 $s2.WorkingDirectory = $RepoRoot
