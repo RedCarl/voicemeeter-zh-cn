@@ -125,6 +125,35 @@
 
 ---
 
+## 约束 6：32 位构建是另一套布局，且 PEB 结构不同
+
+VoiceMeeter 有四个主程序，**32 位和 64 位的字符串布局完全不同**，必须各自生成计划：
+
+| 构建 | 可执行文件 | 条目 |
+|---|---|---|
+| Potato 64 位 | `voicemeeter8x64.exe` | 552 |
+| Potato 32 位 | `voicemeeter8.exe` | 548 |
+| Banana 64 位 | `voicemeeterpro_x64.exe` | 528 |
+| Banana 32 位 | `voicemeeterpro.exe` | 524 |
+
+开始菜单里不带 `(x64)` 字样的条目指向的是 **32 位**版 —— 这是"我打开软件还是英文"
+最常见的原因。
+
+两个容易踩的点：
+
+1. **PE32 的 ImageBase 位置不同**：PE32 在 `opt+28`（DWORD），PE32+ 在 `opt+24`（QWORD）。
+   按 64 位读 PE32 会得到垃圾值。
+2. **PEB 里的 ImageBaseAddress 偏移不同**（启动器挂起后要靠它拿模块基址）：
+   * 64 位目标：`PEB + 0x10`，8 字节
+   * 32 位目标（WOW64）：先 `NtQueryInformationProcess(ProcessWow64Information=26)`
+     拿到 32 位 PEB，再读其 `+0x08`，**4 字节**
+
+另外 32 位构建的字符串**可用空间通常更小**。例如 `Mute BUS A1` 后面只剩 12 字节，
+`总线 A1 静音`（13 字节）放不下，必须改成 `总线A1静音`（10 字节）才能让
+一份译文同时适配两个构建。
+
+---
+
 ## 附：怎么加一条新翻译
 
 1. 在 `translations/zh_cn.py` 的 `TRANSLATIONS` 里加 `("英文原文", "中文译文")`。

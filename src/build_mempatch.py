@@ -32,17 +32,21 @@ from peutil import PE, Spans, find_literal, display_width  # noqa: E402
 DEFAULT_INSTALL_DIR = r"C:\Program Files (x86)\VB\Voicemeeter"
 
 PRODUCTS = {
-    "banana": {
-        "exe": "voicemeeterpro_x64.exe",
-        "name": "VoiceMeeter Banana",
-        # 已知的原版 SHA256（用于提示版本是否匹配；不匹配也能继续，只是会逐条核对）
-        "known": ["D9AC177129911A58A1388211ACE5F82F653AA8A8311D07274740262857883FA2"],
-    },
-    "potato": {
-        "exe": "voicemeeter8x64.exe",
-        "name": "VoiceMeeter Potato",
-        "known": ["7F783F03599F704124BEDB1E13E8D8A6E91AB58FD74DC37D675F3A718ACB81EB"],
-    },
+    # key           可执行文件                 说明
+    "banana":       {"exe": "voicemeeterpro_x64.exe", "name": "VoiceMeeter Banana (64 位)",
+                     "known": ["D9AC177129911A58A1388211ACE5F82F653AA8A8311D07274740262857883FA2"]},
+    "banana-x86":   {"exe": "voicemeeterpro.exe",     "name": "VoiceMeeter Banana (32 位)",
+                     "known": ["70F83E4381654C056A317EA59B44483ADAB453612473408E8FBF92CC9D0E1867"]},
+    "potato":       {"exe": "voicemeeter8x64.exe",    "name": "VoiceMeeter Potato (64 位)",
+                     "known": ["7F783F03599F704124BEDB1E13E8D8A6E91AB58FD74DC37D675F3A718ACB81EB"]},
+    "potato-x86":   {"exe": "voicemeeter8.exe",       "name": "VoiceMeeter Potato (32 位)",
+                     "known": ["35B040158CE4AB9F53169ABB6B7970D33F5EE138D3DD896B1D7BE55CD4C11AEB"]},
+}
+
+# 产品族：同一个界面的 64 位 / 32 位两个构建
+FAMILY = {
+    "banana": "banana", "banana-x86": "banana",
+    "potato": "potato", "potato-x86": "potato",
 }
 
 
@@ -55,7 +59,8 @@ def load_translations():
 
 
 def detect_product(install_dir):
-    for key in ("potato", "banana"):
+    # 优先 64 位构建；两者都装时由调用方用 --product 明确指定
+    for key in ("potato", "potato-x86", "banana", "banana-x86"):
         if os.path.exists(os.path.join(install_dir, PRODUCTS[key]["exe"])):
             return key
     return None
@@ -163,7 +168,8 @@ def build(pe, translations, multiline, verbose=True):
 
 def main():
     ap = argparse.ArgumentParser(description="为 VoiceMeeter 生成内存汉化计划")
-    ap.add_argument("--product", default="auto", choices=["auto", "banana", "potato"])
+    ap.add_argument("--product", default="auto",
+                    choices=["auto"] + list(PRODUCTS.keys()))
     ap.add_argument("--install-dir", default=DEFAULT_INSTALL_DIR)
     ap.add_argument("--out", default=None)
     ap.add_argument("--check", action="store_true", help="只报告，不写文件")

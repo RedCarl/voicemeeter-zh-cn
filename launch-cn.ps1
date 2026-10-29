@@ -28,7 +28,7 @@
 #>
 [CmdletBinding()]
 param(
-    [ValidateSet('auto', 'banana', 'potato')]
+    [ValidateSet('auto', 'banana', 'banana-x86', 'potato', 'potato-x86')]
     [string]$Product = 'auto',
     [switch]$Attach,
     [string]$InstallDir = "C:\Program Files (x86)\VB\Voicemeeter",
@@ -38,9 +38,18 @@ param(
 $ErrorActionPreference = 'Stop'
 $ScriptDir = $PSScriptRoot
 
+# VoiceMeeter 有 4 个主程序: 3 个产品的 64 位 / 32 位构建。
+# 32 位版(voicemeeter8.exe / voicemeeterpro.exe)与 64 位版的字符串布局不同,
+# 所以各自有一份补丁计划。
 $Products = @{
-    banana = @{ Exe = 'voicemeeterpro_x64.exe'; Plan = 'mempatch_banana.json'; Name = 'VoiceMeeter Banana' }
-    potato = @{ Exe = 'voicemeeter8x64.exe';    Plan = 'mempatch_potato.json'; Name = 'VoiceMeeter Potato' }
+    potato     = @{ Exe = 'voicemeeter8x64.exe';    Plan = 'mempatch_potato.json';
+                    Name = 'VoiceMeeter Potato (64 位)' }
+    'potato-x86' = @{ Exe = 'voicemeeter8.exe';     Plan = 'mempatch_potato-x86.json';
+                    Name = 'VoiceMeeter Potato (32 位)' }
+    banana     = @{ Exe = 'voicemeeterpro_x64.exe'; Plan = 'mempatch_banana.json';
+                    Name = 'VoiceMeeter Banana (64 位)' }
+    'banana-x86' = @{ Exe = 'voicemeeterpro.exe';   Plan = 'mempatch_banana-x86.json';
+                    Name = 'VoiceMeeter Banana (32 位)' }
 }
 
 function Say($msg, $color = 'Gray') {
@@ -59,6 +68,9 @@ public static extern uint ResumeThread(IntPtr hThread);
 public static extern bool CloseHandle(IntPtr h);
 [DllImport("ntdll.dll")]
 public static extern int NtQueryInformationProcess(IntPtr h, int cls, ref PBI pbi, int len, IntPtr ret);
+// 同一个 API 的另一个形态: ProcessWow64Information 返回一个 IntPtr(32 位 PEB 地址)
+[DllImport("ntdll.dll", EntryPoint = "NtQueryInformationProcess")]
+public static extern int NtQueryInformationProcessPtr(IntPtr h, int cls, ref IntPtr info, int len, IntPtr ret);
 [DllImport("kernel32.dll", SetLastError=true)]
 public static extern bool ReadProcessMemory(IntPtr h, IntPtr addr, byte[] buf, int size, out IntPtr read);
 [DllImport("kernel32.dll", SetLastError=true)]
@@ -124,6 +136,17 @@ public static int[] Apply(IntPtr hp, long b, long[] rvas, byte[][] news, byte[][
 }
 
 public static long PebImageBase(IntPtr hp) {
+  // 64 位目标: PEB+0x10 是 8 字节的 ImageBaseAddress
+  // 32 位目标(WOW64): 要先经 ProcessWow64Information 拿到 32 位 PEB,
+  //                    其 ImageBaseAddress 在 +0x08, 只有 4 字节。
+  IntPtr peb32 = IntPtr.Zero;
+  if (NtQueryInformationProcessPtr(hp, 26, ref peb32, IntPtr.Size, IntPtr.Zero) == 0
+      && peb32 != IntPtr.Zero) {
+    byte[] b4 = new byte[4];
+    IntPtr r4;
+    if (!ReadProcessMemory(hp, (IntPtr)(peb32.ToInt64() + 0x08), b4, 4, out r4)) return 0;
+    return BitConverter.ToUInt32(b4, 0);
+  }
   PBI pbi = new PBI();
   if (NtQueryInformationProcess(hp, 0, ref pbi, Marshal.SizeOf(typeof(PBI)), IntPtr.Zero) != 0) return 0;
   if (pbi.peb == IntPtr.Zero) return 0;
@@ -156,11 +179,14 @@ $RDW = 0x0001 -bor 0x0004 -bor 0x0080 -bor 0x0100
 
 function Resolve-Product {
     if ($Product -ne 'auto') { return $Product }
-    foreach ($p in @('potato', 'banana')) {
+    $order = @('potato', 'potato-x86', 'banana', 'banana-x86')
+    # 1) 有正在运行的实例: 汉化"同一个"构建(32 位 / 64 位不混)
+    foreach ($p in $order) {
         $pn = [IO.Path]::GetFileNameWithoutExtension($Products[$p].Exe)
         if (Get-Process -Name $pn -ErrorAction SilentlyContinue) { return $p }
     }
-    foreach ($p in @('potato', 'banana')) {
+    # 2) 否则按安装情况选 (优先 Potato 64 位)
+    foreach ($p in $order) {
         if (Test-Path (Join-Path $InstallDir $Products[$p].Exe)) { return $p }
     }
     throw "在 $InstallDir 下找不到 VoiceMeeter 主程序。"
@@ -217,7 +243,9 @@ function Invoke-EarlyPatch($key) {
     $exe = Join-Path $InstallDir $p.Info.Exe
     if (-not (Test-Path $exe)) { throw "找不到 $exe" }
 
-    foreach ($n in @('voicemeeterpro_x64.exe', 'voicemeeter8x64.exe')) {
+    # 四种构建都要先关掉, 避免同时跑两个实例抢音频设备
+    foreach ($n in @('voicemeeter8x64.exe', 'voicemeeter8.exe',
+                     'voicemeeterpro_x64.exe', 'voicemeeterpro.exe')) {
         Get-Process -Name ([IO.Path]::GetFileNameWithoutExtension($n)) -ErrorAction SilentlyContinue |
             ForEach-Object { Say "先关闭正在运行的 $($_.ProcessName)"; Stop-Process -Id $_.Id -Force }
     }
@@ -280,7 +308,8 @@ function Invoke-EarlyPatch($key) {
 function Test-HelpXmlLocalized($key) {
     # 上下文帮助(标题栏提示)的文字来自安装目录里的帮助 XML, 需要单独安装
     # (要管理员权限)。这里只是检查并给出提示, 不自动修改任何文件。
-    $file = if ($key -eq 'banana') { 'VoicemeeterBanana_Help.xml' }
+    # 32/64 位构建共用同一个帮助 XML。
+    $file = if ($key -like 'banana*') { 'VoicemeeterBanana_Help.xml' }
             else { 'VoicemeeterPotato_Help.xml' }
     $path = Join-Path $InstallDir $file
     if (-not (Test-Path $path)) { return $null }

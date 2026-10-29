@@ -32,7 +32,11 @@ class PE:
         self.ddoff = opt
         magic, = struct.unpack_from("<H", d, opt)
         self.is_64 = magic == 0x20B
-        self.image_base, = struct.unpack_from("<Q", d, opt + 24)
+        # PE32 的 ImageBase 是 opt+28 处的 DWORD；PE32+ 是 opt+24 处的 QWORD。
+        if self.is_64:
+            self.image_base, = struct.unpack_from("<Q", d, opt + 24)
+        else:
+            self.image_base, = struct.unpack_from("<I", d, opt + 28)
         self.sections = []
         soff = opt + optsize
         for i in range(nsec):
