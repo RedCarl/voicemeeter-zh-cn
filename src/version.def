@@ -1,0 +1,20 @@
+; VoiceMeeter 简体中文汉化 —— version.dll 代理的导出表
+; 用 .def 显式列出，避免 __declspec(dllexport) 因头文件已声明而被忽略。
+LIBRARY version
+
+EXPORTS
+    GetFileVersionInfoA
+    GetFileVersionInfoByHandle
+    GetFileVersionInfoExA
+    GetFileVersionInfoExW
+    GetFileVersionInfoSizeA
+    GetFileVersionInfoSizeExA
+    GetFileVersionInfoSizeExW
+    GetFileVersionInfoSizeW
+    GetFileVersionInfoW
+    VerFindFileA
+    VerFindFileW
+    VerInstallFileA
+    VerInstallFileW
+    VerQueryValueA
+    VerQueryValueW

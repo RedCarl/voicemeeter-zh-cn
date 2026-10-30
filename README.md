@@ -265,3 +265,35 @@ voicemeeter-zh-cn/
 本仓库**我自己的代码与翻译**以 [MIT](LICENSE) 许可发布。
 VoiceMeeter 本体、其界面文本与帮助文档的版权归 VB-Audio 所有，
 本仓库仅出于本地化目的引用其中的界面字符串。详见 [NOTICE.md](NOTICE.md)。
+
+---
+
+## 64 位：放进一个 version.dll，自动生效（可选路线）
+
+除了启动器，也可以把汉化做成 **DLL 劫持**：VoiceMeeter 静态导入 `version.dll`，
+而 `version` 不在 Windows 的 KnownDLLs 里，所以程序目录里的同名 DLL 会被优先加载。
+加载时 `DllMain` 早于 exe 入口点执行，正是"必须抢在菜单创建之前"的时机。
+
+```powershell
+# 1) 编译（需要 zig，可 pip install ziglang 获得）
+powershell -ExecutionPolicy Bypass -File .\src\build_dll.ps1 -Arch x64
+
+# 2) 安装（需管理员，会自动请求提升）
+powershell -ExecutionPolicy Bypass -File .\src\install_version_dll.ps1
+
+# 3) 还原
+powershell -ExecutionPolicy Bypass -File .\src\install_version_dll.ps1 -Restore
+```
+
+**架构限制**：一个目录只能放一个 `version.dll`，所以这个文件名只服务一种架构。
+放 64 位 DLL 时（已实测）：
+
+| 进程 | 行为 |
+|---|---|
+| 64 位 VoiceMeeter | 加载我们的 DLL → 界面与菜单中文 |
+| 32 位 VoiceMeeter | 加载器**跳过**架构不匹配的同目录 DLL，回落系统 DLL → 照常运行，界面英文 |
+
+安装器会把原有的 `version.dll` 备份为 `version_orig.dll`，我们的 DLL 在
+`vmzh_host.dll` / `version_orig.dll` 都找不到时回落到系统 DLL，所以不会阻断版本查询。
+
+> 这条路线适合"完全不想记着用启动器"的场景。启动器路线仍然有效，两者任选其一。
